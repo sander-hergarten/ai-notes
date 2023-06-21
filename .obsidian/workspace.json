@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7f400c8ad9ee1578",
+        "id": "b9d2289cf800e81f",
         "type": "tabs",
         "children": [
           {
-            "id": "af37afa1bec7ad5b",
+            "id": "91b5fe0298cd0b58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sigma Algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df0e6a956cb94aae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sample Spaces and Events.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -82,7 +66,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -98,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sigma Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sigma Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sigma Algebra.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,11 +151,18 @@
       "random-note:Open random note": false
     }
   },
-  "active": "af37afa1bec7ad5b",
+  "active": "91b5fe0298cd0b58",
   "lastOpenFiles": [
-    "Sample Spaces and Events.md",
-    "Sigma Algebra.md",
     "Random Variables.md",
+    "Probability Density Function.md",
+    "Probability Mass Function (PMF).md",
+    "Cumulative Distribution Function.md",
+    "Mixture Distribution.md",
+    "Distributions.md",
+    "The Bootstrap.md",
+    "Moment.md",
+    "Sigma Algebra.md",
+    "Sample Spaces and Events.md",
     "Probability.md",
     "To Learn.md",
     "Deep Learning/Efficient Deep Learning/Automation.md",
@@ -185,7 +173,6 @@
     "Bayesian Optimization.md",
     "Bayesian Inference.md",
     "Batch Normalization.md",
-    "Untitled.md",
     "Untitled 5.md",
     "Untitled 4.md",
     "Untitled 3.md",
@@ -195,16 +182,10 @@
     "Untitled.canvas",
     "canvases",
     "images/Pasted image 20221107184822.png",
-    "Graphs.md",
     "PlaNet/1811.04551.pdf",
     "Latent Colocation/2106.13229.pdf",
     "Statistics David Freedman/All of Statistics.pdf",
-    "Estimating thew CDF and Statistical Functionals.md",
-    "The Bootstrap.md",
-    "Models, Statistical Inference and Learning.md",
     "images",
-    "Daily Notes/2023-03-03.md",
-    "Daily Notes/2023-05-24.md",
     "Decision Transformers/2106.01345-2.pdf",
     "cheat sheet/1684917207945.pdf",
     "images/Pasted image 20230621165132.png",

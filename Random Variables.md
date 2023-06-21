@@ -12,50 +12,13 @@ $$
 $X$ denotes the random variable and $x$ denotes a possible value of $X$
 
 ## Distribution Functions and probability Functions
-The Cumulative distribution function is defined as:
-> [!abstract] Definition
-> The cumulative distribution function (CDF) $F_X:\mathbb{R}\rightarrow [0,1]$ of a random variable $X$ is defined by 
-> $$F_X(x)=\mathbb P(X\le x)$$
+![[Cumulative Distribution Function]]
 
-The following results shows that the CDF completely determines the distribution of a random variable.
+![[Probability Mass Function (PMF)]]
 
->[!quote] Theorem 3.7 
->Let $X$ have CDF $F$ and let $Y$ have CDF $G$. If $F(x)=G(x)$ for all $x$ then $\mathbb P(X\in A)=\mathbb(Y\in A)$ for all $A$
+![[Probability Density Function]]
 
->[!quote] Theorem 3.8
->A function $F$ mapping the real line to $[0,1]$ is a CDF for some probability measure $\mathbb P$ if and only if it satisfies the following three conditions
->1. $F$ is non-decreasing i.e. $x_1<x_2$ implies that $F(x_1)\le F(x_2)$ 
->2. $F$ is normalized $\lim_{x\rightarrow -\infty} F(X)=0$ and $\lim_{x\rightarrow \infty} F(x)=1$
 
->[!abstract] Definiton 3.9
->$X$ is discrete if it takes countably many values
->$$\{x_1,x_2,...\}$$
->We define the probability function or probability mass function for $X$ by 
->$$f_X(x)=\mathbb P(X=x)$$
-
-Thus $f_X(x)\ge 0$ for all$x\in \mathbb R$ and $\sum_if_X(x_i)=1$. The CDF of $X$ is related to $f_X$ by 
-$$F_X(x)=\mathbb P(X\le x)=\sum_{x_i\le x}f_X(x_i)$$
-Sometimes we write $f_X$ and $F_X$ simply as $f$ and $F$
->[!quote] Definition 3.11
->A random variable $X$ is continuous if there exists a function $f_X$ such that $f_X(x)\ge 0$ for all $X$, $\int_{-\infty}^{\infty}f_X(x)dx=1$ and for every $a\le b$
->$$\mathbb P(a<X<b)=\int^b_a f_X(x)dx$$
->The function $f_X$ is called the probability density function (PDF). We have that 
->$$F_X(x)=\int_{-\infty}^x f_X(t)dt$$
->and $f_X(x)=F'_X(x)$ at all points $x$ at which $F_X$ is differentiable
-
-Sometimes we shall write $\int f(x)dx$ or simply $\int f$  to mean $\int_{-\infty}^{\infty} f(x)dt$ 
-
-> [!warning]
-> Continuos random variables can lead to confusion. First note that if $X$ is continuous then $\mathbb P(X=x)=0$ for every $x$. Don't try to think of $f(x)$ as $\mathbb P(X=x)$. This only holds for discrete random variables. We get probabilities from a PDF by integrating. 
-
-A PDF can be bigger than 1 (unlike a mass function). For example if $f(x)=5$ for $x\in [0,1/5]$ and $0$ otherwise, then $f(x)\ge 0$ otherwise, then $f(x)\ge 0$ and $\int f =1$ so this is a well defined PDF. PDF can be unbounded as long as $\int f=1$
-
-> [!quote] Lemma 3.15 
-> Let $F$ be the CDF for a random variable $X$. Then:
-> 1. $\mathbb P(X=x)=F(x)-F(x^-)$ where $F(x^-)=\lim_{y\uparrow x} F(y)$,
-> 2. $\mathbb P(x<X\le y)= F(y)=F(x)$
-> 3. $\mathbb P(X>x)=1-F(X)$
-> 4. If $X$ is continuous then$$\mathbb P(a<X<b)=\mathbb P(a\le X <b)=\mathbb P(a<X\le b)=\mathbb P(a\le X\le b)$$
 
 ### Quartiles
 It is also useful to define the inverse CDF (or quantile function)
