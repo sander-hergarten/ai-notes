@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian Inference.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "248094a454fc9cd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background.md"
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md"
               }
             }
           },
@@ -166,38 +153,44 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "248094a454fc9cd9",
+  "active": "bfd1d7e4b6db8277",
   "lastOpenFiles": [
-    "Distributions.md",
+    "The_Econometrics_of_Financial_Markets/Background/Overview.md",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Risk aversion and expected-utility theory.md",
+    "Bayesian Inference.md",
+    "The_Econometrics_of_Financial_Markets/Background/Risk aversion and expected-utility theory.md",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background",
+    "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
     "The_Econometrics_of_Financial_Markets/Background.md",
+    "The_Econometrics_of_Financial_Markets/Background",
+    "The_Econometrics_of_Financial_Markets/Sources.md",
+    "Distributions.md",
     "The_Econometrics_of_Financial_Markets/Stocks (Chp. 1-9)/Untitled.md",
     "The_Econometrics_of_Financial_Markets/Non-linear Methods to  Stocks and  Derivatives",
     "The_Econometrics_of_Financial_Markets/Fixed-Income Securities (10&11)",
     "The_Econometrics_of_Financial_Markets/Derivative Securities (Chp. 9 - 12)",
     "The_Econometrics_of_Financial_Markets/Stocks (Chp. 1-9)",
-    "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
-    "The_Econometrics_of_Financial_Markets/Sources.md",
     "The_Econometrics_of_Financial_Markets/Advanced Research.md",
     "Untitled 2",
     "images/The_Econometrics_of_Financial_Markets.pdf",
     "Hyper Markov Laws for correlation Matrices/Gaskins-HYPERMARKOVLAWS-2019.pdf",
-    "Bayesian Inference.md",
     "Untitled 1",
-    "The_Econometrics_of_Financial_Markets",
     "images/Pasted image 20230621165132.png",
     "images/Pasted image 20230621164956.png",
     "images/Pasted image 20230620131328.png",
@@ -208,7 +201,6 @@
     "images/Pasted image 20230619200443.png",
     "images/Pasted image 20230618194630.png",
     "images/Pasted image 20230618193404.png",
-    "images",
     "README.md",
     "Markov Properties.md",
     "Untitled 6.md",
@@ -225,11 +217,6 @@
     "The Bootstrap.md",
     "Paper Analysis.md",
     "Untitled 5.md",
-    "Latent Colocation/Latent Colocation.md",
-    "Random Variables.md",
-    "Expectation Maximization.md",
-    "Inequalities.md",
-    "Ideas.md",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",
