@@ -67,18 +67,6 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Models, Statistical Inference and Learning.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "62ab0cbf9917e72b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
                     "file": "The Bootstrap.md",
                     "mode": "source",
                     "source": false
@@ -86,7 +74,7 @@
                 }
               }
             ],
-            "currentTab": 2,
+            "currentTab": 1,
             "stacked": true
           }
         ],
@@ -119,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "standard error",
+                "query": "sample quantile",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,24 +123,14 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "0789277660bb7ad2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reparametrization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -168,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics David Freedman/All of Statistics.pdf",
+                "file": "The Bootstrap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics David Freedman/All of Statistics.pdf",
+                "file": "The Bootstrap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics David Freedman/All of Statistics.pdf"
+                "file": "The Bootstrap.md"
               }
             }
           },
@@ -221,11 +199,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,27 +218,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9cdc419a5e24fccf",
+  "active": "ac04f2e1ebdf25b7",
   "lastOpenFiles": [
-    "ai-notes",
-    "Models, Statistical Inference and Learning.md",
+    "Random Variables.md",
     "The Bootstrap.md",
-    "Statistics David Freedman/All of Statistics.pdf",
+    "Models, Statistical Inference and Learning.md",
+    "images",
+    "Daily Notes/2023-03-03.md",
+    "Daily Notes/2023-05-24.md",
+    "Daily Notes/2023-05-25.md",
+    "Daily Notes/2023-05-26.md",
+    "Deep Learning/Efficient Deep Learning/Efficient Model Architecture.md",
+    "Deep Learning/Efficient Deep Learning/Compression Techniques.md",
+    "Deep Learning/Efficient Deep Learning/Automation.md",
+    "Decision Transformers/Decision Transformers.md",
+    "Decision Transformers/2106.01345-2.pdf",
+    "Daily Notes/2023-06-18.md",
+    "Daily Notes/2023-06-15.md",
+    "Daily Notes/2023-05-27.md",
+    "Daily Notes/2023-03-01.md",
+    "Daily Notes/2023-01-16.md",
+    "Daily Notes/2022-11-05.md",
+    "Daily Notes/2022-09-09.md",
+    "Convolutional Arithmetic/Convolutional Arithmetic.md",
+    "cheat sheet/1684917207945.pdf",
+    "Pasted image 20230621165132.png",
     "Estimating thew CDF and Statistical Functionals.md",
+    "Pasted image 20230621164956.png",
+    "Reparametrization.md",
+    "Convergence of Random Variables.md",
+    "Statistics David Freedman/All of Statistics.pdf",
+    "ai-notes",
     "Untitled 5.md",
     "Pasted image 20230620131328.png",
     "Latent Colocation/Latent Colocation.md",
-    "Random Variables.md",
     "Expectation Maximization.md",
-    "Inequalities.md",
-    "Ideas.md",
-    "Hyper Markov Laws.md",
-    "Hamiltonian Graphs.md",
-    "Graphs.md",
-    "Fun Papers to read.md",
-    "Exponential Distribution.md",
-    "Expectation.md",
-    "Convergence of Random Variables.md",
     "Pasted image 20230620124026.png",
     "Pasted image 20230619210520.png",
     "Pasted image 20230619210409.png",
@@ -267,28 +260,13 @@
     "Pasted image 20230619200443.png",
     "PlaNet/1811.04551.pdf",
     "Latent Colocation/2106.13229.pdf",
-    "Excalidraw/Drawing 2023-06-19 15.45.41_0.excalidraw.md",
-    "Excalidraw/Drawing 2023-06-19 15.45.41.excalidraw.md",
     "Excalidraw",
-    "Excalidraw/Drawing 2022-09-25 20.21.32.excalidraw.md",
-    "Excalidraw/Drawing 2022-10-14 12.11.18.excalidraw.md",
-    "Excalidraw/Drawing 2022-12-26 12.07.31.excalidraw.md",
-    "Excalidraw/Drawing 2023-01-15 11.56.37.excalidraw.md",
-    "Excalidraw/Drawing 2023-02-28 20.29.18.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-01 17.25.01.excalidraw.md",
-    "Probability.md",
     "Pasted image 20230618194630.png",
     "Pasted image 20230618193404.png",
-    "Pasted image 20230618185709.png",
-    "Pasted image 20230618185658.png",
     "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
     "Statistics David Freedman",
-    "Hyper Markov Laws for correlation Matrices/Gaskins-HYPERMARKOVLAWS-2019.pdf",
-    "Nested markov models/bhmk.41.3.pdf",
-    "Introduction to Graph Theory/wilsongraph.pdf",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
-    "Introduction to Graph Theory",
     "Few Shot Sequence Transduction/Untitled 1.canvas",
     "Few Shot Sequence Transduction/Untitled.canvas",
     "Few Shot Sequence Transduction/Few Shot Transformer Training.canvas",
