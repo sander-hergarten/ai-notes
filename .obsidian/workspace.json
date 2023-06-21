@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Sources.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Sources.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Sources.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Sources.md"
+                "file": "The_Econometrics_of_Financial_Markets/Background.md"
               }
             }
           },
@@ -162,13 +162,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,10 +180,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ba82fdb5c6a68e8b",
+  "active": "248094a454fc9cd9",
   "lastOpenFiles": [
+    "Distributions.md",
+    "The_Econometrics_of_Financial_Markets/Background.md",
+    "The_Econometrics_of_Financial_Markets/Stocks (Chp. 1-9)/Untitled.md",
+    "The_Econometrics_of_Financial_Markets/Non-linear Methods to  Stocks and  Derivatives",
+    "The_Econometrics_of_Financial_Markets/Fixed-Income Securities (10&11)",
+    "The_Econometrics_of_Financial_Markets/Derivative Securities (Chp. 9 - 12)",
+    "The_Econometrics_of_Financial_Markets/Stocks (Chp. 1-9)",
     "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
     "The_Econometrics_of_Financial_Markets/Sources.md",
+    "The_Econometrics_of_Financial_Markets/Advanced Research.md",
+    "Untitled 2",
     "images/The_Econometrics_of_Financial_Markets.pdf",
     "Hyper Markov Laws for correlation Matrices/Gaskins-HYPERMARKOVLAWS-2019.pdf",
     "Bayesian Inference.md",
@@ -204,16 +211,12 @@
     "images",
     "README.md",
     "Markov Properties.md",
-    "Distributions.md",
     "Untitled 6.md",
-    "Untitled",
-    "PlaNet/1811.04551.pdf",
     "Batch Normalization.md",
     "Untitled.md",
     "Untitled 1.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
-    "Latent Colocation/2106.13229.pdf",
     "Trees.md",
     "Models, Statistical Inference and Learning.md",
     "Estimating thew CDF and Statistical Functionals.md",
@@ -221,17 +224,12 @@
     "Daily Notes/2023-06-21.md",
     "The Bootstrap.md",
     "Paper Analysis.md",
-    "cheat sheet/1684917207945.pdf",
-    "Statistics David Freedman/All of Statistics.pdf",
     "Untitled 5.md",
     "Latent Colocation/Latent Colocation.md",
     "Random Variables.md",
     "Expectation Maximization.md",
     "Inequalities.md",
     "Ideas.md",
-    "Hyper Markov Laws.md",
-    "Hamiltonian Graphs.md",
-    "Graphs.md",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",
