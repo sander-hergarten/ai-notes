@@ -46,6 +46,7 @@ cesses, vector autoregressions, unit roots, etc.)
 Finance Background 
 
 0 [[Risk aversion and expected-utility theory]]
-0 static mean-variance portfolio theory  
-0 the Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT)  
-0 dynamic asset pricing models 0 option pricing theory.
+0 [[Static mean-variance portfolio theory I Markowitz Theory]]
+0 [[The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT)]] 
+0 dynamic asset pricing models 
+0 option pricing theory 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md"
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md"
               }
             }
           },
@@ -171,12 +171,18 @@
   "active": "bfd1d7e4b6db8277",
   "lastOpenFiles": [
     "The_Econometrics_of_Financial_Markets/Background/Overview.md",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory.md",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
+    "images/Pasted image 20230622013819.png",
+    "images/Pasted image 20230622013558.png",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory I Markowitz Theory.md",
+    "images/Pasted image 20230622012919.png",
+    "static mean-variance portfolio theory.md",
+    "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background/Risk aversion and expected-utility theory.md",
     "Bayesian Inference.md",
     "The_Econometrics_of_Financial_Markets/Background/Risk aversion and expected-utility theory.md",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background",
-    "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
     "The_Econometrics_of_Financial_Markets/Background.md",
     "The_Econometrics_of_Financial_Markets/Background",
     "The_Econometrics_of_Financial_Markets/Sources.md",
@@ -198,9 +204,6 @@
     "images/Pasted image 20230619210520.png",
     "images/Pasted image 20230619210409.png",
     "images/Pasted image 20230619200811.png",
-    "images/Pasted image 20230619200443.png",
-    "images/Pasted image 20230618194630.png",
-    "images/Pasted image 20230618193404.png",
     "README.md",
     "Markov Properties.md",
     "Untitled 6.md",
@@ -215,8 +218,6 @@
     "To Learn.md",
     "Daily Notes/2023-06-21.md",
     "The Bootstrap.md",
-    "Paper Analysis.md",
-    "Untitled 5.md",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",
