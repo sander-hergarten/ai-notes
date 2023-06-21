@@ -1,0 +1,7 @@
+To determine the distribution of a discrete random variable we can either provide its [[Probability Mass Function (PMF)|PMF]] or [[Cumulative Distribution Function|CDF]]. For continuous random variables, the CDF is well defined so we can provide the CDS. However, the PMF does nor work for continuous random variables, because for a continuous random variable $P(X=x)=0$ for all $x\in \mathbb{R}$. Instead we can usually define the probability density function. The PDF is the density of probability rather than the probability mass. The concept is similar to mass density in physics: its unit is probability per unit length. To get a feeling for PDF, consider a continuous random variable $X$ and define the function $f_X(x)$ as follows (wherever the limit exists): $$f_X(x)=\lim_{\Delta \to 0^+}\frac{P(x<X\le x+\Delta)}{\Delta}$$
+The function $f_X(x)$ gives us the probability density at point $x$. It is the limit of the probability of the interval $(x,x+\Delta]$ divided by the length of the interval as the length of the interval goes to $0$. 
+> [!Abstract] Definition
+> Consider a continuous random variable $X$ with an absolutely continuous CDF $F_X(x)$. The function $f_X(x)$ is defined by 
+> $$f_X(x)=\frac{dF_x(x)}{dx}=F'_X(x),\quad \textbf{if } F_X(x)\textbf{ is differentiable at } x$$ 
+> 
+ 

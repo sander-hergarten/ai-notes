@@ -1,0 +1,293 @@
+{
+  "main": {
+    "id": "cc3e4d2668ba0356",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b5881d4df270433",
+        "type": "split",
+        "children": [
+          {
+            "id": "e0082165b2ee5322",
+            "type": "tabs",
+            "dimension": 49.524940617577194,
+            "children": [
+              {
+                "id": "9d5de45c29238c20",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Statistics David Freedman/All of Statistics.pdf"
+                  }
+                }
+              },
+              {
+                "id": "bfd1d7e4b6db8277",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Latent Colocation/2106.13229.pdf"
+                  }
+                }
+              },
+              {
+                "id": "248094a454fc9cd9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "PlaNet/1811.04551.pdf"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "1a60698b5a052509",
+            "type": "tabs",
+            "dimension": 50.475059382422806,
+            "children": [
+              {
+                "id": "0ef5974bca5c65f6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Estimating thew CDF and Statistical Functionals.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ac04f2e1ebdf25b7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Models, Statistical Inference and Learning.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "62ab0cbf9917e72b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "The Bootstrap.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 2,
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "281820cec0aa4694",
+    "type": "split",
+    "children": [
+      {
+        "id": "297661e568e37196",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba82fdb5c6a68e8b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "582e70bb5834d951",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "standard error",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "49ac9ef0effaa144",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "0789277660bb7ad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reparametrization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7a758a8ab22064dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "36fa4ef85852261a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe2afc76a82999cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "The Bootstrap.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f58d3af093a0fc5d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "The Bootstrap.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8c6f877fe095fee0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0eb5fb5b2d1b7ea2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "The Bootstrap.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "62ab0cbf9917e72b",
+  "lastOpenFiles": [
+    "Models, Statistical Inference and Learning.md",
+    "The Bootstrap.md",
+    "Statistics David Freedman/All of Statistics.pdf",
+    "Estimating thew CDF and Statistical Functionals.md",
+    "Untitled 5.md",
+    "Pasted image 20230620131328.png",
+    "Latent Colocation/Latent Colocation.md",
+    "Random Variables.md",
+    "Expectation Maximization.md",
+    "Inequalities.md",
+    "Ideas.md",
+    "Hyper Markov Laws.md",
+    "Hamiltonian Graphs.md",
+    "Graphs.md",
+    "Fun Papers to read.md",
+    "Exponential Distribution.md",
+    "Expectation.md",
+    "Convergence of Random Variables.md",
+    "Pasted image 20230620124026.png",
+    "Pasted image 20230619210520.png",
+    "Pasted image 20230619210409.png",
+    "Pasted image 20230619200811.png",
+    "Pasted image 20230619200443.png",
+    "PlaNet/1811.04551.pdf",
+    "Latent Colocation/2106.13229.pdf",
+    "Excalidraw/Drawing 2023-06-19 15.45.41_0.excalidraw.md",
+    "Excalidraw/Drawing 2023-06-19 15.45.41.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2022-09-25 20.21.32.excalidraw.md",
+    "Excalidraw/Drawing 2022-10-14 12.11.18.excalidraw.md",
+    "Excalidraw/Drawing 2022-12-26 12.07.31.excalidraw.md",
+    "Excalidraw/Drawing 2023-01-15 11.56.37.excalidraw.md",
+    "Excalidraw/Drawing 2023-02-28 20.29.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-03-01 17.25.01.excalidraw.md",
+    "Probability.md",
+    "Pasted image 20230618194630.png",
+    "Pasted image 20230618193404.png",
+    "Pasted image 20230618185709.png",
+    "Pasted image 20230618185658.png",
+    "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
+    "Statistics David Freedman",
+    "Hyper Markov Laws for correlation Matrices/Gaskins-HYPERMARKOVLAWS-2019.pdf",
+    "Nested markov models/bhmk.41.3.pdf",
+    "Introduction to Graph Theory/wilsongraph.pdf",
+    "Parasitic RL/Default World Model.canvas",
+    "Parasitic RL/Untitled 1 1.canvas",
+    "Introduction to Graph Theory",
+    "Few Shot Sequence Transduction/Untitled 1.canvas",
+    "Few Shot Sequence Transduction/Untitled.canvas",
+    "Few Shot Sequence Transduction/Few Shot Transformer Training.canvas",
+    "Dreamer/Dreamer Canvas.canvas",
+    "Untitled 2.canvas",
+    "Untitled 3.canvas",
+    "Untitled.canvas"
+  ]
+}

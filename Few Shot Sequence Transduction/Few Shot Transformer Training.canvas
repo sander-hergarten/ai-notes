@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"82ba890a6cfb16f0","x":-974,"y":-72,"width":250,"height":60,"type":"text","text":"Encoder"},
+		{"id":"7639dac33e136483","x":-974,"y":58,"width":250,"height":60,"type":"text","text":"Decoder"},
+		{"id":"c4e273e684ddfe1a","x":-974,"y":217,"width":250,"height":60,"type":"text","text":"Transformer Loss"},
+		{"id":"e745c68d30922400","x":-1480,"y":-72,"width":250,"height":60,"type":"text","text":"Image Data $x_0$"},
+		{"id":"e044586d3cfc8a75","x":-1480,"y":58,"width":250,"height":60,"type":"text","text":"Autoencoder Loss"},
+		{"id":"2a6c361f1568841e","x":-1480,"y":217,"width":250,"height":60,"type":"text","text":"Image Data $x_1$"},
+		{"id":"71f49f311fb34ac3","x":-502,"y":58,"width":250,"height":60,"type":"text","text":"Synth embedding $x_1$"},
+		{"id":"bbd25ff5f23e71bc","x":-589,"y":-551,"width":748,"height":509,"type":"file","file":"Few Shot Sequence Transduction/Few Shot Sequence Transduction Transformer.md"}
+	],
+	"edges":[
+		{"id":"22ccc9ee313a441e","fromNode":"e745c68d30922400","fromSide":"right","toNode":"82ba890a6cfb16f0","toSide":"left","color":"5"},
+		{"id":"a9b1b894f28c2d93","fromNode":"82ba890a6cfb16f0","fromSide":"right","toNode":"bbd25ff5f23e71bc","toSide":"left","color":"5","label":"Embeddings"},
+		{"id":"4d01811e4fb61004","fromNode":"82ba890a6cfb16f0","fromSide":"bottom","toNode":"7639dac33e136483","toSide":"top","color":"3"},
+		{"id":"8dc8f62e83e00c08","fromNode":"7639dac33e136483","fromSide":"left","toNode":"e044586d3cfc8a75","toSide":"right","color":"3","label":"Synth image"},
+		{"id":"113315d979d62578","fromNode":"e745c68d30922400","fromSide":"bottom","toNode":"e044586d3cfc8a75","toSide":"top","color":"3"},
+		{"id":"9101fd54d40823a0","fromNode":"71f49f311fb34ac3","fromSide":"left","toNode":"7639dac33e136483","toSide":"right","color":"5"},
+		{"id":"405505a1bee6d75e","fromNode":"7639dac33e136483","fromSide":"bottom","toNode":"c4e273e684ddfe1a","toSide":"top","color":"5"},
+		{"id":"7291becb85c8bfc1","fromNode":"2a6c361f1568841e","fromSide":"right","toNode":"c4e273e684ddfe1a","toSide":"left","color":"5"},
+		{"id":"dba75b8ca764c006","fromNode":"bbd25ff5f23e71bc","fromSide":"right","toNode":"71f49f311fb34ac3","toSide":"right","color":"5"}
+	]
+}

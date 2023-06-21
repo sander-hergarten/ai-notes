@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"type":"group","id":"9c9f0fbd8baa7908","x":-619,"y":-600,"width":1238,"height":1200,"label":"Dataflow"},
+		{"type":"group","id":"6e095d568a3c2e7b","x":-460,"y":-280,"width":290,"height":160,"label":"Sequence Model"},
+		{"type":"text","text":"Dynamics Predictor","id":"49fa9f6514256143","x":162,"y":60,"width":250,"height":60},
+		{"type":"text","text":"Observation","id":"989c99698eae633f","x":-119,"y":-260,"width":250,"height":60},
+		{"type":"text","text":"Recurrent State $t-1$","id":"397afb7bf892821b","x":-88,"y":-463,"width":250,"height":26,"color":"5"},
+		{"type":"text","text":"Continue predictor","id":"09a9c8142e54a40f","x":-179,"y":520,"width":250,"height":60},
+		{"type":"text","text":"Reward predictor","id":"3e467d56abda09dc","x":91,"y":520,"width":250,"height":60},
+		{"type":"text","text":"MLP","id":"bea82b39fdb96237","x":-440,"y":-166,"width":250,"height":26},
+		{"type":"text","text":"Recurrent State $t$","id":"08710382218a22c6","x":-440,"y":-17,"width":250,"height":26,"color":"5"},
+		{"type":"text","text":"Encoder","id":"2ce4852dcbcbdb94","x":-119,"y":60,"width":250,"height":60},
+		{"type":"text","text":"stochastic state $t$","id":"2b93ce583609a215","x":-119,"y":263,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"Decoder","id":"e34ed95779155497","x":-449,"y":520,"width":250,"height":60},
+		{"type":"text","text":"Stochastic State $t-1$","id":"aac783b9e4615dfe","x":201,"y":-463,"width":250,"height":26,"color":"5"},
+		{"type":"text","text":"GRU","id":"0022e9320885b99c","x":-440,"y":-260,"width":250,"height":26},
+		{"type":"text","text":"Action","id":"9faef58b5400a41a","x":-449,"y":-480,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"33ec0c611ef3b319","fromNode":"6e095d568a3c2e7b","fromSide":"bottom","toNode":"08710382218a22c6","toSide":"top"},
+		{"id":"8433bdf6ea445861","fromNode":"397afb7bf892821b","fromSide":"bottom","toNode":"6e095d568a3c2e7b","toSide":"top"},
+		{"id":"ef01b41e9cc98b72","fromNode":"aac783b9e4615dfe","fromSide":"bottom","toNode":"6e095d568a3c2e7b","toSide":"top"},
+		{"id":"e014e3007b3070fc","fromNode":"49fa9f6514256143","fromSide":"bottom","toNode":"2b93ce583609a215","toSide":"top"},
+		{"id":"019c7dee72d03f1c","fromNode":"08710382218a22c6","fromSide":"bottom","toNode":"49fa9f6514256143","toSide":"top"},
+		{"id":"00a006275f2a7dd9","fromNode":"989c99698eae633f","fromSide":"bottom","toNode":"2ce4852dcbcbdb94","toSide":"top"},
+		{"id":"348c23764f68e85b","fromNode":"08710382218a22c6","fromSide":"bottom","toNode":"09a9c8142e54a40f","toSide":"top"},
+		{"id":"f48fa0b83f44d19d","fromNode":"2b93ce583609a215","fromSide":"bottom","toNode":"09a9c8142e54a40f","toSide":"top"},
+		{"id":"5b8c2a8f9d58dcb3","fromNode":"08710382218a22c6","fromSide":"bottom","toNode":"3e467d56abda09dc","toSide":"top"},
+		{"id":"9d8591f9120dc118","fromNode":"2b93ce583609a215","fromSide":"bottom","toNode":"3e467d56abda09dc","toSide":"top"},
+		{"id":"e3f4077e6bdd73f7","fromNode":"0022e9320885b99c","fromSide":"bottom","toNode":"bea82b39fdb96237","toSide":"top"},
+		{"id":"0384950bf1de5e17","fromNode":"08710382218a22c6","fromSide":"bottom","toNode":"e34ed95779155497","toSide":"top"},
+		{"id":"c28015695e447090","fromNode":"08710382218a22c6","fromSide":"bottom","toNode":"2ce4852dcbcbdb94","toSide":"top"},
+		{"id":"06c8e5c9c539ad24","fromNode":"2ce4852dcbcbdb94","fromSide":"bottom","toNode":"2b93ce583609a215","toSide":"top"},
+		{"id":"0a679a3c6e313eaa","fromNode":"2b93ce583609a215","fromSide":"bottom","toNode":"e34ed95779155497","toSide":"top"},
+		{"id":"2ba17962267cb3c8","fromNode":"9faef58b5400a41a","fromSide":"bottom","toNode":"0022e9320885b99c","toSide":"top"}
+	]
+}

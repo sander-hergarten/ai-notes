@@ -1,0 +1,1 @@
+Q Learning tries to determine which action is the best to take next

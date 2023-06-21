@@ -1,0 +1,5 @@
+- non normalized input
+- using functions that cant have a gradient
+- wrong output type(as example: one hot encoding)
+- learning rate too high / low
+- 

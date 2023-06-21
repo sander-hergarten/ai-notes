@@ -1,0 +1,1 @@
+A reparametrization $\alpha(h)$ of a curve $\alpha$ is orientation preserving 

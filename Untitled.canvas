@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"text","text":"dataset","id":"3119a0553e2858f0","x":-1000,"y":-600,"width":250,"height":60},
+		{"id":"344e44755cbc992e","x":-800,"y":-60,"width":250,"height":60,"type":"text","text":"Model"}
+	],
+	"edges":[
+		{"id":"0bef09de97380ac9","fromNode":"3119a0553e2858f0","fromSide":"bottom","toNode":"344e44755cbc992e","toSide":"top"}
+	]
+}

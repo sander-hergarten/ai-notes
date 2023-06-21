@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"9dbcfd6cafb5e58d","x":-350,"y":-1,"width":250,"height":60,"type":"text","text":"Classic C51 Network"},
+		{"id":"49e01ff8fee6b289","x":119,"y":-1,"width":250,"height":60,"type":"text","text":"Procgen Environment\n"},
+		{"id":"4a0adddd4175cfce","x":-78,"y":394,"width":243,"height":60,"type":"text","text":"Database"},
+		{"id":"0a42a0221e11164c","x":-370,"y":-21,"width":1554,"height":1336,"type":"group","label":"Few Shot Sequence Transduction"},
+		{"id":"68ae3ded7a0ddfff","x":691,"y":992,"width":407,"height":400,"type":"file","file":"Few Shot Sequence Transduction/Few Shot Transformer Training.canvas"},
+		{"id":"381303282b21a1c2","x":40,"y":692,"width":250,"height":56,"type":"text","text":"Autoencoder $A$"},
+		{"id":"c3d701f8594c695c","x":804,"y":836,"width":250,"height":60,"type":"text","text":"Synthetic Runs"},
+		{"id":"b132b416d733f0e8","x":691,"y":583,"width":294,"height":109,"type":"text","text":"Transformer Sequence Rating"},
+		{"id":"326e18f4602c4354","x":369,"y":454,"width":250,"height":56,"type":"text","text":"Autoencoder $A$"}
+	],
+	"edges":[
+		{"id":"6e3c2a0b21bb8fe3","fromNode":"9dbcfd6cafb5e58d","fromSide":"right","toNode":"49e01ff8fee6b289","toSide":"left","label":"trains"},
+		{"id":"c256b74f97684a2c","fromNode":"9dbcfd6cafb5e58d","fromSide":"bottom","toNode":"4a0adddd4175cfce","toSide":"top","label":"Benchmarks and Run Data"},
+		{"id":"764ffe618f1ab822","fromNode":"b132b416d733f0e8","fromSide":"bottom","toNode":"c3d701f8594c695c","toSide":"top","label":"Evaluation"},
+		{"id":"e18a489e892177e5","fromNode":"68ae3ded7a0ddfff","fromSide":"top","toNode":"c3d701f8594c695c","toSide":"bottom"},
+		{"id":"66d1466a6762d012","fromNode":"326e18f4602c4354","fromSide":"right","toNode":"b132b416d733f0e8","toSide":"left"},
+		{"id":"86c0968b9f83b031","fromNode":"381303282b21a1c2","fromSide":"bottom","toNode":"68ae3ded7a0ddfff","toSide":"left"},
+		{"id":"7b0edda9193a18da","fromNode":"4a0adddd4175cfce","fromSide":"right","toNode":"326e18f4602c4354","toSide":"left"},
+		{"id":"9160789d1b440576","fromNode":"4a0adddd4175cfce","fromSide":"bottom","toNode":"381303282b21a1c2","toSide":"top","label":"Incomplete run"}
+	]
+}
