@@ -3,7 +3,7 @@ We shall assume that all graphs are [[Graphs#Simple Graph|simple]] and connected
 
 If $G$ is a graph without loops, then $G$ is $k$-colourable if we can assign one of $k$ colours to each vertex so that adjacent vertices have different colours.
 
-If $G$ is $k$-colourable, but not ($k$-1)colourable, we say that  $G$ is $k$-chromatic, or that the chromatice number of $G$ is $k$ and write $\chi(G)=k$ .
+If $G$ is $k$-colourable, but not ($k$-1)colourable, we say that  $G$ is $k$-chromatic, or that the chromatic number of $G$ is $k$ and write $\chi(G)=k$ .
 ![[Pasted image 20230618131034.png]]
 ($\chi(G)=4$)
 - It is clear that $\chi(K_N)=n$, and so there are graphs with arbitrarily high chromatic number. At the other end of the scale.

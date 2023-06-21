@@ -2,5 +2,7 @@
   "snapToObjects": true,
   "snapToGrid": true,
   "zoomBreakpoint": -0.08,
-  "defaultWheelBehavior": "pan"
+  "defaultWheelBehavior": "pan",
+  "newFileLocation": "current",
+  "newFileFolderPath": "canvases"
 }

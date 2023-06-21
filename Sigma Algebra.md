@@ -3,7 +3,7 @@
 Consider a [[Set]] $X$.
 A $\sigma$-algebra $\mathcal F$ of subsets of $X$ is a collection $\mathcal F$ of subsets of $X$ satisfying the following conditions:
 1. $\emptyset \in \mathcal F$ 
-2. if $B \in \mathcal F$ then its [[Set Complement|complement]] $B^c$ is also in $\mathcal F$
+2. if $B \in \mathcal F$ then its [[Sample Spaces and Events#^5f5e8a|complement]] $B^c$ is also in $\mathcal F$
 3. if $B_1, B_2, ...$ is a countable collection of  sets in $\mathcal F$ then their union is $\bigcup\limits_{n=1}^{\infty} B_n$ 
 An [[Set|Atom]] of $\mathcal F$ is a set $A\in \mathcal F$ such that the only subsets of $A$ which are also in $\mathcal F$ are the empty set and $A$ itself. 
 

@@ -63,7 +63,7 @@
 		{"type":"text","text":"# SYMLOG","id":"a8ac053fd5cfa395","x":-489,"y":-1420,"width":190,"height":45,"color":"5"},
 		{"type":"text","text":"# $h_{t}$","id":"91dcf2274d85d15a","x":-801,"y":-1605,"width":63,"height":60},
 		{"type":"link","url":"https://www.youtube.com/watch?v=o75ybZ-6Uu8","id":"6418b966b3cf26fd","x":523,"y":-1934,"width":640,"height":360},
-		{"type":"file","file":"Pasted image 20230228180334.png","id":"b56f1670ea23975a","x":-500,"y":-1781,"width":213,"height":206}
+		{"type":"file","file":"images/Pasted image 20230228180334.png","id":"b56f1670ea23975a","x":-500,"y":-1781,"width":213,"height":206}
 	],
 	"edges":[
 		{"id":"3c1a97edc07c5b55","fromNode":"bf92ea1ff769a3e8","fromSide":"bottom","toNode":"48269e2aabb31b43","toSide":"top"},
