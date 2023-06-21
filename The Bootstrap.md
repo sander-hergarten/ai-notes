@@ -42,4 +42,17 @@ Define $C^*_n =(a,b)$ as the [[Models, Statistical Inference and Learning#Confid
 $$a=\hat{\theta}_n-H^{-1}\left(1-\frac{\alpha}{2}\right)\quad \text{and}\quad n=\hat{\theta}_n-H^{-1}\left(\frac{\alpha}{2}\right)$$
 hence $C^*_n$ is an exact $1-\alpha$ confidence interval for $\theta$. Unfortunately, $a$ and $b$ depend on the unknown distribution $H$ but we can form a bootstrap estimate of $H$
 $$\hat{H}(r)=\frac{1}{B}\sum^B_{b=1}I(R^*_{n,b}\le r)$$
-where $R^*_{n,b}=\hat{\theta}^*_{n,b}-\hat{\theta}_{n}$. Let $r_{\beta}^*$ denote the $\beta$ sample quantile of $(R^*_{n,1},...,R^*_{n,B})a$ and let $\theta^*_{\beta}$ denote the $\beta$ sample quantile of $(\hat{\theta}^*_{n,1},...,\hat{\theta}^*_{n,B})$. Note
+where $R^*_{n,b}=\hat{\theta}^*_{n,b}-\hat{\theta}_{n}$. Let $r_{\beta}^*$ denote the $\beta$ sample quantile of $(R^*_{n,1},...,R^*_{n,B})a$ and let $\theta^*_{\beta}$ denote the $\beta$ sample quantile of $(\hat{\theta}^*_{n,1},...,\hat{\theta}^*_{n,B})$. Note that $r^*_{\beta}=\theta^*_{\beta}-\hat{\theta}_n$. It follows that an approximate $1-\alpha$ confidence interval is $C_n=(\hat{a},\hat{b})$ where 
+$$\begin{align}\hat{a}&=\hat{\theta}_n-\hat{H}^{-1}\left(1-\frac{\alpha}{2}\right)&&=\hat{\theta}_n-r^*_{1-\alpha/2}=2\hat{\theta}_n-\theta^*_{1-\alpha/2}\\ \hat{b}&=\hat{\theta}_n-\hat{H}^{-1}\left(\frac{\alpha}{2}\right)&&= \hat{\theta}_n-r^*_{\alpha/2}=2\hat{\theta}_n-\theta^*_{\alpha/2}\end{align}$$
+In summary the $1-\alpha$ bootstrap pivotal confidence interval is
+
+$$C_n=\left(2\hat{\theta}_n-\theta^*_{1-\alpha/2},\ 2\hat{\theta}_n-\theta^*_{\alpha/2}\right)$$
+typically this is a pointwise asymptotic confidence interval
+
+Under weak conditions on $T(F),\mathbb P_F(T(F)\in C_n)\rightarrow1-\alpha$ as $n\rightarrow \infty$, where $C_n$ is given above
+
+
+## Percentile Intervals
+The bootstrap percentile interval is defined by
+$$C_n=(\theta^*_{a/2}, \theta^*_{1-\alpha/2})$$
+

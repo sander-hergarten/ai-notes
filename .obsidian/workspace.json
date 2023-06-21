@@ -4,15 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "b9d2289cf800e81f",
+        "id": "c11d1adf11bcd952",
         "type": "tabs",
         "children": [
           {
-            "id": "91b5fe0298cd0b58",
+            "id": "714ffd6d939c2fbf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "Statistics David Freedman/All of Statistics.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "84f5bbbcc90c6b0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "535b8c58c99dddbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parametric Inference.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7693a007cb16cc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Models, Statistical Inference and Learning.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -83,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Statistics David Freedman/All of Statistics.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Statistics David Freedman/All of Statistics.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Statistics David Freedman/All of Statistics.pdf"
+              }
             }
           },
           {
@@ -151,40 +187,41 @@
       "random-note:Open random note": false
     }
   },
-  "active": "91b5fe0298cd0b58",
+  "active": "714ffd6d939c2fbf",
   "lastOpenFiles": [
+    "Parametric Inference.md",
+    "images/Pasted image 20230621211944.png",
+    "Statistics David Freedman/All of Statistics.pdf",
+    "Models, Statistical Inference and Learning.md",
+    "The Bootstrap.md",
+    "Convolutional Arithmetic/Convolutional Arithmetic.md",
+    "README.md",
+    "Bayesian Optimization.md",
+    "diameter emerging ultimate diabetes required eighteen.md",
+    "Decision Transformers/Decision Transformers.md",
+    "TAM.md",
+    "Expectation Maximization.md",
+    "Markov Chain.md",
+    "Hyper Markov Laws.md",
+    "Ideas.md",
+    "Markov Properties.md",
+    "Introduction to Graph Theory/wilsongraph.pdf",
+    "Directed Graphs.md",
     "Random Variables.md",
     "Probability Density Function.md",
     "Probability Mass Function (PMF).md",
     "Cumulative Distribution Function.md",
     "Mixture Distribution.md",
     "Distributions.md",
-    "The Bootstrap.md",
     "Moment.md",
     "Sigma Algebra.md",
     "Sample Spaces and Events.md",
     "Probability.md",
-    "To Learn.md",
-    "Deep Learning/Efficient Deep Learning/Automation.md",
-    "Deep Learning/Efficient Deep Learning/Efficient Model Architecture.md",
-    "Colouring Graphs.md",
-    "Cauchy Distribution.md",
-    "Bergman Divergence.md",
-    "Bayesian Optimization.md",
-    "Bayesian Inference.md",
-    "Batch Normalization.md",
-    "Untitled 5.md",
-    "Untitled 4.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Dual Graphs.md",
     "Untitled.canvas",
     "canvases",
     "images/Pasted image 20221107184822.png",
     "PlaNet/1811.04551.pdf",
     "Latent Colocation/2106.13229.pdf",
-    "Statistics David Freedman/All of Statistics.pdf",
     "images",
     "Decision Transformers/2106.01345-2.pdf",
     "cheat sheet/1684917207945.pdf",
@@ -198,8 +235,6 @@
     "images/Pasted image 20230619200811.png",
     "images/Pasted image 20230619200443.png",
     "Excalidraw",
-    "images/Pasted image 20230618194630.png",
-    "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",

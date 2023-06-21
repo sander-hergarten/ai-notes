@@ -7,7 +7,7 @@ $$\mathfrak F =\left\{f(X;\mu,\sigma)=\frac{1}{\sigma\sqrt{\pi}}\exp\left\{-\fra
 This is a two parameter model. This density has parameters $\mu,\sigma$ and describes a random variable $X$ where $x$ is a value of that.
 
 All parametric models take the form 
-$$\mathfrak{F} =\{f(x;\;\theta):\theta\in\Theta$$
+$$\mathfrak{F} =\{f(x;\;\theta):\theta\in\Theta\}$$
 Where $\Theta$ is called the parameter space and $\theta$ an element or vector of elements making up the parameters. Parameters are called nuisance parameters if they are components of $\theta$ we are not interested in.
 
 A non-parametric model cannot be parameterized by a finite number of parameters. For example $\mathfrak F_{\text{ALL}} =\{\text{all CDF's}\}$ is non-parametric.
