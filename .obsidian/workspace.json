@@ -148,13 +148,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -170,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Bootstrap.md",
+                "file": "Statistics David Freedman/All of Statistics.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Bootstrap.md",
+                "file": "Statistics David Freedman/All of Statistics.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,16 +208,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Bootstrap.md"
+                "file": "Statistics David Freedman/All of Statistics.pdf"
               }
             }
+          },
+          {
+            "id": "9cdc419a5e24fccf",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,8 +239,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "62ab0cbf9917e72b",
+  "active": "9cdc419a5e24fccf",
   "lastOpenFiles": [
+    "ai-notes",
     "Models, Statistical Inference and Learning.md",
     "The Bootstrap.md",
     "Statistics David Freedman/All of Statistics.pdf",
