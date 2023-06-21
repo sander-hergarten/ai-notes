@@ -23,9 +23,11 @@
             "id": "248094a454fc9cd9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Hyper Markov Laws for correlation Matrices/Gaskins-HYPERMARKOVLAWS-2019.pdf"
+                "file": "The_Econometrics_of_Financial_Markets/Sources.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bayesian Inference.md",
+                "file": "The_Econometrics_of_Financial_Markets/Sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bayesian Inference.md",
+                "file": "The_Econometrics_of_Financial_Markets/Sources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bayesian Inference.md"
+                "file": "The_Econometrics_of_Financial_Markets/Sources.md"
               }
             }
           },
@@ -180,8 +182,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0eb5fb5b2d1b7ea2",
+  "active": "ba82fdb5c6a68e8b",
   "lastOpenFiles": [
+    "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
+    "The_Econometrics_of_Financial_Markets/Sources.md",
+    "images/The_Econometrics_of_Financial_Markets.pdf",
+    "Hyper Markov Laws for correlation Matrices/Gaskins-HYPERMARKOVLAWS-2019.pdf",
+    "Bayesian Inference.md",
+    "Untitled 1",
+    "The_Econometrics_of_Financial_Markets",
     "images/Pasted image 20230621165132.png",
     "images/Pasted image 20230621164956.png",
     "images/Pasted image 20230620131328.png",
@@ -192,13 +201,11 @@
     "images/Pasted image 20230619200443.png",
     "images/Pasted image 20230618194630.png",
     "images/Pasted image 20230618193404.png",
-    "images/Pasted image 20230618185709.png",
     "images",
     "README.md",
     "Markov Properties.md",
     "Distributions.md",
     "Untitled 6.md",
-    "Bayesian Inference.md",
     "Untitled",
     "PlaNet/1811.04551.pdf",
     "Batch Normalization.md",
@@ -216,7 +223,6 @@
     "Paper Analysis.md",
     "cheat sheet/1684917207945.pdf",
     "Statistics David Freedman/All of Statistics.pdf",
-    "ai-notes",
     "Untitled 5.md",
     "Latent Colocation/Latent Colocation.md",
     "Random Variables.md",
@@ -226,10 +232,6 @@
     "Hyper Markov Laws.md",
     "Hamiltonian Graphs.md",
     "Graphs.md",
-    "Fun Papers to read.md",
-    "Excalidraw",
-    "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
-    "Statistics David Freedman",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",
