@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md"
+                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md"
               }
             }
           },
@@ -170,12 +170,14 @@
   },
   "active": "bfd1d7e4b6db8277",
   "lastOpenFiles": [
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory I Markowitz Theory.md",
     "The_Econometrics_of_Financial_Markets/Background/Overview.md",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Option pricing theory.md",
+    "images/Pasted image 20230622020627.png",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
     "images/Pasted image 20230622013819.png",
     "images/Pasted image 20230622013558.png",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory I Markowitz Theory.md",
     "images/Pasted image 20230622012919.png",
     "static mean-variance portfolio theory.md",
     "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
@@ -203,7 +205,6 @@
     "images/Pasted image 20230620124026.png",
     "images/Pasted image 20230619210520.png",
     "images/Pasted image 20230619210409.png",
-    "images/Pasted image 20230619200811.png",
     "README.md",
     "Markov Properties.md",
     "Untitled 6.md",
@@ -216,8 +217,6 @@
     "Models, Statistical Inference and Learning.md",
     "Estimating thew CDF and Statistical Functionals.md",
     "To Learn.md",
-    "Daily Notes/2023-06-21.md",
-    "The Bootstrap.md",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",

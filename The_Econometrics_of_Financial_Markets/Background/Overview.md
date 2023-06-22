@@ -48,5 +48,5 @@ Finance Background
 0 [[Risk aversion and expected-utility theory]]
 0 [[Static mean-variance portfolio theory I Markowitz Theory]]
 0 [[The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT)]] 
-0 dynamic asset pricing models 
-0 option pricing theory 
+0 [[Dynamic asset pricing models]]
+0 [[Option pricing theory]] 
