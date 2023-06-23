@@ -49,7 +49,7 @@ This leads us to the two cases the authors introduced to describe LatCo:
 - LatCo with Gaussian Plans
 
 ## Deterministic
-The distribution $q(z_{2:T})$ is represented using [[Distribution|particles]] $z_{2:T_i}^i$. In practice they use a single particle since a deterministic distribution only returns one value. This means the authors assume that $q(z_{2:T})$ is deterministic and as such can only describe deterministic environments. The moment matching constraint therefore reduces to a single constraint: 
+The distribution $q(z_{2:T})$ is represented using [[Distributions|particles]] $z_{2:T_i}^i$. In practice they use a single particle since a deterministic distribution only returns one value. This means the authors assume that $q(z_{2:T})$ is deterministic and as such can only describe deterministic environments. The moment matching constraint therefore reduces to a single constraint: 
 $$mean[p_{\phi}(z \vert z_{t-1}, a_{t-1})]=z_t$$
 The variance constraint disappears since the variance of a set of one particle is a constant. this constraint, for $\mu_{\phi}(z_t,a_t)=\mathbb E_{p_{\phi}(z_{t+1}\vert z_t,a_t)} [z_{t+1}]$, yields a simplified planning problem:
 $$\begin{align}
