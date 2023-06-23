@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
+                "file": "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md"
+                "file": "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md"
               }
             }
           },
@@ -149,7 +149,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -170,12 +171,14 @@
   },
   "active": "bfd1d7e4b6db8277",
   "lastOpenFiles": [
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
+    "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md",
+    "The_Econometrics_of_Financial_Markets/Background/Notation",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory I Markowitz Theory.md",
     "The_Econometrics_of_Financial_Markets/Background/Overview.md",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background/Option pricing theory.md",
     "images/Pasted image 20230622020627.png",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/The Capital Asset Pricing Model (CAPM)and the Arbitrage Pricing Theory (APT).md",
     "images/Pasted image 20230622013819.png",
     "images/Pasted image 20230622013558.png",
     "images/Pasted image 20230622012919.png",
@@ -198,7 +201,6 @@
     "Untitled 2",
     "images/The_Econometrics_of_Financial_Markets.pdf",
     "Hyper Markov Laws for correlation Matrices/Gaskins-HYPERMARKOVLAWS-2019.pdf",
-    "Untitled 1",
     "images/Pasted image 20230621165132.png",
     "images/Pasted image 20230621164956.png",
     "images/Pasted image 20230620131328.png",
