@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8ba9f1be50f009ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -169,10 +182,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bfd1d7e4b6db8277",
+  "active": "8ba9f1be50f009ad",
   "lastOpenFiles": [
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
     "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md",
+    "conflict-files-obsidian-git.md",
+    "images/Pasted image 20230621211944.png",
+    "Parametric Inference.md",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
     "The_Econometrics_of_Financial_Markets/Background/Notation",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory I Markowitz Theory.md",
     "The_Econometrics_of_Financial_Markets/Background/Overview.md",
@@ -206,7 +222,6 @@
     "images/Pasted image 20230620131328.png",
     "images/Pasted image 20230620124026.png",
     "images/Pasted image 20230619210520.png",
-    "images/Pasted image 20230619210409.png",
     "README.md",
     "Markov Properties.md",
     "Untitled 6.md",
@@ -217,8 +232,6 @@
     "Untitled 2.canvas",
     "Trees.md",
     "Models, Statistical Inference and Learning.md",
-    "Estimating thew CDF and Statistical Functionals.md",
-    "To Learn.md",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",
