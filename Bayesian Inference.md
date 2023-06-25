@@ -22,3 +22,15 @@ Bayesian inference is usually carried out in the following way:
 To understand 3. first suppose that $\theta$ is discrete and that there is a single, discrete observation $X$. We should use a capital letter now to denote the parameter since we are treating it like a random variable so let $\Theta$ denote the parameter. Now, in this discrete setting,
 $$P(\Theta=\theta|X=x)=\frac{P(X=x,\Theta=\theta)}{P(X=x)}=\frac{P(X=x|\Theta=\theta)P(\Theta=\theta)}{\sum_{\theta}P(X=x|\Theta-\theta)P(\Theta=\theta)}$$
 The version for continuous variables is obtained by using density functions:
+$$f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int f(x|\theta)f(\theta)d\theta}$$
+if we have $n$ IID obeservations $X_1,...,X_n$, we replace $f(x|\theta)$ with $f(x_1,...,x_n|\theta)=\prod^n_{i=1}f(x_i|\theta)$. Let us write $X^n$ to mean $(X_1,...,X_n)$ and $x^n$ to mean $(x_1,...,x_n)$. Then:
+$$f(\theta|x^n)=\frac{f(x^n|\theta)f(\theta)}{\int f(x^n|\theta)f(\theta)d\theta}=\frac{\mathcal L_n(\theta)f(\theta)}{\int\mathcal L_n(\theta)f(\theta)d\theta}\propto\mathcal L_n(\theta)f(\theta)$$
+In the right hand side of the last equation, we threw away the denominator $\int\mathcal L_n(\theta)f(\theta)d\theta$ which is a constant that does not depend on $\theta$; we call this quantity the normalizing constant. We can summarize all this by writing:
+
+> posterior is proportional to [[Likelihood]] times prior
+
+you might wonder, doesn't it cause a problem to throw away the constant $\int\mathcal L_n(\theta)f(\theta)d\theta$? The answer is that we can always recover the constant since we know that $\int f(\theta|x_n)d\theta=1$. Hence, we often omit the constant until we really need it.
+
+What do we do with the posterior? First, we can get a point estimate by summarizing the center of the posterior. Typically we use the mean or mode of the posterior. The posterior mean is
+$$\overline{\theta}_n=\int\theta f(\theta|x^n)d\theta=\frac{\int\theta\mathcal L_n(\theta)f(\theta)}{\int\mathcal L_n(\theta)f(\theta)d\theta}$$
+We can also obtain a Bayesian interval estimate. Define $a$ and $b$ by $\int^a_{-\infty}f(\theta|x^n)d\theta=\int^{\infty}_bf(\theta|x^n$ 
