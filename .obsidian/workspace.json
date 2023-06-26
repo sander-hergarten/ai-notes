@@ -18,28 +18,29 @@
             }
           },
           {
-            "id": "1b2ce4520877020b",
+            "id": "b56618acb162a7f6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Fisher Information/1705.01064.pdf"
+                "file": "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "84f5bbbcc90c6b0c",
+        "id": "fbc60190f3588514",
         "type": "tabs",
         "children": [
           {
-            "id": "2dd776018de2363e",
+            "id": "8a437ac87e11cc6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian Inference.md",
+                "file": "Personal/Gym split.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "law ",
+                "query": "MLE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bayesian Inference.md",
+                "file": "Personal/Gym split.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bayesian Inference.md",
+                "file": "Personal/Gym split.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bayesian Inference.md"
+                "file": "Personal/Gym split.md"
               }
             }
           },
@@ -185,15 +186,32 @@
       "random-note:Open random note": false
     }
   },
-  "active": "2dd776018de2363e",
+  "active": "ba82fdb5c6a68e8b",
   "lastOpenFiles": [
+    "Loglinear Models.md",
+    "Personal/Gym split.md",
+    "Personal",
+    "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
     "Statistics David Freedman/All of Statistics.pdf",
+    "Graphical Models.md",
+    "Pairwise Markov Graphs.md",
+    "Trails, Paths and Cycles.md",
+    "Conditional Independence.md",
+    "images/Pasted image 20230625195631.png",
+    "images/Pasted image 20230625195626.png",
+    "images/Pasted image 20230625195616.png",
+    "images/Pasted image 20230625194640.png",
+    "Parametric Inference.md",
+    "Inference about Independence.md",
+    "Untitled 1.md",
+    "Fisher Information/1705.01064.pdf",
+    "Untitled.md",
+    "Untitled 6.md",
+    "Untitled 1.canvas",
+    "Statistical Decision Theory.md",
     "Bayesian Inference.md",
     "Hypothesis Testing and p-values.md",
-    "Untitled.md",
     "Fisher Information.md",
-    "Parametric Inference.md",
-    "Fisher Information/1705.01064.pdf",
     "Fisher Information",
     "Likelihood.md",
     "Score Function.md",
@@ -209,31 +227,15 @@
     "The_Econometrics_of_Financial_Markets/Stocks (Chp. 1-9)/Untitled.md",
     "The_Econometrics_of_Financial_Markets/Sources.md",
     "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
-    "The_Econometrics_of_Financial_Markets/Advanced Research.md",
-    "static mean-variance portfolio theory.md",
     "images/The_Econometrics_of_Financial_Markets.pdf",
     "images/Pasted image 20230622020627.png",
     "images/Pasted image 20230622013819.png",
     "images/Pasted image 20230622013558.png",
-    "images/Pasted image 20230622012919.png",
-    "Untitled 6.md",
-    "Untitled 1.canvas",
-    "The_Econometrics_of_Financial_Markets/Background/Notation/Untitled.md",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Static mean-variance portfolio theory I Markowitz Theory.md",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Risk aversion and expected-utility theory.md",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Option pricing theory.md",
-    "The_Econometrics_of_Financial_Markets/Background/Overview.md",
     "The_Econometrics_of_Financial_Markets/Background/Notation",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background",
     "The_Econometrics_of_Financial_Markets/Stocks (Chp. 1-9)",
     "The_Econometrics_of_Financial_Markets/Background",
-    "The_Econometrics_of_Financial_Markets",
-    "Moment Matching.md",
-    "images/Pasted image 20230621211944.png",
-    "Introduction to Graph Theory/wilsongraph.pdf",
     "Untitled.canvas",
-    "images/Pasted image 20221107184822.png",
-    "images/Pasted image 20230621165132.png",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",

@@ -54,7 +54,7 @@ The main properties of the MLE are:
 2. It is equivariant: if $\hat{\theta}_n$ is the MLE of $\theta$ then $g(\hat{\theta}_n)$ is the MLE of $g(\theta)$
 3. it is asymptotically Normal:$\sqrt{n}(\\hat{\theta}-\theta_*/\hat{\text{se}}\rightsquigarrow N(0, 1))$ where $\hat{\text{se}}$ can be computed analytically;
 4. It is asymptotically optimal or efficient: roughly, this means that among all well behaved estimators, the MLE has the smallest variance, at leas for large samples.
-5. The MLE isapproximately the [[Bayes estimator]]
+5. The MLE isapproximately the [[Bayesian Inference|Bayes estimator]]
 
 In sufficiently complicated problems, these properties will no longer hold and the MLE will no longer be a good estimator. The properties hold only if the model satisfies certain regularity conditions. Theses are essentially smoothness conditions on $f(x;\theta)$. 
 
