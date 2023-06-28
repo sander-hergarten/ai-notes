@@ -8,10 +8,24 @@ we can imitate many of the definitions given for [[Graphs#Operations and Termino
 
 For example two graphs are isomorphic if there is an isomorphism between their underlying graphs that preserve the ordering of the vertices in each arc. 
 
+## Adjancency
 Two vertices are adjacent if there is an arc in $A(D)$ of the form $vw$ or $wv$. The vertices $v$ and $w$ are incident to such an arc. If $D$ has vertex set $\{v_1, ..., v_n\}$, the adjacency matrix of $D$ is the $n\times n$ matrix $\textbf{A} =(a_{ij})$ where $a_{ij}$ is  the number of arcs from $v_i$ to $v_j$. 
 
+## Parent and Child
+If there is an arc going if the form $vw$ then $v$ is the parent of $w$ and $w$ is a child of $v$. The set of all parents of $v$ is denoted by $\pi_v$ or $\pi(v)$. 
+
 ## Walks
-A walk in a digraph $D$ is a finite sequence of arcs of the form $v_0v_1,v_1v_2,...,v_{m-1}v_m$. In an analogous way we can define trails, directed paths and directed cycles. Note that although a trail cannot contain a given arc $vw$ more than once, can contain both $vw$ and $wv$.
+A walk in a digraph $D$ is a finite sequence of arcs of the form $v_0v_1,v_1v_2,...,v_{m-1}v_m$. In an analogous way we can define trails, directed paths and directed cycles. Note that although a trail cannot contain a given arc $vw$ more than once, can contain both $vw$ and $wv$. A directed graph is acyclic if it has no cycles. In this case we say that the graph is a directed acyclic graph or DAG.
+### Undirected paths
+ignoring the direction of the arcs we can create an undirected path.
+
+## Ancestors and Descendants
+Vertex $v$ is an ancestor of $w$ if there is a directed path from $v$ to $w$. We also say that $w$ is a descendant of $v$
+
+## Colliders
+A configuration of the form 
+$$x\rightarrow y\leftarrow z$$
+is called a collider. A configuration no of that for is called a non-collider
 
 ## Connectedness
 The two most useful types of connected digraph correspond to wether or not we take account of the direction of the arcs. 
@@ -53,4 +67,13 @@ A tournament is a digraph in which any two vertices are joined by exactly one ar
 > [!quote] Theorem
 > 1. Every non-Hamiltonian tournament is semi-Hamiltonian
 > 2. every strongly connected tournament is Hamiltonian
+
+
+## Probability
+Let $\mathcal G$ be a DAG with vertices $V=(X-1,...,X_k)$
+
+If $\mathbb P$ is a [[Distributions|distribution]] for $V$ with probability function $p$, we say that if $\mathbb P$ is Markov to $\mathcal G$ or that $\mathcal G$ represents $\mathbb P$ if 
+$$p(v)=\prod^k_{i=1}p(x_i|\pi_i)$$
+where $\pi_i$ are the parents of $X_i$. The set of distributions represented by $\mathcal G$ is denoted by $M(\mathcal G)$
+
 
