@@ -56,18 +56,6 @@
                 "file": "Pair-copula Bayesian networks/991111.pdf"
               }
             }
-          },
-          {
-            "id": "924a8458757e6c15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 4
@@ -123,21 +111,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "70c5e9d29cb16c9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Directed Graphs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -188,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -205,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Directed Graphs.md",
+                "file": "Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Directed Graphs.md",
+                "file": "Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Directed Graphs.md"
+                "file": "Graphs.md"
               }
             }
           },
@@ -277,17 +252,19 @@
       "random-note:Open random note": false
     }
   },
-  "active": "70c5e9d29cb16c9c",
+  "active": "ea28fbddd4f73ec3",
   "lastOpenFiles": [
+    "Marginal Distribution.md",
+    "Graphs.md",
+    "Marginal Independence.md",
     "Pair-copula Bayesian networks/991111.pdf",
-    "Hyper Markov Laws/thesis.pdf",
     "Directed Graphs.md",
-    "Pair-copula Bayesian networks",
     "Untitled 5.md",
     "Untitled 6.md",
+    "Hyper Markov Laws/thesis.pdf",
+    "Pair-copula Bayesian networks",
     "Hyper Markov Laws.md",
     "Statistics David Freedman/All of Statistics.pdf",
-    "Graphs.md",
     "Graphical Models.md",
     "images/Pasted image 20230628160338.png",
     "Pairwise Markov Graphs.md",
@@ -297,7 +274,6 @@
     "Conditional Independence.md",
     "Untitled 4.md",
     "Untitled 3.md",
-    "marignal independence.md",
     "Counterfactual Model.md",
     "Hyper Markov Laws/Some disertation.md",
     "Untitled 2.md",
@@ -323,7 +299,6 @@
     "Inference about Independence.md",
     "Untitled 1.md",
     "Fisher Information/1705.01064.pdf",
-    "Untitled.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Parasitic RL/Default World Model.canvas",

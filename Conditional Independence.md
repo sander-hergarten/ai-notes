@@ -11,7 +11,7 @@ Intuitively, this means that, once you know $Z$, $Y$ provides no extra informati
 >[!note] Notation
 >Conditional independence can often be written:
 >$$X \perp\!\!\!\perp Y|Z[P]$$
->Where $X,Y,Z$ are variables on a joint probability space $(\Omega,\mathcal A,P)$. In circumstances where the distribution is implied, we may drop the $[P]$ though. If Z is trivial, then we have [[marignal independence]] and may write $X \perp\!\!\!\perp Y$
+>Where $X,Y,Z$ are variables on a joint probability space $(\Omega,\mathcal A,P)$. In circumstances where the distribution is implied, we may drop the $[P]$ though. If Z is trivial, then we have [[Marginal Independence]] and may write $X \perp\!\!\!\perp Y$
 
 The conditional independence relation satisfies some basic properties:
 ![[Pasted image 20230625194640.png]] ^a143b6
