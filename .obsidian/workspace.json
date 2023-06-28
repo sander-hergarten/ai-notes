@@ -48,6 +48,16 @@
             }
           },
           {
+            "id": "b8b244e09472d088",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Pair-copula Bayesian networks/991111.pdf"
+              }
+            }
+          },
+          {
             "id": "924a8458757e6c15",
             "type": "leaf",
             "state": {
@@ -60,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "6caec3eb0fcb9a4c",
@@ -103,19 +113,31 @@
             }
           },
           {
-            "id": "74c881f0162f2d86",
+            "id": "ea28fbddd4f73ec3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pairwise Markov Graphs.md",
+                "file": "Graphs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70c5e9d29cb16c9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Directed Graphs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -162,8 +184,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graphical Models.md",
+                "file": "Directed Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graphical Models.md",
+                "file": "Directed Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graphical Models.md"
+                "file": "Directed Graphs.md"
               }
             }
           },
@@ -256,10 +277,19 @@
       "random-note:Open random note": false
     }
   },
-  "active": "4fbaa90d9d8b96c7",
+  "active": "70c5e9d29cb16c9c",
   "lastOpenFiles": [
+    "Pair-copula Bayesian networks/991111.pdf",
     "Hyper Markov Laws/thesis.pdf",
+    "Directed Graphs.md",
+    "Pair-copula Bayesian networks",
+    "Untitled 5.md",
+    "Untitled 6.md",
+    "Hyper Markov Laws.md",
+    "Statistics David Freedman/All of Statistics.pdf",
+    "Graphs.md",
     "Graphical Models.md",
+    "images/Pasted image 20230628160338.png",
     "Pairwise Markov Graphs.md",
     "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
     "PlaNet/1811.04551.pdf",
@@ -267,7 +297,6 @@
     "Conditional Independence.md",
     "Untitled 4.md",
     "Untitled 3.md",
-    "Hyper Markov Laws.md",
     "marignal independence.md",
     "Counterfactual Model.md",
     "Hyper Markov Laws/Some disertation.md",
@@ -278,8 +307,6 @@
     "Latent Colocation/2106.13229.pdf",
     "Untitled",
     "Latent Colocation/Latent Colocation.md",
-    "Statistics David Freedman/All of Statistics.pdf",
-    "Directed Graphs.md",
     "images/Pasted image 20230626194708.png",
     "Causal Inference.md",
     "images/Pasted image 20230626192342.png",
@@ -292,18 +319,12 @@
     "images/Pasted image 20230625195631.png",
     "images/Pasted image 20230625195626.png",
     "images/Pasted image 20230625195616.png",
-    "images/Pasted image 20230625194640.png",
     "Parametric Inference.md",
     "Inference about Independence.md",
     "Untitled 1.md",
     "Fisher Information/1705.01064.pdf",
     "Untitled.md",
-    "Untitled 6.md",
     "Untitled 1.canvas",
-    "Statistical Decision Theory.md",
-    "Bayesian Inference.md",
-    "Fisher Information",
-    "images/The_Econometrics_of_Financial_Markets.pdf",
     "Untitled.canvas",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",

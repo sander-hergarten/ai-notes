@@ -12,7 +12,7 @@ For example two graphs are isomorphic if there is an isomorphism between their u
 Two vertices are adjacent if there is an arc in $A(D)$ of the form $vw$ or $wv$. The vertices $v$ and $w$ are incident to such an arc. If $D$ has vertex set $\{v_1, ..., v_n\}$, the adjacency matrix of $D$ is the $n\times n$ matrix $\textbf{A} =(a_{ij})$ where $a_{ij}$ is  the number of arcs from $v_i$ to $v_j$. 
 
 ## Parent and Child
-If there is an arc going if the form $vw$ then $v$ is the parent of $w$ and $w$ is a child of $v$. The set of all parents of $v$ is denoted by $\pi_v$ or $\pi(v)$. 
+If there is an arc going if the form $vw$ then $v$ is the parent of $w$ and $w$ is a child of $v$. The set of all parents of $v$ is denoted by $\pi_v$, $\text{pa}(v)$ or $\pi(v)$.  
 
 ## Walks
 A walk in a digraph $D$ is a finite sequence of arcs of the form $v_0v_1,v_1v_2,...,v_{m-1}v_m$. In an analogous way we can define trails, directed paths and directed cycles. Note that although a trail cannot contain a given arc $vw$ more than once, can contain both $vw$ and $wv$. A directed graph is acyclic if it has no cycles. In this case we say that the graph is a directed acyclic graph or DAG.
@@ -20,7 +20,16 @@ A walk in a digraph $D$ is a finite sequence of arcs of the form $v_0v_1,v_1v_2,
 ignoring the direction of the arcs we can create an undirected path.
 
 ## Ancestors and Descendants
-Vertex $v$ is an ancestor of $w$ if there is a directed path from $v$ to $w$. We also say that $w$ is a descendant of $v$
+[[991111.pdf]]
+Vertex $v$ is an ancestor of $w$ if there is a directed path from $v$ to $w$. We also say that $w$ is a descendant of $v$. 
+
+The set of all ancestors of $v$ is:
+$$\text{an}(v):=\{w\in V|\text{ $\mathcal G$ contains a path from $w$ to $v$}\}$$
+The set of all descendants is:
+$$\text{de}(v):=\{w\in V|\text{ $\mathcal G$ contains a path from $v$ to $w$}\}$$
+The set of all non-descendants is:
+$$\text{nd}(v):=V\backslash(\{v\}\cup \text{de}(v))$$
+A set $I\subseteq V$ is called ancestral if $\text{pa}(v)\subseteq I$ for all $v\in I$. The smallest ancestral set containing $I$ is denoted by $\text{An}(I)$ and $\text{An}(I)=I\cup\bigcup_{v\in I}\text{an}(v)$
 
 ## Colliders
 A configuration of the form 

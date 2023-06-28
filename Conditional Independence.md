@@ -14,6 +14,6 @@ Intuitively, this means that, once you know $Z$, $Y$ provides no extra informati
 >Where $X,Y,Z$ are variables on a joint probability space $(\Omega,\mathcal A,P)$. In circumstances where the distribution is implied, we may drop the $[P]$ though. If Z is trivial, then we have [[marignal independence]] and may write $X \perp\!\!\!\perp Y$
 
 The conditional independence relation satisfies some basic properties:
-![[Pasted image 20230625194640.png]]
+![[Pasted image 20230625194640.png]] ^a143b6
 
 The last properties requires the assumption that all events have positive probability; the first four do not.
