@@ -1,0 +1,1 @@
+A $k$-monocore [[Graphs|graph]] is a graph has its minimum degree and [[Degenerate Graphs#Degeneracy|degeneracy]] both equal to $k$ and as such the minimum degree is $k$ and the maximum degree is $k$. Integer sequences that can be the degree sequence of some $k$-monocore 

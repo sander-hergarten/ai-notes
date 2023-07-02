@@ -6,6 +6,7 @@
       {
         "id": "0f2aaf8a693f8470",
         "type": "tabs",
+        "dimension": 58.4916864608076,
         "children": [
           {
             "id": "cc12791bd69ed29c",
@@ -13,17 +14,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Statistics David Freedman/All of Statistics.pdf"
-              }
-            }
-          },
-          {
-            "id": "b56618acb162a7f6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf"
+                "file": "Neural Graphical Models/2210.00453.pdf"
               }
             }
           },
@@ -33,87 +24,41 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "PlaNet/1811.04551.pdf"
+                "file": "Monocore Graphs/10.7151_dmgt.1759.pdf"
               }
             }
           },
           {
-            "id": "5ac4b33069ce2493",
+            "id": "ed2cf8784fec4f41",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Hyper Markov Laws/thesis.pdf"
-              }
-            }
-          },
-          {
-            "id": "b8b244e09472d088",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Pair-copula Bayesian networks/991111.pdf"
+                "file": "Determining Neural Network response Dependencies/s41781-018-0012-1.pdf"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "6caec3eb0fcb9a4c",
         "type": "tabs",
+        "dimension": 41.5083135391924,
         "children": [
           {
-            "id": "513964008fb782d8",
+            "id": "6e03389884260ee4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hyper Markov Laws.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6665d383666dc4fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conditional Independence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fbaa90d9d8b96c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graphical Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea28fbddd4f73ec3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graphs.md",
+                "file": "Determining Dependencies of Neural Network Responses.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -180,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graphs.md",
+                "file": "Determining Dependencies of Neural Network Responses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graphs.md",
+                "file": "Determining Dependencies of Neural Network Responses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graphs.md"
+                "file": "Determining Dependencies of Neural Network Responses.md"
               }
             }
           },
@@ -252,53 +197,55 @@
       "random-note:Open random note": false
     }
   },
-  "active": "ea28fbddd4f73ec3",
+  "active": "6e03389884260ee4",
   "lastOpenFiles": [
-    "Marginal Distribution.md",
-    "Graphs.md",
-    "Marginal Independence.md",
-    "Pair-copula Bayesian networks/991111.pdf",
+    "Determining Neural Network response Dependencies/s41781-018-0012-1.pdf",
+    "Neural Taylor Approximations/1611.02345.pdf",
+    "Neural Taylor Approximations",
+    "Determining Dependencies of Neural Network Responses.md",
+    "Causal Inference.md",
     "Directed Graphs.md",
+    "Graphical Models.md",
+    "Graphs.md",
+    "Hyper Markov Laws/thesis.pdf",
+    "Convergence of Random Variables.md",
+    "Determining Neural Network response Dependencies",
+    "Statistics David Freedman/All of Statistics.pdf",
+    "Deep Learning/Efficient Deep Learning/Learning Techniques.md",
+    "Pairwise Markov Graphs.md",
+    "The_Econometrics_of_Financial_Markets/Background/Overview.md",
+    "Statistical Distance.md",
+    "Monocore Graphs/10.7151_dmgt.1759.pdf",
+    "Graph Theory With Application/BondyMurtyGTWA.pdf",
+    "Counterfactual Model.md",
+    "Hyper Markov Laws.md",
+    "Monocore Graphs.md",
+    "Markov Properties.md",
+    "Degenerate Graphs.md",
+    "Collapsible Graphs/collapsiblepaper.pdf",
+    "Monocore Graphs",
+    "Planarity.md",
+    "Graph Theory Introduction/wilsongraph.pdf",
+    "Conditional Independence.md",
+    "Neural Graphical Models.md",
+    "Hyper Markov Laws/Untitled.canvas",
+    "Random Variables.md",
+    "Sample Spaces and Events.md",
+    "Marginal Distribution.md",
+    "Marginal Independence.md",
     "Untitled 5.md",
     "Untitled 6.md",
-    "Hyper Markov Laws/thesis.pdf",
-    "Pair-copula Bayesian networks",
-    "Hyper Markov Laws.md",
-    "Statistics David Freedman/All of Statistics.pdf",
-    "Graphical Models.md",
     "images/Pasted image 20230628160338.png",
-    "Pairwise Markov Graphs.md",
-    "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
-    "PlaNet/1811.04551.pdf",
     "Data as Graphs.md",
-    "Conditional Independence.md",
-    "Untitled 4.md",
-    "Untitled 3.md",
-    "Counterfactual Model.md",
-    "Hyper Markov Laws/Some disertation.md",
-    "Untitled 2.md",
-    "Graph Neural Network.md",
     "images/Pasted image 20230626215044.png",
     "images/Pasted image 20230626212709.png",
-    "Latent Colocation/2106.13229.pdf",
-    "Untitled",
-    "Latent Colocation/Latent Colocation.md",
     "images/Pasted image 20230626194708.png",
-    "Causal Inference.md",
     "images/Pasted image 20230626192342.png",
     "images/Pasted image 20230626192225.png",
     "images/Pasted image 20230626185935.png",
-    "Loglinear Models.md",
-    "Personal/Gym split.md",
-    "Personal",
-    "Trails, Paths and Cycles.md",
     "images/Pasted image 20230625195631.png",
     "images/Pasted image 20230625195626.png",
     "images/Pasted image 20230625195616.png",
-    "Parametric Inference.md",
-    "Inference about Independence.md",
-    "Untitled 1.md",
-    "Fisher Information/1705.01064.pdf",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Parasitic RL/Default World Model.canvas",
@@ -307,7 +254,6 @@
     "Few Shot Sequence Transduction/Untitled.canvas",
     "Few Shot Sequence Transduction/Few Shot Transformer Training.canvas",
     "Dreamer/Dreamer Canvas.canvas",
-    "Untitled 2.canvas",
-    "Untitled 3.canvas"
+    "Untitled 2.canvas"
   ]
 }

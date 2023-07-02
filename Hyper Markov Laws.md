@@ -10,7 +10,7 @@ Moreover, for $A,B\subseteq V$, we define $\theta_{A|B}$ to be the family of con
 $$\theta\simeq(\theta_A,\theta_{V\backslash A|A})$$
 A law $\textsterling$  is a probability distribution of a random distribution $\tilde\theta$ taking values in $\Theta$. 
 
-## Weak Hyper Markov
+## Weak Hyper Markov properties
 A law $\textsterling(\tilde\theta)$ for an undirected graph $\mathcal G$ is weak hyper hyper Markov if for any decomposition $(A,B)$ of $\mathcal G$:
 $$\tilde\theta_A\perp\!\!\!\perp\tilde\theta_B|\tilde\theta_{A\cap B}$$ Note that both weak Hyper Markov Properties may be characterised in terms of their separoids:
 
@@ -18,15 +18,18 @@ A $\textsterling(\tilde\theta)$ is a weak hyper markov with respect to an undire
 $$\tilde\theta_{A\cup C}\perp\!\!\!\perp\tilde\theta_{A\cup C}|\tilde\theta_C$$
 for all $\langle A,B|C\rangle \in\mathcal M(\mathcal G)$
 
-As a consequence of this, if $\textsterling$ is hyper Markov with respect to $\mathcal G$, and $\mathcal E(\mathcal G)\subseteq \mathcal E(\mathcal G')$, then $\textsterling$ is hyper Markov with respect to $\mathcal G'$ 
+As a consequence of this, if $\textsterling$ is hyper Markov with respect to $\mathcal G$, and $\mathcal E(\mathcal G)\subseteq \mathcal E(\mathcal G')$, then $\textsterling$ is hyper Markov with respect to $\mathcal G'$  ^d0e228
 
 
-## Strong Hyper Markov 
+## Strong Hyper Markov Properties
 >[!abstract] Definition (Strong Hyper Markov Property)
 >A law $\textsterling(\tilde\theta)$ is strong hyper Markov with respect to an undirected decomposable graph $\mathcal G$ if for any decomposition $(A,B)$ of $\mathcal G$:
 >$$\tilde\theta_{B|A}\perp\!\!\!\perp\tilde\theta_A$$
 >
 >A law $\textsterling(\tilde\theta)$ is strong directed hyper Markov with respect to a directed acyclic graph $\mathcal G$ if for every vertex $v\in V$:
->	$$\tilde\theta_{v|pa(v)}\perp\!\!\!\perp\tilde\theta_{}$$
+>	$$\tilde\theta_{v|pa(v)}\perp\!\!\!\perp\tilde\theta_{\text{nd}(v)}$$
+
+where $\text{pa}(v)$ is the set of all [[Directed Graphs#Parent and Child|parents]] and $\text{nd}(v)$ is the set of all [[Directed Graphs#Ancestors and Descendants|non-descendants]]. Interestingly, there is no corresponding property to [[Hyper Markov Laws#^d0e228|this]]. if $\textsterling$ is strong hyper Markov with respect to $\mathcal G$, it need not be strong hyper Markov with respect to $\mathcal G'\supseteq \mathcal G$ (though it will still be weak hyper Markov).
+
 
 

@@ -45,7 +45,8 @@ If $G$ is a simple graph with vertex set $V(G)$, ist complement $\bar{G}$ is the
 We can combine two [[Graphs]]. if the two graphs are $G_1 =(V(G_1), E(G_1))$ and $G_2=(V(G_2), E(G_2))$, where $V(G_1)\cup V(G_2)= \emptyset$,  then their union $G_1 \cup G_2 = (V(G_1)\cup V(G_2), E(G_1)\cup E(G_2))$ 
 
 A Graph is Connected if it cannot be expressed as the union of two graphs, and disconnected otherwise. Any disconnected Graph can be expressed as the union of connected graphs, each of which is a component of G.
-
+## Degrees
+A degree of a vertex is the amount of edges adjacent to the vertex
 ## Isomorphism
 Two [[Graphs]], $G_1$ and $G_2$, are isomorphic if there is a one-one correspondence between the verticies of $G_1$ and those of $G_2$ such that the number of edges joining any two vertices of $G_1$ is equal to the number of edges joining the corresponding vertices of $G_2$.
 
@@ -65,6 +66,8 @@ A graph $H$ is contractible to a graph $G$ if we can obtain $G$ by successively 
 We say that two vertices $v,w\in V(G)$ are adjacent if there is an edge joining them, and the the vertices are then incident with such an edge. Similarly two distinct edges  are adjacent if they have a vertex in common.
 ![[Pasted image 20230615163549.png]]
 A vertex with degree 0 is an isolated vertex and with degree 1 is an end vertex.
+## Collapsibility
+A graph $G$ is $k$-collapsible if $\delta(G)=k$  and any proper induced subgraph has smaller minimum degree. Collapsible graphs can be viewed as lower extremal graphs for monocore graphs
 
 ## Thickness
 A graphs thickness is defined to be the smallest number of planar graphs that can be superimposed to form $G$. Like the crossing number, the thickness is a measure of how unplanar a graph is. For example the thickness of a planar graph is $1$, and of $K_5$ and $K_{3,3}$ is 2. A lower bound for thickness of a graph is easily obtained from Eulers formula. Surprisingly, this trivial lower bound frequently turns out to be the correct value.

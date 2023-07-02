@@ -1,7 +1,7 @@
 >[!abstract] Definition 3.1
 >A random variable is a mapping $X:\Omega\rightarrow\mathbb{R}$ taht assigns a real number $X(\omega)$ to each outcome $\omega$
 
-At a certain point in most probability courses, the sample space is rarely mentioned and we work directly with random variables. 
+At a certain point in most probability courses, the [[Sample Spaces and Events]] are rarely mentioned and we work directly with random variables. 
 
 Given a random variable $X$ and a subset $A$ of the real line, define $X^{-1}(A)=\{\omega\in\Omega : X(\omega)\in A\}$ and let
 $$\begin{align}

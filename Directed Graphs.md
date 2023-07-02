@@ -81,8 +81,15 @@ A tournament is a digraph in which any two vertices are joined by exactly one ar
 ## Probability
 Let $\mathcal G$ be a DAG with vertices $V=(X-1,...,X_k)$
 
-If $\mathbb P$ is a [[Distributions|distribution]] for $V$ with probability function $p$, we say that if $\mathbb P$ is Markov to $\mathcal G$ or that $\mathcal G$ represents $\mathbb P$ if 
+>[!abstract] Definition
+>If $\mathbb P$ is a [[Distributions|distribution]] for $V$ with probability function $p$, we say that if $\mathbb P$ is Markov to $\mathcal G$ or that $\mathcal G$ represents $\mathbb P$ if 
 $$p(v)=\prod^k_{i=1}p(x_i|\pi_i)$$
 where $\pi_i$ are the parents of $X_i$. The set of distributions represented by $\mathcal G$ is denoted by $M(\mathcal G)$
 
+The following theorem says that $\mathbb P\in M(\mathcal G)$ if and only if the Markov Condition holds. Roughly speaking, the Markov Condition says that every variable $W$ is independent of the "past" given its parents
+
+> [!quote] Theorem 
+> A distribution $\mathbb P\in M(\mathcal G)$ if an only if the following Markov Condition holds:  For every variable $W$
+> $$W\perp\!\!\!\perp \tilde W|\pi_W$$
+> where $\tilde W$ denotes all the other variables except the parents and descendants of $W$.
 

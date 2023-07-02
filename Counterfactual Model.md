@@ -1,40 +1,4 @@
-Suppose that $X$ is a binary treatment variable where $X=1$ means "treated" and $X=0$ means "not treated". We are using the word "treatment" in a very broad sense: treatment might refer to a medication or something like smoking. An alternative to "treated/not treated" is "exposed/not exposed".
-
-
-Let $Y$ be a some outcome variable such as presence or absence of disease. To distinguish the statement "$X$ is associated $Y$" form the statement "$X$ causes $Y$" we need to enrich our probabilistic vocabulary. We will decompose the response $Y$ into a more fine grained object.
-
-We introduce two new random variables $(C_0,C_1)$ called potential outcomes, with the following outcomes:
-- $C_0$ is the outcome if the subject is not treated ($X=0$)
-- $C_1$ is the outcome if the subject is treated $(X=1)$. 
-
-$$Y=\begin{cases}C_0\quad \text{if $X=0$}\\ C_1\quad\text{if $X=1$}\end{cases}$$
-
-We can express the relationship between $Y$ and $(C_0,C_1)$ more briefly by
-$$Y=C_X$$
-This equation is called the consistency relationship
-
-When $X=0$ we dont observe $C_1$ in which case we say that $C_1$ is a counterfactual since it is the outcome you would have had if. counter to the fact, you had been treated.
-
-## Causal Effects
-Define the average causal effect or average treatment effect to be 
-$$\theta=\mathbb E(C_1)-\mathbb E(C_0)$$
-the parameter $\theta$ has the following interpretation: $\theta$ is the mean if everyone were treated $(X=1)$ minus the mean if everyone were not treated ($X=0$). There are other ways of measuring the causal effect. For example, if $C_0$ and $C_1$ are binary, we define the causal odds ratio
-$$\frac{\mathbb P(C_1=1)}{\mathbb P(C_1=0)}\div\frac{\mathbb P(C_0=1)}{\mathbb P(C_0=0)}$$
-
-The main ideas will be the same whatever causal effect we use.
-
-## Association
-Define the association to be 
-$$\alpha =\mathbb E(Y|X=1)-\mathbb E(Y|X=0)$$
-there are multiple forms such as the odds ratio for this as well
-
-
-> [!Warning] Association is not equal to Causation
-> in general $\theta\ne\alpha$
-
-The reason for this is that $(C_0, C_1)$ was not independent of $X$. That is, treatment assignment was not independent of person type.
-
-## Estimating the causal effect
+# Estimating the causal effect
 Suppose we randomly assign subject to treatment and the $\mathbb P (X=0)>0$ and $\mathbb P(X=1)>0$. Then $\alpha=\theta$. Hence any consistent estimator of $\alpha$ is a consistent estimator of $\theta$. In particular, a consistent estimator is 
 $$\begin{align}\hat{\theta}&=\hat{\mathbb E}(Y|X=1)-\hat{\mathbb E}(Y|X=0)\\&=\overline{Y}_1-\overline Y_0 \end{align}$$
 where 
@@ -56,8 +20,10 @@ The causal regression function is $$\theta(x)=\mathbb E(C(x))$$
 The regression function, which measures association, is $$r(x)=\mathbb E(Y|X=x)$$
 In general $\theta(x)\ne r(x)$. However, when $X$ is randomly assigned, $\theta(x)=r(x)$
 
-## Observational Studies and Confounding
+# Observational Studies and Confounding
 A study in which treatment is not randomly assigned, is called an observational study.
+> [!Danger] Finish this part
+
 
 # Simpson's Paradox
 Simpson's paradox is a puzzling phenomenon that is discussed in most statistics texts. Unfortunately it is explained incorrectly in most statistics texts. The reason is that it is nearly impossible to explain the paradox without using counterfactuals.

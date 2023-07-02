@@ -52,5 +52,8 @@ Let $\mathcal G$ be a directed acyclic graph, with a well-ordering $\prec$ of th
 ![[Pasted image 20230628160338.png]]
 are separoid spanning sets for $\mathcal M(\mathcal G)$. These set s are know as the local and ordered markov properties.
 
+$\text{nd}(v)$ are the [[Directed Graphs#Ancestors and Descendants|non-descendents]] of v
+
+
 We note that for any separoid $M$, there is a natural projection onto a subset $\mathcal U \subseteq V$: 
 $$M$$
