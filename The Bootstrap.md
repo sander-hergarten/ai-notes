@@ -1,11 +1,16 @@
-The bootstrap is a [[Models, Statistical Inference and Learning#Parametric and Nonparametric Models|nonparametric method]] for estimating standard errors from our point prediction and computing confidence intervals. 
+---
+tags:
+- math/statistics
+- ruff-note
+---
+The bootstrap is a [[Statistical Inference#Parametric and Nonparametric Models|nonparametric method]] for estimating standard errors from our point prediction and computing confidence intervals. 
 
 Let 
 $$T_n=g(X_1,...,X_n)$$
 be a statistic, that is, any function of the data. Suppose we want to know $\mathbb V_F(T_n)$, the variance of $T_n$ (i.e. standard error). We have written  $\mathbb V_F$ since the variance is dependent on the unknown distribution function $F$. 
 
 The bootstrap idea has two parts:
-1. Estimate the variance $V_F(T_n)$ with the variance of the [[Estimating thew CDF and Statistical Functionals#The Empirical Distribution Function|empirical distribution function]] to get $V_{\hat{F}_n}(T_n)$
+1. Estimate the variance $V_F(T_n)$ with the variance of the [[Estimating the CDF and Statistical Functionals#The Empirical Distribution Function|empirical distribution function]] to get $V_{\hat{F}_n}(T_n)$
 2. In more complicated cases the EDF is not easy to calculate. This leads us to approximate $V_{\hat{F}_n}(T_n)$ using simulation
 
 # Simulation
@@ -38,7 +43,7 @@ where $\hat{\text{se}}_{boot}$ is the bootstrap estimate of the standard error. 
 ## Pivotal Intervals
 Let $\theta=T(F)$ and $\hat{\theta}_n=T(\hat{F}_n)$ and define the pivot $R_n=\hat{\theta}_n-\theta$. Let $\hat{\theta}^*_{n,1},...,\hat{\theta}^*_{n,B}$ denote bootstrap replications of $\hat{\theta}_n$. Let $H(r)$ denote the CDF of the pivot
 $$H(r)=\mathbb P_F(R_n\le r)$$
-Define $C^*_n =(a,b)$ as the [[Models, Statistical Inference and Learning#Confidence Sets|confidence interval]] where:
+Define $C^*_n =(a,b)$ as the [[Statistical Inference#Confidence Sets|confidence interval]] where:
 $$a=\hat{\theta}_n-H^{-1}\left(1-\frac{\alpha}{2}\right)\quad \text{and}\quad n=\hat{\theta}_n-H^{-1}\left(\frac{\alpha}{2}\right)$$
 hence $C^*_n$ is an exact $1-\alpha$ confidence interval for $\theta$. Unfortunately, $a$ and $b$ depend on the unknown distribution $H$ but we can form a bootstrap estimate of $H$
 $$\hat{H}(r)=\frac{1}{B}\sum^B_{b=1}I(R^*_{n,b}\le r)$$

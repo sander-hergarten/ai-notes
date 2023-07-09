@@ -1,3 +1,8 @@
+---
+tags: 
+- math/graphs
+- ruff-note
+---
 ## Hall's marriage theorem
 The marriage theorem answers the following question, known as the mariiage problem:
 

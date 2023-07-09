@@ -1,3 +1,10 @@
+---
+tags:
+- programming/machine-learning/reinforcement-learning
+alias:
+- RL
+- rl
+---
 # Overview
 Reinforcement Learning is done by an Agent interacting with an environment and through reinforcement off certain behaviours becomes proficient in tasks. Reinforcement learning agents that are trained with a state input are called markov decision processes.
 ```mermaid

@@ -1,3 +1,8 @@
+---
+tags:
+- math/graphs
+- ruff-note
+---
 It is easy to see that $K_5$ and $K_{3,3}$ can be drawn without crossings on the surface of a torus, and it is natural to ask whether there are analogues of [[Planarity#Euler's Formula|Euler's formula]] and [[Planarity#Kuratowski's Theorem|Kuratowski's theorem]] for graphs drawn on such surfaces. The torus can be thought of as a sphere with  one handle. 
 
 ## Graph genus

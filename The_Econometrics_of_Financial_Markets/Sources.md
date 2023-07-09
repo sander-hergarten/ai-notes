@@ -1,3 +1,6 @@
+---
+tags: finance
+---
 https://epge.fgv.br/we/MD/EconometriaAplicadaFinancas/2009?action=AttachFile&do=get&target=Campbell_Lo_Mackinlay_The_Econometrics_of_Financial_Market.pdf"The 
 
 "The Econometrics of Financial Markets" is a classic in the field and has been widely used since its publication in 1997. It provides a comprehensive introduction to the econometric analysis of financial markets. The book covers a wide range of topics, including the predictability of asset returns, tests of the Random Walk Hypothesis, the microstructure of securities markets, event analysis, and the use of econometric models in investment and portfolio management. 

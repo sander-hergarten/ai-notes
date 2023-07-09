@@ -1,3 +1,7 @@
+---
+tags:
+- math/graphs
+---
 An infinite graph $G$ consists of an infinite set $V(G)$ of elements called vertices and an infinite family $E(G)$ of unordered pairs of elements of $V(G)$ called edges. if $V(G)$ and $E(G)$ are both countably infinite but $E(G)$ finite, then $G$ is a countable graph.
 We exclude the possibility of $V(G)$  being infinite but $E(G)$ finite, as such objects are merely finite graphs together with infinitely many isolated vertices or of $E(G)$ being infinite and V(G) finite, as such objects are essentially finite graphs but with infinitely many loops or multiple edges.
 

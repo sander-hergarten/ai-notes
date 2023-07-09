@@ -1,3 +1,7 @@
+---
+tags:
+- math/graphs
+---
 Planarity is a notion in topological graph theory and describes when a graph can be drawn in the plan and on other surfaces.
 
 ## Planar Graphs

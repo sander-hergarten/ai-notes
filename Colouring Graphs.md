@@ -1,3 +1,8 @@
+---
+tags:
+- math/graphs
+- ruff-note
+---
 ## Colouring vertices
 We shall assume that all graphs are [[Graphs#Simple Graph|simple]] and connected.
 

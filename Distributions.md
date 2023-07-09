@@ -1,10 +1,8 @@
-
-![[Poisson Distribution]]
-
-![[Phase Type Distribution (PH)]]
-![[Exponential Distribution]]
-
-![[Cauchy Distribution]]
-![[Mixture Distribution]]
-
-![[Hyper Inverse Wishart Distribution]]
+---
+tags:
+- math/statistics
+---
+## Distributions
+``` dataview
+list from #math/statistics/distribution 
+```

@@ -1,12 +1,16 @@
+---
+tags:
+- programming/machine-learning/computer-vision
+---
 $i$ : input dimension
 $k$ : kernel size
 $s$ : stride length
 $p$ : padding size
 $o$ : output dimension 
-## No Zero Padding, Unit Stride
+## Zero Padding, Unit Stride:
 For any $i$ and $k$ and for $s=1$ and $p=0$,
 $$o=(i-k)+1$$
-## Zero Padding, Unit Stride
+## No Zero Padding, Unit Stride
 For any $i$, $k$ and $p$ and for $s=1$ 
 $$o=(i-k)+2p+1$$
 #### Half (same) padding

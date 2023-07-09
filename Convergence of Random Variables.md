@@ -1,3 +1,12 @@
+---
+tags:
+- math/statistics
+- ruff-note
+alias:
+- Large Sample Theory
+- Limit Theory
+- Asymptotic Theory
+---
 This part of probability is called:
 - Large Sample Theory
 - Limit Theory

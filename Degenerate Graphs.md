@@ -1,3 +1,8 @@
+---
+tags:
+- math/graphs
+- ruff-note
+---
 (https://dbpedia.org/page/Degeneracy_(graph_theory))
 A $k$-degenerate [[Graphs|graph]] is an undirected graph in which every [[Graphs#Subgraphs|subgraph]] has a vertex of degree at most $k$: that is, some vertex in the subgraph touches $k$ or fewer of the subgraphs edges. 
 

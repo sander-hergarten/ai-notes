@@ -1,3 +1,7 @@
+---
+tags:
+- math/statistics
+---
 # Expectation of a Random Variable
 The expectation (or mean) of a random variable $X$ is the average value of $X$. The formal definition is as follows.
 >[!abstract] Definition 4.1

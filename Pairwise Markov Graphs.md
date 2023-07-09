@@ -1,3 +1,7 @@
+---
+- math/statistics
+- math/graphs
+---
 let $V$ be a set of random variable with distribution $\mathbb P$. Construct a [[Graphs| graph]] with one vertex for each random variable in $V$. Suppose we omit the edge between a pair of variables if they are independent given the rest of the variables:
 $$\text{no edge between $X$ and $Y$}\Leftrightarrow X\perp \!\!\! \perp Y|\text{rest}$$
 where "rest" refers to all the other variables besides $X$ and $Y$. This type of graph is called a pairwise Markov graph. 

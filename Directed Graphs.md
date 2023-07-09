@@ -1,3 +1,7 @@
+---
+tags:
+- math/graphs
+---
 A directed graph, or digraph, $D$ consists of a non-empty finite set $V(D)$ of elements called vertices, and a finite family $A(D)$ of ordered pairs of elements of $V(D)$ called arcs. We call $V(D)$ the vertex set and $A(D)$ the arc family of D. An arc ($v,w$) is usually abbreviated to $vw$. In a graph drawing the ordering of the vertices in an arc are being indicated by an arrow.
 ![[Pasted image 20230618160006.png]]
 If $D$ is a digraph the graph obtained from $D$ by removing the ordinality is the underlying graph of D

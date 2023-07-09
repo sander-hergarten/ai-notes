@@ -1,3 +1,8 @@
+---
+tags:
+- programming/machine-learning/reinforcement-learning
+- ruff-note
+---
 # Optimal Policies
 Solving a Reinforcement learning task means, roughly, finding a [[Policies|policy]] that achieves a lot of reward over the long run. For finite MDP's we can precisely define an optimal policy in the following way. [[Value Functions|Value functions]] define a partial ordering over policies.
 $$\pi\ge\pi'\quad\text{if}\quad v_\pi(s)\ge v_{\pi'}(s)\quad\text{for all $s\in\mathcal S$}$$ The optimal policy $\pi_*$ is defined as:

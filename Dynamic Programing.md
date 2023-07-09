@@ -1,3 +1,8 @@
+---
+tags:
+- programming/machine-learning/reinforcement-learning
+- programming/dynamic-programming
+---
 The term dynamic programming refers to a collection of algorithms that can be used to compute optimal policies given a perfect model of the environment as a Markov decision process.
 
 We usually assume that the environment is a finite MDP. That is we assume that its state, action, and reward sets, are finite, that its dynamics are given by a set of probabilities $p(s',r|s,a)$. Although DP ideas can be applied to problem with continuous state and action spaces, exact solutions are usually not possible.

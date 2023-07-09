@@ -1,3 +1,7 @@
+---
+tags:
+- math/statistics/distribution
+---
 (https://www.cs.cmu.edu/~osogami/thesis/html/node39.html)
 
 ## Examples

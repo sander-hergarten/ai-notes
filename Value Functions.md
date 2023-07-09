@@ -1,3 +1,7 @@
+---
+tags:
+- programming/machine-learning/reinforcement-learning
+---
 The value function of a state $s$ under a policy $\pi$  denoted by $v_\pi(s)$, is the expected return when starting in $s$ and following $\pi$ thereafter. 
 
 ## State Value function

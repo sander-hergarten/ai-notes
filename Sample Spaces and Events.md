@@ -1,3 +1,7 @@
+---
+tags:
+- math/statistics
+---
 The sample space $\Omega$ is the set of possible outcomes of an experiment. Points $\omega$ in $\Omega$ are called sample outcome or realizations. Events are subsets of $\Omega$.
 
 Given an event $A$, let $A^c=\{\omega\in\Omega;\omega\notin A\}$  or informally: $A^c$ is an event that contains all of the realizations that do not appear in $A$ ^5f5e8a

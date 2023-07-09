@@ -1,3 +1,6 @@
+---
+tags: math/statistics
+---
 Roughly speaking, the statement "$X$ causes $Y$" means that changing the value of $X$ will change the distribution of $Y$. When $X$ causes $Y$, $X$ and $Y$ will be associated but the reverse is not in general, true. Association does not necessarily imply causation.
 
 Let $Y$ be a some outcome variable such as presence or absence of disease. To distinguish the statement "$X$ is associated $Y$" form the statement "$X$ causes $Y$" we need to enrich our probabilistic vocabulary. We will decompose the response $Y$ into a more fine grained object.

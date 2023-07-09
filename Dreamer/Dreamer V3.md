@@ -1,3 +1,7 @@
+---
+tags:
+- research/paper-notes
+---
 Dreamer V3 is a model based rl method that creates a world model for higher sample eficiency. The Dreamer V3 Model consists of 3 Models:
 - World Model
 - Actor

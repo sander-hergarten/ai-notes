@@ -1,3 +1,7 @@
+---
+tags:
+- finance
+---
 ![[Pasted image 20230622020627.png]] 
 
 It makes a set of assumptions, including that markets are efficient, returns are normally distributed, and that there are no transaction costs. 

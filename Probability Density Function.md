@@ -1,3 +1,11 @@
+---
+tags:
+- math/statistics
+aliases:
+- PDF
+- pdf
+- probability density function
+---
 The Probability Density Function gives the probability for a given continuous variable
 
 For continuous random variables, the [[Cumulative Distribution Function|CDF]] is well defined. However, the [[Probability Mass Function (PMF)|PMF]] is not [[Probability Mass Function (PMF)#^136e35|defined]] for continuous variables. The PDF is the density of probability rather than the probability mass.  To get a feeling for PDF, consider a continuous random variable $X$ and define the function $f_X(x)$ as follows (wherever the limit exists): $$f_X(x)=\lim_{\Delta \to 0^+}\frac{P(x<X\le x+\Delta)}{\Delta}$$

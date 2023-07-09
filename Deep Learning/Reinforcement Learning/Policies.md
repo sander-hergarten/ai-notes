@@ -1,3 +1,11 @@
+---
+tags:
+- programming/machine-learning/reinforcement-learning
+aliases:
+- policy
+- policies
+- Policy
+---
 A Policy is like an instruction list that tells an agent what actions to take. It can be deterministic in which case it is denoted by
 $$a_t = \mu(s_t) $$ or stochastic:
 $$a_t \texttildelow \pi(\cdot|s_t) $$

@@ -1,3 +1,7 @@
+---
+tags:
+- finance
+---
 1. "Asset Pricing" by John Cochrane
 2. "Dynamic Asset Pricing Theory" by Darrell Duffie
 3. "The Econometrics of Financial Markets" by John Y. Campbell, Andrew W. Lo, and A. Craig MacKinlay

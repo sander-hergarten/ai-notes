@@ -1,3 +1,8 @@
+---
+tags:
+- math/statistics
+- ruff-note
+---
 (https://www.math.lsu.edu/~sengupta/7312s02/sigmaalg.pdf)
 # Definition
 Consider a [[Set]] $X$.

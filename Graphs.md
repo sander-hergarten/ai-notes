@@ -1,3 +1,8 @@
+---
+tags:
+- math/graphs
+- ruff-note
+---
 # Graph Types
 ## Simple Graph
 A simple graph $G$ consists of. a non-empty finite set $V(G)$ of elements called vertices (or nodes), and a finite set $E(G)$ of distinct unordered pairs of distinct elements of $V(G)$

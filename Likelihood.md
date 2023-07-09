@@ -1,3 +1,6 @@
+---
+tags: math/statistics
+---
 (https://towardsdatascience.com/an-intuitive-look-at-fisher-information-2720c40867d8)
 # Intuition 
 The Likelihood is best explained by an example 

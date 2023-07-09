@@ -1,3 +1,10 @@
+---
+tags:
+- research/paper-notes
+- math/statistics
+- programming/machine-learning/reinforcement-learning
+- ruff-note
+---
 Plan trajectories from raw image observations. Bellman based a
 
 to arrive at an optimal solution we turn to the technique of collocation which optimizes a sequecne of states to maximize the reward. this is done while also eventually ensuring dynamics feasibility by recovering the corresponding actions in a constrained optimisation problem:

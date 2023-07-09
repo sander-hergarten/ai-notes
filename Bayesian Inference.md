@@ -1,3 +1,7 @@
+---
+tags:
+- math/statistics
+---
 # The Bayesian Philosophy
 The frequentist (or classical) point of view is based on the following postulates:
 
@@ -57,7 +61,7 @@ Once we have a sample $\theta_1, ..., \theta_B$ from (\theta|x^n), let $\tau_i=g
 
 # Large Sample Properties of Bayes' Procedures 
 > [!quote] Theorem
-> Under appropriate regularity conditions, we have that the posterior is approximately $N(\hat{\theta},\hat{\text{se}}^2)$ where $\hat{\theta}_n$ is the [[Parametric Inference#Maximum Likelihood|MLE]] and $\hat{se}=1/\sqrt{nI(\hat{\theta}_n)}$. Hence  $\overline{\theta}_n\approx\hat{\theta}_n$. 
+> Under appropriate regularity conditions, we have that the posterior is approximately $N(\hat{\theta},\hat{\text{se}}^2)$ where $\hat{\theta}_n$ is the [[Maximum Likelihood Estimator|MLE]] and $\hat{se}=1/\sqrt{nI(\hat{\theta}_n)}$. Hence  $\overline{\theta}_n\approx\hat{\theta}_n$. 
 
 # Flat Priors Improper Priors and "Noninformative" Priors
 

@@ -1,3 +1,8 @@
+---
+tags:
+- math/statistics
+- ruff-note
+---
 Loglinear models are useful for modelling multivariate discrete data. 
 
 ## The Loglinear Model

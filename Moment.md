@@ -1,3 +1,7 @@
+---
+tags:
+- math/statistics
+---
 (https://gregorygundersen.com/blog/2020/04/11/moments/)
 A moment is a quantitative measure that describes the shape of a functions graph. For a [[Distributions|distribution]] the collection of all the moments uniquely determine the distribution. In particular Moments typically quantify three parameters of distributions: location, shape and scale.
 

@@ -4,32 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "18d0406849200be6",
+        "id": "9c27c84de73272bc",
         "type": "tabs",
+        "dimension": 63.95486935866983,
         "children": [
           {
-            "id": "cb8f4184e3f0a31e",
+            "id": "174ad2facaa8b0d9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Fisher Information/1705.01064.pdf"
+                "file": "Convolutional Arithmetic/Convolutional Arithmetic.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ]
       },
       {
-        "id": "6caec3eb0fcb9a4c",
+        "id": "5a13340f38599e33",
         "type": "tabs",
+        "dimension": 36.04513064133016,
         "children": [
           {
-            "id": "06a47828ae05c07b",
+            "id": "6063b6c7bf9604cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisher Information.md",
+                "file": "Neural State Machines.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#research",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,11 +86,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 403.5,
     "collapsed": true
   },
   "right": {
@@ -103,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisher Information.md",
+                "file": "Convolutional Arithmetic/Convolutional Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisher Information.md",
+                "file": "Convolutional Arithmetic/Convolutional Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisher Information.md"
+                "file": "Convolutional Arithmetic/Convolutional Arithmetic.md"
               }
             }
           },
@@ -175,45 +180,46 @@
       "random-note:Open random note": false
     }
   },
-  "active": "06a47828ae05c07b",
+  "active": "174ad2facaa8b0d9",
   "lastOpenFiles": [
-    "Fisher Information/1705.01064.pdf",
-    "Fisher Information.md",
-    "Graph Neural Network.md",
+    "Neural State Machine/1907.03950.pdf",
+    "Neural State Machines.md",
+    "Causal Inference.md",
+    "Neural State Machine",
+    "Daily Notes/2023-07-08.md",
+    "Deep Learning/Reinforcement Learning/Policies.md",
+    "Deep Learning/Reinforcement Learning/Policy Optimization.md",
+    "Directed Graphs.md",
+    "The Bootstrap.md",
+    "Templates/Distribution Template.md",
+    "Hyper inverse Wishart distribution/Hyper Inverse Wishart Distribution.md",
+    "Counterfactual Model.md",
+    "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
+    "Batch Normalization.md",
     "Poisson Distribution.md",
-    "Dynamic Programing.md",
-    "Monte Carlo Methods.md",
-    "Untitled.md",
-    "Latent Colocation/2106.13229.pdf",
+    "Reparametrization.md",
+    "To Learn.md",
+    "static mean-variance portfolio theory.md",
+    "Loss functions/Evidence Lower Bound.md",
+    "Dreamer/Dreamer V3.md",
+    "Deep Learning/Efficient Deep Learning/Efficient Neural Networks.md",
+    "Matching, Marriage and Menger's theorem.md",
+    "Marginal Distribution.md",
     "Latent Colocation/Latent Colocation.md",
+    "Sample Spaces and Events.md",
+    "Planarity.md",
+    "Estimating the CDF and Statistical Functionals.md",
+    "Templates",
+    "Hyper Markov Laws/thesis.pdf",
+    "Dreamer/2301.04104v1.pdf",
+    "Dreamer/2010.02193.pdf",
+    "Dreamer/Dreamer Canvas.canvas",
+    "Fisher Information/1705.01064.pdf",
+    "Latent Colocation/2106.13229.pdf",
+    "Daily Notes",
     "Reinforcement Learning/RLbook2020trimmed.pdf",
-    "Optimal Policies and Value Functions.md",
     "images/Pasted image 20230703170149.png",
     "images/Pasted image 20230703170132.png",
-    "Value Functions.md",
-    "Deep Learning/Reinforcement Learning/Policies.md",
-    "Deep Learning/Reinforcement Learning/Reinforcement Learning.md",
-    "Monocore Graphs/10.7151_dmgt.1759.pdf",
-    "The_Econometrics_of_Financial_Markets/Sources.md",
-    "Multi-Armed Bandit.md",
-    "Reinforcement Learning/Reinforcement_Learning_index_Index.pdf",
-    "Determining Neural Network response Dependencies/s41781-018-0012-1.pdf",
-    "Reinforcement Learning",
-    "Determining Dependencies of Neural Network Responses.md",
-    "Neural Graphical Models/2210.00453.pdf",
-    "Neural Taylor Approximations/1611.02345.pdf",
-    "Neural Taylor Approximations",
-    "Causal Inference.md",
-    "Directed Graphs.md",
-    "Graphical Models.md",
-    "Graphs.md",
-    "Convergence of Random Variables.md",
-    "Deep Learning/Efficient Deep Learning/Learning Techniques.md",
-    "Pairwise Markov Graphs.md",
-    "The_Econometrics_of_Financial_Markets/Background/Overview.md",
-    "Statistical Distance.md",
-    "Counterfactual Model.md",
-    "Hyper Markov Laws.md",
     "Hyper Markov Laws/Untitled.canvas",
     "images/Pasted image 20230628160338.png",
     "images/Pasted image 20230626215044.png",
@@ -230,7 +236,6 @@
     "Few Shot Sequence Transduction/Untitled 1.canvas",
     "Few Shot Sequence Transduction/Untitled.canvas",
     "Few Shot Sequence Transduction/Few Shot Transformer Training.canvas",
-    "Dreamer/Dreamer Canvas.canvas",
     "Untitled 2.canvas"
   ]
 }

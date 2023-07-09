@@ -1,3 +1,7 @@
+---
+tags:
+- math/statistics
+---
 (https://towardsdatascience.com/an-intuitive-look-at-fisher-information-2720c40867d8)
 ([[1705.01064.pdf]])
 Fisher Information provides a way to measure the amount of information that a random variable contains about some parameter $\theta$ (such as the true mean) of the random variable's assumed probability distribution.
@@ -29,3 +33,9 @@ Recall that $\theta$ is unknown in practice and to infer its value we might:
 2. postulate its value and test whether this value aligns with the data
 3. derive a confidence interval
 In the frequentist framework, each of these inferential tools is related to the Fisher information and exploits the data generative interpretation of a Probability Mass Function. Recall that given a model $f(x^n|\theta)$ and a known $\theta$, we can view the resulting PMF $p_\theta(x^n)$  as a recipe that reveals how $\theta$ defines the chances with which $X^n$ takes on the potential outcomes $x^n$
+
+This data generative view is central to Fisher's conceptualization of the [[Maximum Likelihood Estimator]] 
+
+## Using Fisher information to design an experiment
+Since $X^n$ depends on $\theta$ so will a function of $X^n$, in particular, the MLE $\hat \theta$. The distribution of the potential outcomes of the MLE $\hat \theta$ is known as the sampling distribution of the estimator and denoted as $f(\hat\theta_{\text{obs}}|\theta)$. As before, when $\theta^*$ is assumed to be known, fixing it in $f(\hat\theta_{\text{obs}}|\theta)$ yields the pmf $p_{\theta^*}(\hat\theta_{\text{obs}})$, a function of the potential outcome of $\hat\theta$. This function $f$ between the parameter $\theta$ and the potential outcomes of the MLE $\hat\theta$ is typically hard to describe, but for $n$ large enough it can be characterized by the Fisher information.
+

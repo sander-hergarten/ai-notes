@@ -1,3 +1,8 @@
+---
+tags:
+- math/statistics
+- ruff-note
+---
 # Estimating the causal effect
 Suppose we randomly assign subject to treatment and the $\mathbb P (X=0)>0$ and $\mathbb P(X=1)>0$. Then $\alpha=\theta$. Hence any consistent estimator of $\alpha$ is a consistent estimator of $\theta$. In particular, a consistent estimator is 
 $$\begin{align}\hat{\theta}&=\hat{\mathbb E}(Y|X=1)-\hat{\mathbb E}(Y|X=0)\\&=\overline{Y}_1-\overline Y_0 \end{align}$$

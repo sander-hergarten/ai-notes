@@ -1,3 +1,7 @@
+---
+tags:
+- finance
+---
 Assume that:
 Investors are risk-averse, all else being equal. 
 
