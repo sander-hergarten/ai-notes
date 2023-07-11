@@ -6,7 +6,6 @@
       {
         "id": "9c27c84de73272bc",
         "type": "tabs",
-        "dimension": 63.95486935866983,
         "children": [
           {
             "id": "174ad2facaa8b0d9",
@@ -15,32 +14,62 @@
               "type": "markdown",
               "state": {
                 "file": "Convolutional Arithmetic/Convolutional Arithmetic.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "5a13340f38599e33",
-        "type": "tabs",
-        "dimension": 36.04513064133016,
-        "children": [
+          },
           {
             "id": "6063b6c7bf9604cf",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Daily Notes/2023-07-09.canvas",
+                "viewState": {
+                  "x": -222.36295258440728,
+                  "y": 246.55189561216892,
+                  "zoom": -0.9208856717107261
+                }
+              }
+            }
+          },
+          {
+            "id": "aa1f50d2fdaf45be",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Hypertransformers/2201.04182.pdf"
+              }
+            }
+          },
+          {
+            "id": "e4284aaec5859440",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Neural State Machines.md",
+                "file": "Model-Agnostic Meta-Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "370763d649bd7875",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Meta Reinforcement Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "stacked": true
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,8 +115,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -108,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Convolutional Arithmetic/Convolutional Arithmetic.md",
+                "file": "Model-Agnostic Meta-Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Convolutional Arithmetic/Convolutional Arithmetic.md",
+                "file": "Model-Agnostic Meta-Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convolutional Arithmetic/Convolutional Arithmetic.md"
+                "file": "Model-Agnostic Meta-Learning.md"
               }
             }
           },
@@ -180,10 +208,32 @@
       "random-note:Open random note": false
     }
   },
-  "active": "174ad2facaa8b0d9",
+  "active": "e4284aaec5859440",
   "lastOpenFiles": [
-    "Neural State Machine/1907.03950.pdf",
+    "Meta Reinforcement Learning.md",
+    "Model-Agnostic Meta-Learning.md",
+    "images/Pasted image 20230711112510.png",
+    "Hypertransformers/2201.04182.pdf",
+    "RL Squared.md",
+    "meta learning in reinforcement learning/2301.08028.pdf",
+    "Latent Colocation/2106.13229.pdf",
+    "Latent Colocation/Latent Colocation.md",
+    "Meta Learning.md",
+    "Meta-Learning Survey 2020/2004.05439.pdf",
+    "Bilevel Optimization.md",
+    "meta learning in reinforcement learning",
+    "Statistics David Freedman/All of Statistics.pdf",
+    "Convolutional Arithmetic/Convolutional Arithmetic.md",
+    "Daily Notes/2023-07-09.canvas",
+    "Pair-copula Bayesian networks/991111.pdf",
+    "Conjugate Bayesian Inference.md",
+    "Markov Properties.md",
+    "Daily Notes/2023-07-09.md",
     "Neural State Machines.md",
+    "Meta-Learning Survey 2020",
+    "Likelihood.md",
+    "Maximum Likelihood Estimator.md",
+    "Neural State Machine/1907.03950.pdf",
     "Causal Inference.md",
     "Neural State Machine",
     "Daily Notes/2023-07-08.md",
@@ -197,27 +247,7 @@
     "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
     "Batch Normalization.md",
     "Poisson Distribution.md",
-    "Reparametrization.md",
-    "To Learn.md",
-    "static mean-variance portfolio theory.md",
-    "Loss functions/Evidence Lower Bound.md",
-    "Dreamer/Dreamer V3.md",
-    "Deep Learning/Efficient Deep Learning/Efficient Neural Networks.md",
-    "Matching, Marriage and Menger's theorem.md",
-    "Marginal Distribution.md",
-    "Latent Colocation/Latent Colocation.md",
-    "Sample Spaces and Events.md",
-    "Planarity.md",
-    "Estimating the CDF and Statistical Functionals.md",
-    "Templates",
-    "Hyper Markov Laws/thesis.pdf",
-    "Dreamer/2301.04104v1.pdf",
-    "Dreamer/2010.02193.pdf",
     "Dreamer/Dreamer Canvas.canvas",
-    "Fisher Information/1705.01064.pdf",
-    "Latent Colocation/2106.13229.pdf",
-    "Daily Notes",
-    "Reinforcement Learning/RLbook2020trimmed.pdf",
     "images/Pasted image 20230703170149.png",
     "images/Pasted image 20230703170132.png",
     "Hyper Markov Laws/Untitled.canvas",
@@ -228,14 +258,12 @@
     "images/Pasted image 20230626192342.png",
     "images/Pasted image 20230626192225.png",
     "images/Pasted image 20230626185935.png",
-    "images/Pasted image 20230625195631.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",
     "Few Shot Sequence Transduction/Untitled.canvas",
-    "Few Shot Sequence Transduction/Few Shot Transformer Training.canvas",
-    "Untitled 2.canvas"
+    "Few Shot Sequence Transduction/Few Shot Transformer Training.canvas"
   ]
 }
