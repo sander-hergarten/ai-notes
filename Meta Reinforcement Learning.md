@@ -34,11 +34,3 @@ In this setting, an agent must quickly, within just a few episodes, adapt to a n
 While few-shot adaptation directly tackles the motivating question for meta-RL, sometimes the agent faces an adaptation problem so difficult that it is unrealistic to hope for success within a small number of episodes. This might happen, for example, when adapting to tasks that do not have support in the task distribution. In such cases, the inner-loop may require thousands of episodes or more to produce a good policy for a new task, but we would still like to use meta-learning to make the inner-loop as data efficient as possible. 
 
 Meta-RL is
-![[Pasted image 20230711112510.png]]
-## Metric-Based Approaches
-The core idea of metric based approaches is to compare two samples in a latent(metric) space: In this space, samples of the same class are supposed to be close to each other, while tow samples from different classes are supposed to have a large distance.
-
-## Model Based Approaches
-Model-based approaches are neural architectures that are deliberately designed for fast adaption to new tasks without an inclination to overfit. 
-
-## Optimization Based approach

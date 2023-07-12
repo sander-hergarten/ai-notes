@@ -41,3 +41,12 @@ where $\mathcal L^\text{meta}$ and $\mathcal L^\text{task}$ refer to the outer a
 It can be helpful to understand this family of approaches to instantiate the abstract objective of the [[Meta Learning#Task-Distributed View|task distributed view]] as a meta training linear regression toy example. 
 $$\min_\omega\underset{\underset{(\mathcal D^\text{tr},\mathcal D^\text{val})\in \mathcal T}{\mathcal T\sim p(\mathcal T)}}{\mathbb E}\sum_{(x,y)\in D^{val}}\left[(x^Tg_\omega(\mathcal D^\text{tr})-y)^2\right]$$
 Here we meta-train by optimizing over a distribution of tasks. For each task a train and validation set is drawn. The train set $\mathcal D^\text{tr}$ is embedded into a vector $g_\omega$ which defines the linear regression weights 
+
+![[Pasted image 20230711112510.png]]
+## Metric-Based Approaches
+The core idea of metric based approaches is to compare two samples in a latent(metric) space: In this space, samples of the same class are supposed to be close to each other, while tow samples from different classes are supposed to have a large distance.
+
+## Model Based Approaches
+Model-based approaches are neural architectures that are deliberately designed for fast adaption to new tasks without an inclination to overfit. 
+
+## Optimization Based approach
