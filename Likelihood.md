@@ -29,3 +29,5 @@ In the Plot above the X-axis describes the value of parameter $\lambda$. The Y-a
 >The log-likelihood function is defined by $\mathcal l_n(\theta)=\log\mathcal L_n(\theta)$
 
 
+for $N_1(x_1;g(Y))$ where $Y=N_2(x_2;\theta)$ and $N_1, N_2$ both describe the PDF of a normal distribution,  how do i calculate a factor that is proportional to the causal effect of $\theta$ 
+

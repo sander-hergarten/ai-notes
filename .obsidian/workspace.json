@@ -72,26 +72,91 @@
             "id": "7eb623294bc8d204",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "canvas",
               "state": {
-                "file": "Structured Prediction in NLP/2110.02057.pdf"
+                "file": "Daily Notes/2023-07-12.canvas",
+                "viewState": {
+                  "x": -91.1399999999997,
+                  "y": -193.4400000000001,
+                  "zoom": 0
+                }
               }
             }
           },
           {
-            "id": "e92bc4ce4e53a53a",
+            "id": "8484a3b1b0382521",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Optimistic Exploration/2107.14226.pdf"
+              }
+            }
+          },
+          {
+            "id": "2358fab1d0112278",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structured Prediction.md",
+                "file": "Normal Distribution.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "7dda9c48ee9af931",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Statistics David Freedman/All of Statistics.pdf"
+              }
+            }
+          },
+          {
+            "id": "351c7bc440bec574",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dreamer/Dreamer V3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2030d0411337676f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8f4c8e30d8e86871",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Self Supervised Transformer for Object detection/2202.11539.pdf"
+              }
+            }
+          },
+          {
+            "id": "a822acb0e7a86762",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Convolutional Arithmetic/1603.07285.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -120,7 +185,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#research",
+                "query": "markov",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5,
-    "collapsed": true
+    "width": 330.50390243530273
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -158,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Structured Prediction.md",
+                "file": "Convolutional Arithmetic/1603.07285.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Structured Prediction.md",
+                "file": "Convolutional Arithmetic/1603.07285.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Structured Prediction.md"
+                "file": "Convolutional Arithmetic/1603.07285.pdf"
               }
             }
           },
@@ -215,7 +279,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,63 +294,63 @@
       "random-note:Open random note": false
     }
   },
-  "active": "e92bc4ce4e53a53a",
+  "active": "a822acb0e7a86762",
   "lastOpenFiles": [
-    "Meta Learning.md",
-    "Structured Prediction.md",
+    "Convolutional Arithmetic/Convolutional Arithmetic.md",
+    "Convolution.md",
+    "Self Supervised Transformer for Object detection/2202.11539.pdf",
     "Structured Prediction in NLP/2110.02057.pdf",
+    "Self Supervised Transformer for Object detection",
     "Neural State Machine/1907.03950.pdf",
-    "Structured Prediction in NLP",
+    "Dreamer/2301.04104v1.pdf",
+    "Daily Notes/2023-07-14.md",
+    "Bayesian Inference.md",
+    "Gated Recurrent Units.md",
+    "images/Pasted image 20230713212357.png",
+    "images/Pasted image 20230713205303.png",
+    "images/Pasted image 20230713204459.png",
+    "images/Pasted image 20230713204050.png",
+    "images/Pasted image 20230713180800.png",
+    "images/Pasted image 20230713180111.png",
+    "Dreamer/Dreamer V3.md",
+    "Daily Notes/2023-07-13.md",
+    "Latent Colocation/Latent Colocation.md",
+    "Statistics David Freedman/All of Statistics.pdf",
+    "Likelihood.md",
+    "Normal Distribution.md",
+    "Optimistic Exploration/2107.14226.pdf",
+    "Score Function.md",
+    "Counterfactual Model.md",
+    "Causal Inference.md",
+    "Unsupervised Reinforcement Learning.md",
+    "Deep Learning/Reinforcement Learning/Reinforcement Learning.md",
+    "Hyper Markov Laws.md",
+    "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
+    "Optimistic Exploration",
+    "Hyper Markov Laws/thesis.pdf",
+    "Directed Graphs.md",
+    "Hypertransformers/Hypertransformer policy prediction using few shot Trajectory Transduction.md",
+    "Graphical Models.md",
+    "Dynamic Programing.md",
+    "Daily Notes/2023-07-12.canvas",
+    "Daily Notes/2023-07-09.canvas",
+    "Structured Prediction in NLP.md",
+    "Structured Prediction.md",
+    "Meta Learning.md",
     "Neural State Machines.md",
     "Meta Reinforcement Learning.md",
-    "Deep Learning/Reinforcement Learning/Reinforcement Learning.md",
-    "Convolutional Arithmetic/Convolutional Arithmetic.md",
     "Model-Agnostic Meta-Learning.md",
-    "Reinforcement Learning/RLbook2020trimmed.pdf",
-    "Hypertransformers/2201.04182.pdf",
     "images/Pasted image 20230711112510.png",
-    "RL Squared.md",
-    "meta learning in reinforcement learning/2301.08028.pdf",
-    "Latent Colocation/2106.13229.pdf",
-    "Latent Colocation/Latent Colocation.md",
-    "Meta-Learning Survey 2020/2004.05439.pdf",
-    "Bilevel Optimization.md",
-    "meta learning in reinforcement learning",
-    "Statistics David Freedman/All of Statistics.pdf",
-    "Daily Notes/2023-07-09.canvas",
-    "Conjugate Bayesian Inference.md",
-    "Markov Properties.md",
-    "Daily Notes/2023-07-09.md",
-    "Likelihood.md",
-    "Maximum Likelihood Estimator.md",
-    "Causal Inference.md",
-    "Daily Notes/2023-07-08.md",
-    "Deep Learning/Reinforcement Learning/Policies.md",
-    "Deep Learning/Reinforcement Learning/Policy Optimization.md",
-    "Directed Graphs.md",
-    "The Bootstrap.md",
-    "Templates/Distribution Template.md",
-    "Hyper inverse Wishart distribution/Hyper Inverse Wishart Distribution.md",
-    "Counterfactual Model.md",
-    "The_Econometrics_of_Financial_Markets/Cheat_Sheet_Fin_Econ.md",
-    "Batch Normalization.md",
     "Dreamer/Dreamer Canvas.canvas",
     "images/Pasted image 20230703170149.png",
     "images/Pasted image 20230703170132.png",
     "Hyper Markov Laws/Untitled.canvas",
     "images/Pasted image 20230628160338.png",
-    "images/Pasted image 20230626215044.png",
-    "images/Pasted image 20230626212709.png",
-    "images/Pasted image 20230626194708.png",
-    "images/Pasted image 20230626192342.png",
-    "images/Pasted image 20230626192225.png",
-    "images/Pasted image 20230626185935.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
     "Few Shot Sequence Transduction/Untitled 1.canvas",
-    "Few Shot Sequence Transduction/Untitled.canvas",
-    "Few Shot Sequence Transduction/Few Shot Transformer Training.canvas"
+    "Few Shot Sequence Transduction/Untitled.canvas"
   ]
 }
