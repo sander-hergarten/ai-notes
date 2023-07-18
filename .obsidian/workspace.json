@@ -275,12 +275,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -294,7 +293,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "a822acb0e7a86762",
+  "active": "9cdc419a5e24fccf",
   "lastOpenFiles": [
     "Convolutional Arithmetic/Convolutional Arithmetic.md",
     "Convolution.md",
