@@ -6,6 +6,7 @@
       {
         "id": "9c27c84de73272bc",
         "type": "tabs",
+        "dimension": 54.04172099087353,
         "children": [
           {
             "id": "174ad2facaa8b0d9",
@@ -151,12 +152,67 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Convolutional Arithmetic/1603.07285.pdf"
+                "file": "Reinforcement Learning/RLbook2020trimmed.pdf"
+              }
+            }
+          },
+          {
+            "id": "518bcb8cd93b15e8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Introduction to Set Theory/set_theory.pdf"
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
+      },
+      {
+        "id": "f2c2b6a5a8222235",
+        "type": "tabs",
+        "dimension": 45.95827900912647,
+        "children": [
+          {
+            "id": "1f2cfc1937104a83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intro to information theory/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "540c83af3964813e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recurrent Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f869a9cb7c72752",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Set Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -206,7 +262,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.50390243530273
+    "width": 330.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -222,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Convolutional Arithmetic/1603.07285.pdf",
+                "file": "Set Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Convolutional Arithmetic/1603.07285.pdf",
+                "file": "Set Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +319,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convolutional Arithmetic/1603.07285.pdf"
+                "file": "Set Theory.md"
               }
             }
           },
@@ -275,11 +332,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,58 +351,57 @@
       "random-note:Open random note": false
     }
   },
-  "active": "9cdc419a5e24fccf",
+  "active": "7f869a9cb7c72752",
   "lastOpenFiles": [
+    "Intro to information theory/Untitled.md",
+    "Set Theory.md",
+    "Introduction to Set Theory/set_theory.pdf",
+    "images/Pasted image 20230721191155.png",
+    "Recurrent Networks.md",
+    "Intro to information theory/partA.pdf",
+    "Daily Notes/2023-07-21.md",
+    "Introduction to Set Theory",
+    "Entropy.md",
+    "Intro to information theory",
+    "Reinforcement Learning/RLbook2020trimmed.pdf",
+    "Evaluation of Recurrent Networks.md",
+    "Reinforcement Learning/Reinforcement_Learning_index_Index.pdf",
+    "Evaluation of Gated Recurrent Neurons on sequence Modeling/1412.3555.pdf",
+    "Dreamer/Dreamer V3.md",
+    "Gated Recurrent Units.md",
+    "Evaluation of Gated Recurrent Neurons on sequence Modeling",
+    "Convolutional Arithmetic/1603.07285.pdf",
     "Convolutional Arithmetic/Convolutional Arithmetic.md",
     "Convolution.md",
     "Self Supervised Transformer for Object detection/2202.11539.pdf",
-    "Structured Prediction in NLP/2110.02057.pdf",
-    "Self Supervised Transformer for Object detection",
-    "Neural State Machine/1907.03950.pdf",
-    "Dreamer/2301.04104v1.pdf",
     "Daily Notes/2023-07-14.md",
     "Bayesian Inference.md",
-    "Gated Recurrent Units.md",
     "images/Pasted image 20230713212357.png",
     "images/Pasted image 20230713205303.png",
     "images/Pasted image 20230713204459.png",
     "images/Pasted image 20230713204050.png",
     "images/Pasted image 20230713180800.png",
     "images/Pasted image 20230713180111.png",
-    "Dreamer/Dreamer V3.md",
     "Daily Notes/2023-07-13.md",
     "Latent Colocation/Latent Colocation.md",
-    "Statistics David Freedman/All of Statistics.pdf",
     "Likelihood.md",
     "Normal Distribution.md",
-    "Optimistic Exploration/2107.14226.pdf",
     "Score Function.md",
     "Counterfactual Model.md",
     "Causal Inference.md",
     "Unsupervised Reinforcement Learning.md",
     "Deep Learning/Reinforcement Learning/Reinforcement Learning.md",
     "Hyper Markov Laws.md",
-    "Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
-    "Optimistic Exploration",
-    "Hyper Markov Laws/thesis.pdf",
     "Directed Graphs.md",
     "Hypertransformers/Hypertransformer policy prediction using few shot Trajectory Transduction.md",
     "Graphical Models.md",
-    "Dynamic Programing.md",
     "Daily Notes/2023-07-12.canvas",
     "Daily Notes/2023-07-09.canvas",
-    "Structured Prediction in NLP.md",
-    "Structured Prediction.md",
-    "Meta Learning.md",
-    "Neural State Machines.md",
-    "Meta Reinforcement Learning.md",
-    "Model-Agnostic Meta-Learning.md",
     "images/Pasted image 20230711112510.png",
     "Dreamer/Dreamer Canvas.canvas",
     "images/Pasted image 20230703170149.png",
     "images/Pasted image 20230703170132.png",
     "Hyper Markov Laws/Untitled.canvas",
-    "images/Pasted image 20230628160338.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Parasitic RL/Default World Model.canvas",

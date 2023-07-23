@@ -1,6 +1,10 @@
 ---
 tags:
 - programming/machine-learning/natural-language-processing
+alias:
+- GRU
+- gru
+- gated recurrent unit
 ---
 GRU aims to solve the vanishing gradient problem which comes with a standard recurrent neural network. GRU can also be considered as a variation on the LSTM because both are designed similarly and, in some cases, produce equally excellent results. 
 
