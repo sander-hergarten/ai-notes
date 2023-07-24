@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contemporary Set Theory/Naive Set Theory.md",
+                "file": "Decision Transformers/Decision Transformers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contemporary Set Theory/Naive Set Theory.md",
+                "file": "Decision Transformers/Decision Transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Contemporary Set Theory/Naive Set Theory.md",
+                "file": "Decision Transformers/Decision Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Contemporary Set Theory/Naive Set Theory.md"
+                "file": "Decision Transformers/Decision Transformers.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,12 +160,12 @@
   },
   "active": "51bc1c97755cd40d",
   "lastOpenFiles": [
-    "Introduction to Set Theory/set_theory.pdf",
-    "Graph Theory Introduction/wilsongraph.pdf",
+    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Untitled.canvas",
     "Contemporary Set Theory/Naive Set Theory.md",
     "Contemporary Set Theory",
+    "Introduction to Set Theory/set_theory.pdf",
+    "Graph Theory Introduction/wilsongraph.pdf",
     "Graphs.md",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Untitled.canvas",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
     "The_Econometrics_of_Financial_Markets/Advanced Research.md",
     "Colouring Graphs.md",
