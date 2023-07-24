@@ -4,160 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9c27c84de73272bc",
+        "id": "f2c2b6a5a8222235",
         "type": "tabs",
-        "dimension": 54.04172099087353,
         "children": [
           {
-            "id": "174ad2facaa8b0d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convolutional Arithmetic/Convolutional Arithmetic.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6063b6c7bf9604cf",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Daily Notes/2023-07-09.canvas",
-                "viewState": {
-                  "x": -222.36295258440728,
-                  "y": 246.55189561216892,
-                  "zoom": -0.9208856717107261
-                }
-              }
-            }
-          },
-          {
-            "id": "aa1f50d2fdaf45be",
+            "id": "7f869a9cb7c72752",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Hypertransformers/2201.04182.pdf"
+                "file": "Introduction to Abstract Algebra/AbstractAlgebra.pdf"
               }
             }
           },
           {
-            "id": "e4284aaec5859440",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model-Agnostic Meta-Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "370763d649bd7875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Meta Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7eb623294bc8d204",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Daily Notes/2023-07-12.canvas",
-                "viewState": {
-                  "x": -91.1399999999997,
-                  "y": -193.4400000000001,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "8484a3b1b0382521",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Optimistic Exploration/2107.14226.pdf"
-              }
-            }
-          },
-          {
-            "id": "2358fab1d0112278",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Normal Distribution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7dda9c48ee9af931",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Statistics David Freedman/All of Statistics.pdf"
-              }
-            }
-          },
-          {
-            "id": "351c7bc440bec574",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dreamer/Dreamer V3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2030d0411337676f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "8f4c8e30d8e86871",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Self Supervised Transformer for Object detection/2202.11539.pdf"
-              }
-            }
-          },
-          {
-            "id": "a822acb0e7a86762",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Reinforcement Learning/RLbook2020trimmed.pdf"
-              }
-            }
-          },
-          {
-            "id": "518bcb8cd93b15e8",
+            "id": "51bc1c97755cd40d",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -167,52 +28,58 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 1
       },
       {
-        "id": "f2c2b6a5a8222235",
+        "id": "45accd7eae21e365",
         "type": "tabs",
-        "dimension": 45.95827900912647,
         "children": [
           {
-            "id": "1f2cfc1937104a83",
+            "id": "e1a5449884913295",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to information theory/Untitled.md",
+                "file": "Abstract Algebra.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "540c83af3964813e",
+            "id": "2e151822f43f6fe0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e26dc8e9d58c5f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recurrent Networks.md",
+                "file": "Equivalence Relation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7f869a9cb7c72752",
+            "id": "1bc7561a60203d8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Set Theory.md",
+                "file": "Additive and Multiplicative Connections.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2,
-        "stacked": true
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -279,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Set Theory.md",
+                "file": "Introduction to Set Theory/set_theory.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Set Theory.md",
+                "file": "Introduction to Set Theory/set_theory.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Set Theory.md"
+                "file": "Introduction to Set Theory/set_theory.pdf"
               }
             }
           },
@@ -351,11 +218,20 @@
       "random-note:Open random note": false
     }
   },
-  "active": "7f869a9cb7c72752",
+  "active": "51bc1c97755cd40d",
   "lastOpenFiles": [
-    "images/Pasted image 20230723175230.png",
-    "Introduction to Set Theory/set_theory.pdf",
+    "Additive and Multiplicative Connections.md",
+    "Introduction to Abstract Algebra/AbstractAlgebra.pdf",
+    "Equivalence Relation.md",
+    "Partitions.md",
+    "Set.md",
     "Set Theory.md",
+    "Untitled 1.md",
+    "Introduction to Set Theory/set_theory.pdf",
+    "Abstract Algebra.md",
+    "Daily Notes/2023-07-23.md",
+    "Introduction to Abstract Algebra",
+    "images/Pasted image 20230723175230.png",
     "images/Pasted image 20230723170423.png",
     "Intro to information theory/Untitled.md",
     "images/Pasted image 20230721191155.png",
@@ -372,10 +248,8 @@
     "Dreamer/Dreamer V3.md",
     "Gated Recurrent Units.md",
     "Evaluation of Gated Recurrent Neurons on sequence Modeling",
-    "Convolutional Arithmetic/1603.07285.pdf",
     "Convolutional Arithmetic/Convolutional Arithmetic.md",
     "Convolution.md",
-    "Self Supervised Transformer for Object detection/2202.11539.pdf",
     "Daily Notes/2023-07-14.md",
     "Bayesian Inference.md",
     "images/Pasted image 20230713212357.png",
@@ -390,18 +264,10 @@
     "Normal Distribution.md",
     "Score Function.md",
     "Counterfactual Model.md",
-    "Causal Inference.md",
-    "Unsupervised Reinforcement Learning.md",
-    "Deep Learning/Reinforcement Learning/Reinforcement Learning.md",
-    "Hyper Markov Laws.md",
-    "Directed Graphs.md",
-    "Hypertransformers/Hypertransformer policy prediction using few shot Trajectory Transduction.md",
-    "Graphical Models.md",
     "Daily Notes/2023-07-12.canvas",
     "Daily Notes/2023-07-09.canvas",
     "images/Pasted image 20230711112510.png",
     "Dreamer/Dreamer Canvas.canvas",
-    "images/Pasted image 20230703170149.png",
     "Hyper Markov Laws/Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

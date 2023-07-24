@@ -1,4 +1,9 @@
-#ruff-note 
+---
+tags:
+- math/set-theory
+- ruff-note
+---
+
 # Introduction 
 Set Theory is the true study of infinity. This alone assures the subject of a place prominent in human culture. But even more, Set Theory is the milieu in which mathematics take place today. As such, it is expected to provide a firm foundation for the rest of mathematics. And it does-up to a point; we will prove theorems shedding light on this issue
 
