@@ -8,18 +8,78 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7f869a9cb7c72752",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Introduction to Abstract Algebra/AbstractAlgebra.pdf"
+              }
+            }
+          },
+          {
             "id": "51bc1c97755cd40d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Introduction to Set Theory/set_theory.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "45accd7eae21e365",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1a5449884913295",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contemporary Set Theory/Naive Set Theory.md",
+                "file": "Abstract Algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e151822f43f6fe0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e26dc8e9d58c5f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Equivalence Relation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1bc7561a60203d8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Additive and Multiplicative Connections.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -48,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "markov",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contemporary Set Theory/Naive Set Theory.md",
+                "file": "Introduction to Set Theory/set_theory.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Contemporary Set Theory/Naive Set Theory.md",
+                "file": "Introduction to Set Theory/set_theory.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Contemporary Set Theory/Naive Set Theory.md"
+                "file": "Introduction to Set Theory/set_theory.pdf"
               }
             }
           },
@@ -154,29 +214,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "random-note:Open random note": false,
-      "publish:Publish changes...": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "random-note:Open random note": false
     }
   },
   "active": "51bc1c97755cd40d",
   "lastOpenFiles": [
-    "Introduction to Set Theory/set_theory.pdf",
-    "Graph Theory Introduction/wilsongraph.pdf",
-    "Contemporary Set Theory/Naive Set Theory.md",
-    "Contemporary Set Theory",
-    "Graphs.md",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Untitled.canvas",
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Dynamic asset pricing models.md",
-    "The_Econometrics_of_Financial_Markets/Advanced Research.md",
-    "Colouring Graphs.md",
-    "Introduction to Abstract Algebra/AbstractAlgebra.pdf",
     "Additive and Multiplicative Connections.md",
+    "Introduction to Abstract Algebra/AbstractAlgebra.pdf",
     "Equivalence Relation.md",
     "Partitions.md",
     "Set.md",
     "Set Theory.md",
     "Untitled 1.md",
+    "Introduction to Set Theory/set_theory.pdf",
     "Abstract Algebra.md",
     "Daily Notes/2023-07-23.md",
     "Introduction to Abstract Algebra",
@@ -193,8 +244,10 @@
     "Reinforcement Learning/RLbook2020trimmed.pdf",
     "Evaluation of Recurrent Networks.md",
     "Reinforcement Learning/Reinforcement_Learning_index_Index.pdf",
+    "Evaluation of Gated Recurrent Neurons on sequence Modeling/1412.3555.pdf",
     "Dreamer/Dreamer V3.md",
     "Gated Recurrent Units.md",
+    "Evaluation of Gated Recurrent Neurons on sequence Modeling",
     "Convolutional Arithmetic/Convolutional Arithmetic.md",
     "Convolution.md",
     "Daily Notes/2023-07-14.md",
@@ -206,6 +259,11 @@
     "images/Pasted image 20230713180800.png",
     "images/Pasted image 20230713180111.png",
     "Daily Notes/2023-07-13.md",
+    "Latent Colocation/Latent Colocation.md",
+    "Likelihood.md",
+    "Normal Distribution.md",
+    "Score Function.md",
+    "Counterfactual Model.md",
     "Daily Notes/2023-07-12.canvas",
     "Daily Notes/2023-07-09.canvas",
     "images/Pasted image 20230711112510.png",
@@ -215,6 +273,7 @@
     "Untitled.canvas",
     "Parasitic RL/Default World Model.canvas",
     "Parasitic RL/Untitled 1 1.canvas",
-    "Few Shot Sequence Transduction/Untitled 1.canvas"
+    "Few Shot Sequence Transduction/Untitled 1.canvas",
+    "Few Shot Sequence Transduction/Untitled.canvas"
   ]
 }
