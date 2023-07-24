@@ -6,7 +6,7 @@ the transformer input is a trajectory made up of $$step=(\hat{R}, s,a,t)$$
 $\hat{R}$ is the reward to go and is used as a query argument
 $s$ is the state encoded
 $a$ is the action
-$t$ is the timestamp for temporal encoding
+$t$ is the timestamp for temporal encoding 
 
 The model is capable of extrapolating the steps in an autoregressive manor. This is done using a transformer implementation in the style of the GPT models.
 
