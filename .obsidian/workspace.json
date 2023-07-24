@@ -23,7 +23,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Introduction to Set Theory/set_theory.pdf"
+                "file": "Personal/(Center for the Study of Language and Information - CSLI Lecture Notes 14) Peter Aczel - Non-Well-Founded Sets-CSLI Publications (1988).pdf"
               }
             }
           }
@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Additive and Multiplicative Connections.md",
+                "file": "Daily Notes/2023-07-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,8 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.50390243530273,
-    "collapsed": true
+    "width": 330.50390243530273
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Set Theory/set_theory.pdf",
+                "file": "Daily Notes/2023-07-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Set Theory/set_theory.pdf",
+                "file": "Daily Notes/2023-07-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Set Theory/set_theory.pdf"
+                "file": "Daily Notes/2023-07-23.md"
               }
             }
           },
@@ -218,8 +217,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "51bc1c97755cd40d",
+  "active": "1bc7561a60203d8b",
   "lastOpenFiles": [
+    "Personal/(Center for the Study of Language and Information - CSLI Lecture Notes 14) Peter Aczel - Non-Well-Founded Sets-CSLI Publications (1988).pdf",
+    "Daily Notes/2023-07-23.md",
+    "Personal/(Undergraduate Texts in Mathematics) Keith Devlin - The joy of sets_ Fundamentals of contemporary set theory-Springer (1993).pdf",
+    "Introduction to Set Theory/set_theory.pdf",
+    "Daily Notes/2023-07-24.md",
     "Additive and Multiplicative Connections.md",
     "Introduction to Abstract Algebra/AbstractAlgebra.pdf",
     "Equivalence Relation.md",
@@ -227,9 +231,7 @@
     "Set.md",
     "Set Theory.md",
     "Untitled 1.md",
-    "Introduction to Set Theory/set_theory.pdf",
     "Abstract Algebra.md",
-    "Daily Notes/2023-07-23.md",
     "Introduction to Abstract Algebra",
     "images/Pasted image 20230723175230.png",
     "images/Pasted image 20230723170423.png",
@@ -244,10 +246,8 @@
     "Reinforcement Learning/RLbook2020trimmed.pdf",
     "Evaluation of Recurrent Networks.md",
     "Reinforcement Learning/Reinforcement_Learning_index_Index.pdf",
-    "Evaluation of Gated Recurrent Neurons on sequence Modeling/1412.3555.pdf",
     "Dreamer/Dreamer V3.md",
     "Gated Recurrent Units.md",
-    "Evaluation of Gated Recurrent Neurons on sequence Modeling",
     "Convolutional Arithmetic/Convolutional Arithmetic.md",
     "Convolution.md",
     "Daily Notes/2023-07-14.md",
@@ -263,7 +263,6 @@
     "Likelihood.md",
     "Normal Distribution.md",
     "Score Function.md",
-    "Counterfactual Model.md",
     "Daily Notes/2023-07-12.canvas",
     "Daily Notes/2023-07-09.canvas",
     "images/Pasted image 20230711112510.png",

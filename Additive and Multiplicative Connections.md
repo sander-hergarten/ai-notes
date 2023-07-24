@@ -23,5 +23,3 @@ The operations of $+$ and $\times$ interact by the following law:
 The notation can be simplified the notation for multiplication to $a\times b= ab$
 
 
-
-
