@@ -376,4 +376,37 @@ Beachte dass die Zuschreibung der Menge $\pi(2,a)$ für jedes $a \in V$ ist eine
 $$\tau a=(\tau b\mid a \rightarrow b in M) \cup a \downarrow M,$$
 so dass $\tau$ eine gelabelte Dekoration des gelabelten Systems M ist. 
 Für die Einzigartigkeit von $\tau$ suppose that $\tau '$ ein gelalbte Dekoration des gelabelten System M ist. Dann ist $\tau '$ eine Dekoration des System M' wobei
-\pi '(1,a) = 
+
+$\pi '(1,a) = \tau ' a$ für $a\in M$,
+$\pi (2,a)= a$ für $a \in V$
+
+Es folgt AFA, dass $\pi '=\pi$ sodass für $a\in M$
+$$\tau 'a= \pi '(1,a) = \pi (1,a) = \tau a,$$
+und daraus
+$$\tau'=\tau$$
+Als Nächstes geben wir ein allgemeines Ergebnis an, das dann zum Beweis des
+die Substitutions- und Lösungslemmata zu beweisen.
+
+
+1.11. Theorem: 
+Sei M ein gelabeltes System, dessen Labelmengen Teilmengen der Klasse X sind. 
+(1) Wenn $\pi:X\rightarrow V$ , dann gibt es eine einzigartige Karte $\hat\pi:M\rightarrow V$ sodass für jedes 
+$a\in M$
+$$\hat\pi a=(\hat\pi b \mid a \rightarrow b in M )\cup(\pi x\mid x \in a\downarrow M).$$
+(2) Gegeben $a_{x}\in M$ for $x\in M$ existiert eine einzigartige Karte $\pi:X\rightarrow V$ so dass 
+für alle $x\in X$
+$$\pi x = \hat\pi a_{x}.$$
+
+Beweis: 
+(1) Für jedes $\pi: X \rightarrow V$ sei $M_\pi$ das man aus M erhält, indem man die Mengen der Etiketten so umdefiniert, dass für jeden Knoten a
+$$a\downarrow M_{\pi}= (\pi\mid x \in a \downarrow M).$$
+Dann ist die erforderte einzigartige Karte $\hat\pi$ , die einzigartig gelabelte Dekoration von $M_\pi$ 
+
+(2) Sei M' das System sein mit den gleichen Knoten wie M, und allen Kanten M und den Kanten $a\rightarrow a_x$ immer, wenn $a\in M$ und $x\in a\downarrow M$. Bei Theorem 1.9 hat M' eine einzigartige Dekoration $\varphi$ . Also für jedes $a\in M$
+$$\phi a = (\phi b \mid a \rightarrow b in M)\cup (\phi a_{x}\mid x \in a \downarrow M).$$
+Sei $\pi x = \varphi a_x$ für $x\in X$. Dann ist $\varphi$ eine gelabelte Dekoration des gelabelten System $M_\pi$ , sodass $\varphi =\hat\pi$ and hence $\pi x = \varphi a_x$ für $x\in X$. Für die Einzigartigkeit von $\pi$ let $\pi ': X \rightarrow V$ sodass $\pi 'x= \hat\pi 'a_{x}$ für $x \in X$. Then observe that $\hat\pi '$ is a decoration of M' , sodass $\hat\pi '=\varphi$ and hence $\pi'=\varphi$ and hence $\pi'x=\hat\pi'a_{x}=\varphi a_{x}=\pi x$
+for $x \in X.$ Also $\pi'=\pi$.
+
+
+Beweis für die Substitution und Lösungslemma 
+Die informelle Darstellung des Substitutions- und Lösungslemmas, die wir gegeben haben, kann auf der Grundlage des Axiomensystems für die Mengenlehre, mit dem wir implizit gearbeitet haben, nicht auf direktem Wege rigoros gemacht werden. Anstatt dieses Axiomensystem so zu modifizieren, dass es für das erweiterte Universum mit Atomen geeignet ist, werden wir ein Modell des erweiterten Universums innerhalb des Universums der reinen Mengen geben. Wir werden die reinen Mengen $x_i=(1,i)$ als die Atome in dem Modell verwenden und sie *-Atome nennen. Die Mengen des Modells werden *-Mengen genannt und sind bestimmte reine Mengen der Form (2, u). Wenn $a = (2, u)$ ist, dann sei $a^* = u$. Die Elemente von $a^*$ werden die *-Elemente von a genannt. Die Klasse der *-Mengen ist definiert als die größte Klasse von Mengen der Form (2, u), so dass jedes *-Element einer *-Menge entweder ein *-Atom oder eine *-Menge ist. Wir werden hier nicht aufhören, die Existenz einer solchen größten Klasse zu zeigen, sondern verweisen den Leser auf Theorem 6.5. Bei einer Klasse X von *-Atomen definieren wir auch die Klasse der X-Mengen als die größte Klasse von *-Mengen, so dass jedes *-Atom in einer X-Menge in X enthalten ist. Die X-Mengen bilden nun die Klasse der Knoten eines beschrifteten Systems M, wobei für jeden Knoten a
