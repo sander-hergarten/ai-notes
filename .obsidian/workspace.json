@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f2c2b6a5a8222235",
+        "id": "483e6f124b2445fd",
         "type": "tabs",
         "children": [
           {
@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Decision Transformers/Decision Transformers.md",
+                "file": "Contemporary Set Theory/Axiome.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.50390243530273
+    "width": 330.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Decision Transformers/Decision Transformers.md",
+                "file": "Contemporary Set Theory/Axiome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Decision Transformers/Decision Transformers.md",
+                "file": "Contemporary Set Theory/Axiome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Decision Transformers/Decision Transformers.md"
+                "file": "Contemporary Set Theory/Axiome.md"
               }
             }
           },
@@ -158,11 +159,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ba82fdb5c6a68e8b",
+  "active": "51bc1c97755cd40d",
   "lastOpenFiles": [
+    "images/Pasted image 20230725092749.png",
+    "images/Pasted image 20230725091739.png",
+    "images/Pasted image 20230724210821.png",
+    "images/Pasted image 20230724210744.png",
+    "images/Pasted image 20230724210549.png",
+    "images/Pasted image 20230724205832.png",
+    "images/Pasted image 20230724205759.png",
+    "images/Pasted image 20230724205402.png",
+    "images/Pasted image 20230724204941.png",
+    "images/Pasted image 20230724203941.png",
+    "images/Pasted image 20230724203913.png",
+    "Contemporary Set Theory/Set Theory Cheat Sheet Cheat.md",
+    "Contemporary Set Theory/Axiome.md",
+    "Contemporary Set Theory/Naive Set Theory.md",
+    "Decision Transformers/Decision Transformers.md",
     "HURENSOHN GIT",
     "The_Econometrics_of_Financial_Markets/Background/Finance Background/Untitled.canvas",
-    "Contemporary Set Theory/Naive Set Theory.md",
     "Contemporary Set Theory",
     "Introduction to Set Theory/set_theory.pdf",
     "Graph Theory Introduction/wilsongraph.pdf",
@@ -180,10 +195,7 @@
     "Abstract Algebra.md",
     "Daily Notes/2023-07-23.md",
     "Introduction to Abstract Algebra",
-    "images/Pasted image 20230723175230.png",
-    "images/Pasted image 20230723170423.png",
     "Intro to information theory/Untitled.md",
-    "images/Pasted image 20230721191155.png",
     "Recurrent Networks.md",
     "Intro to information theory/partA.pdf",
     "Daily Notes/2023-07-21.md",
@@ -192,23 +204,12 @@
     "Intro to information theory",
     "Reinforcement Learning/RLbook2020trimmed.pdf",
     "Evaluation of Recurrent Networks.md",
-    "Reinforcement Learning/Reinforcement_Learning_index_Index.pdf",
     "Dreamer/Dreamer V3.md",
     "Gated Recurrent Units.md",
     "Convolutional Arithmetic/Convolutional Arithmetic.md",
     "Convolution.md",
-    "Daily Notes/2023-07-14.md",
-    "Bayesian Inference.md",
-    "images/Pasted image 20230713212357.png",
-    "images/Pasted image 20230713205303.png",
-    "images/Pasted image 20230713204459.png",
-    "images/Pasted image 20230713204050.png",
-    "images/Pasted image 20230713180800.png",
-    "images/Pasted image 20230713180111.png",
-    "Daily Notes/2023-07-13.md",
     "Daily Notes/2023-07-12.canvas",
     "Daily Notes/2023-07-09.canvas",
-    "images/Pasted image 20230711112510.png",
     "Dreamer/Dreamer Canvas.canvas",
     "Hyper Markov Laws/Untitled.canvas",
     "Untitled 1.canvas",

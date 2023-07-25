@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "Responsive-youtube"
   ],
-  "baseFontSize": 13
+  "baseFontSize": 14,
+  "theme": "moonstone"
 }
