@@ -8,6 +8,10 @@ aliases:
 - model agnostic meta learning
 - model-agnostic meta-learning
 ---
+## Description
+Maml is a model agnostic [[Meta Learning]] algorithm. It works on optimiser based meta-learning
+
+
 MAML is an influential design following this pattern. Its inner-loop is a policy gradient algorithm whose initial parameters are the meta-parameters $\phi_0=\theta$. The key insight is that such an inner-loop is a differentiable function of the initial parameters, and therefore the initialization can be optimized with gradient descent to be a good starting point for learning on tasks from the task distribution . When adapting to a new task, MAML collects data using the initial policy and computs an updated set of parameters by applying a policy gradient step for a task $\mathcal M^i \sim p(\mathcal M)$:
 $$\phi^i_1=f(\mathcal D^i_0,\phi_0)=\phi_0+\alpha\nabla_{\phi_0}\hat J(\mathcal D ^i_0,\pi_{\phi_0})$$
 where $\hat J(\mathcal D ^i_0,\pi_{\phi_0})$ is an estimate of the returns of the policy $\pi_{\phi_0}$ for the task $\mathcal M^i$  and $\alpha$ is the learning rate. Difficult tasks may require multiple gradient steps in the inner-loop, MAML computes the gradient of the returns of the updated policy with respect to the initial parameters:
@@ -86,3 +90,8 @@ $$\phi_i=\theta-\alpha\nabla_\theta\mathcal L_{\tau_{i,train}}(\theta)$$ Further
 $$\nabla_\theta\mathcal L(\theta)=\sum_i\nabla_\theta\mathcal L_{\tau_{i,test}}(\phi_i)$$
 Note that $\phi_i=U_{\tau_i}(\theta)$ depends on $\theta$, which means that we have to take a gradient through the optimizer $U$. We can then update $\theta$ via gradient descent, using a new learning rate $\beta$:
 $$\theta\leftarrow\theta-\beta\nabla_\theta\mathcal L(\theta)$$
+
+----
+## Reference
+[[@finnModelAgnosticMetaLearningFast2017]]
+https://interactive-maml.github.io

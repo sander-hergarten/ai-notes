@@ -7,7 +7,7 @@
 		{"id":"e044586d3cfc8a75","x":-1480,"y":58,"width":250,"height":60,"type":"text","text":"Autoencoder Loss"},
 		{"id":"2a6c361f1568841e","x":-1480,"y":217,"width":250,"height":60,"type":"text","text":"Image Data $x_1$"},
 		{"id":"71f49f311fb34ac3","x":-502,"y":58,"width":250,"height":60,"type":"text","text":"Synth embedding $x_1$"},
-		{"id":"bbd25ff5f23e71bc","x":-589,"y":-551,"width":748,"height":509,"type":"file","file":"Few Shot Sequence Transduction/Few Shot Sequence Transduction Transformer.md"}
+		{"id":"bbd25ff5f23e71bc","x":-589,"y":-551,"width":748,"height":509,"type":"file","file":"Archive/Few Shot Sequence Transduction/Few Shot Sequence Transduction Transformer.md"}
 	],
 	"edges":[
 		{"id":"22ccc9ee313a441e","fromNode":"e745c68d30922400","fromSide":"right","toNode":"82ba890a6cfb16f0","toSide":"left","color":"5"},

@@ -1,3 +1,7 @@
+---
+tags: 
+- #math/statistics
+---
 We want to assign a real number $\mathbb{P}(A)$ to every [[Sample Spaces and Events|event]] $A$, called the probability of $A$. We also call $P$ a probability distribution or a probability measure. To qualify as a probability, $P$ has to satisfy three axioms:
 >[!abstract] Definition 2.5
 >A function $\mathbb{P}$ that assigns a real number $\mathbb{P}(A)$ to each event $A$ is a probability distribution or a probability measure if it satisfies the following three axioms:

@@ -1,6 +1,6 @@
 ---
 tags:
-- math/graphs
+- math/graph-theory
 - ruff-note
 ---
 (https://dbpedia.org/page/Degeneracy_(graph_theory))

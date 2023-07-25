@@ -3,7 +3,7 @@
   "vimMode": true,
   "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "images",
+  "attachmentFolderPath": "Images",
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,

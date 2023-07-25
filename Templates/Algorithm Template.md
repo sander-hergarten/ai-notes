@@ -7,3 +7,6 @@ tags:
 # Theory
 
 # Pseudo-Code
+
+----
+## References

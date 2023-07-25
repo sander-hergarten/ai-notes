@@ -1,3 +1,7 @@
+---
+tags:
+- math/graph-theory
+---
 A forest is a graph that contains no cycles, and a connected forest is a tree. Trees and forests are simple graphs and any two vertices are connected by a unique path.
 > [!info] Properties
 > Let $T$ be a graph with $n$ vertices. Then the following statements are equivalent:

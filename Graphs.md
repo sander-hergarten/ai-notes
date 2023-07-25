@@ -1,7 +1,11 @@
 ---
 tags:
-- math/graphs
+- math/graph-theory
 - ruff-note
+aliases:
+- graphs
+- graph
+- Graph
 ---
 # Graph Types
 ## Simple Graph

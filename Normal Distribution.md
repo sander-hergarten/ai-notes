@@ -1,6 +1,10 @@
 ---
 tags:
 - math/statistics/distribution
+aliases:
+- Normal
+- normal 
+- normal distribution
 ---
 # Description
 ## PMF

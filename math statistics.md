@@ -1,0 +1,3 @@
+---
+Aliases: [ "#math/statistics" ]
+---

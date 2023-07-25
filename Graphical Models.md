@@ -1,7 +1,7 @@
 ---
 tags:
 - math/statistics
-- math/graphs
+- math/graph-theory
 ---
 Graphical models are a class of multivariate statistical models that are useful for representing independence relations. They are also useful to develop parsimonious models for multivariate data.
 

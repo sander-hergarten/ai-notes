@@ -1,4 +1,8 @@
-Conditional independence is one of the most fundamental concepts of [[Graphical Models]], where it is used to describe the relationship between random variables.
+---
+tags:
+- math/statistics
+---
+Conditional independence is one of the most fundamental concepts of [[Graphical Models]], where it is used to describe the relationship between [[Random Variables|random variables]].
 
 Let $X,Y,Z$ be discrete random variables. We say that $X$ and $Y$ are conditionally independent given $Z$ written $X\perp \!\!\! \perp Y|Z$, if
 $$\mathbb P(X=x,Y=y|Z=z)=\mathbb P(X=x|Z=z)\mathbb P(Y=y|Z=z)$$

@@ -4,33 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "f2c2b6a5a8222235",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7f869a9cb7c72752",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Introduction to Abstract Algebra/AbstractAlgebra.pdf"
-              }
-            }
-          },
-          {
-            "id": "51bc1c97755cd40d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Personal/(Center for the Study of Language and Information - CSLI Lecture Notes 14) Peter Aczel - Non-Well-Founded Sets-CSLI Publications (1988).pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "45accd7eae21e365",
         "type": "tabs",
         "children": [
@@ -43,6 +16,16 @@
                 "file": "Abstract Algebra.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "51bc1c97755cd40d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Personal/(Center for the Study of Language and Information - CSLI Lecture Notes 14) Peter Aczel - Non-Well-Founded Sets-CSLI Publications (1988).pdf"
               }
             }
           },
@@ -77,9 +60,65 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ba16c464a5c1a31",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "caaec5643e81ee2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Non-Well-Founded Sets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e94d08d5489e881e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logical Accounts of Information.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6061ef467c7d912c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Delta Method.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5104e83e1e48c957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Colouring Graphs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -108,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "markov",
+                "query": "Normal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2023-07-23.md",
+                "file": "Colouring Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2023-07-23.md",
+                "file": "Colouring Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2023-07-23.md"
+                "file": "Colouring Graphs.md"
               }
             }
           },
@@ -202,11 +241,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -214,66 +253,67 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "1bc7561a60203d8b",
+  "active": "5104e83e1e48c957",
   "lastOpenFiles": [
-    "The_Econometrics_of_Financial_Markets/Background/Finance Background/Untitled.canvas",
-    "Contemporary Set Theory/Naive Set Theory.md",
-    "Contemporary Set Theory",
-    "Personal/(Center for the Study of Language and Information - CSLI Lecture Notes 14) Peter Aczel - Non-Well-Founded Sets-CSLI Publications (1988).pdf",
-    "Daily Notes/2023-07-23.md",
-    "Personal/(Undergraduate Texts in Mathematics) Keith Devlin - The joy of sets_ Fundamentals of contemporary set theory-Springer (1993).pdf",
-    "Introduction to Set Theory/set_theory.pdf",
-    "Daily Notes/2023-07-24.md",
-    "Additive and Multiplicative Connections.md",
-    "Introduction to Abstract Algebra/AbstractAlgebra.pdf",
-    "Equivalence Relation.md",
-    "Partitions.md",
+    "Ideas.md",
+    "Personal/Ideas.md",
+    "Colouring Graphs.md",
     "Set.md",
-    "Set Theory.md",
+    "Delta Method.md",
+    "Markov Properties.md",
+    "Reinforcement Learning.md",
+    "Model-Agnostic Meta-Learning.md",
+    "Central Limit Theorem.md",
+    "Markov Chain.md",
+    "Meta Reinforcement Learning.md",
+    "Reading notes/@finnModelAgnosticMetaLearningFast2017.md",
+    "Meta Learning.md",
+    "Mean Absolute Deviation.md",
+    "Reading notes/@hafnerMasteringDiverseDomains2023.md",
+    "TAM.md",
+    "Trails, Paths and Cycles.md",
+    "To Learn.md",
+    "Trees.md",
+    "Value Functions.md",
+    "Unsupervised Reinforcement Learning.md",
+    "Templates/Algorithm Template.md",
     "Untitled 1.md",
-    "Abstract Algebra.md",
-    "Introduction to Abstract Algebra",
-    "images/Pasted image 20230723175230.png",
-    "images/Pasted image 20230723170423.png",
-    "Intro to information theory/Untitled.md",
-    "images/Pasted image 20230721191155.png",
-    "Recurrent Networks.md",
-    "Intro to information theory/partA.pdf",
-    "Daily Notes/2023-07-21.md",
-    "Introduction to Set Theory",
-    "Entropy.md",
-    "Intro to information theory",
-    "Reinforcement Learning/RLbook2020trimmed.pdf",
-    "Evaluation of Recurrent Networks.md",
-    "Dreamer/Dreamer V3.md",
-    "Gated Recurrent Units.md",
-    "Convolutional Arithmetic/Convolutional Arithmetic.md",
-    "Convolution.md",
-    "Daily Notes/2023-07-14.md",
-    "Bayesian Inference.md",
-    "images/Pasted image 20230713212357.png",
-    "images/Pasted image 20230713205303.png",
-    "images/Pasted image 20230713204459.png",
-    "images/Pasted image 20230713204050.png",
-    "images/Pasted image 20230713180800.png",
-    "images/Pasted image 20230713180111.png",
-    "Daily Notes/2023-07-13.md",
-    "Latent Colocation/Latent Colocation.md",
-    "Likelihood.md",
-    "Normal Distribution.md",
+    "Untitled.md",
+    "Templates/Data Structure Template.md",
+    "Templates/Distribution Template.md",
+    "Archive/Parasitic RL/Untitled 1 1.canvas",
+    "Sketches",
+    "Archive/Parasitic RL/Default World Model.canvas",
+    "Archive/References/2012.09543v1.pdf",
+    "Archive",
+    "Reading notes",
+    "Archive/Hyper Markov Laws/thesis.pdf",
+    "Archive/Hyper Markov Laws/Untitled.canvas",
+    "Archive/Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
+    "Archive/Hyper Markov Laws",
+    "cheat sheet/Hyper Markov Laws/Untitled.canvas",
+    "cheat sheet/Hyper Markov Laws/thesis.pdf",
+    "cheat sheet/Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
+    "cheat sheet/Hyper Markov Laws",
+    "Images/Pasted image 20230724195700.png",
+    "Archive/The_Econometrics_of_Financial_Markets/Background/Finance Background/Untitled.canvas",
+    "Images/Pasted image 20230723175230.png",
+    "Images/Pasted image 20230723170423.png",
+    "Images/Pasted image 20230721191155.png",
+    "Images/Pasted image 20230713212357.png",
+    "Images/Pasted image 20230713205303.png",
+    "Images/Pasted image 20230713204459.png",
+    "Images/Pasted image 20230713204050.png",
+    "Images/Pasted image 20230713180800.png",
+    "Images/Pasted image 20230713180111.png",
     "Daily Notes/2023-07-12.canvas",
     "Daily Notes/2023-07-09.canvas",
-    "images/Pasted image 20230711112510.png",
-    "Dreamer/Dreamer Canvas.canvas",
-    "Hyper Markov Laws/Untitled.canvas",
+    "Archive/Dreamer/Dreamer Canvas.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Parasitic RL/Default World Model.canvas",
-    "Parasitic RL/Untitled 1 1.canvas",
-    "Few Shot Sequence Transduction/Untitled 1.canvas",
-    "Few Shot Sequence Transduction/Untitled.canvas"
+    "Untitled.canvas"
   ]
 }

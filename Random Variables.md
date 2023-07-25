@@ -1,3 +1,10 @@
+---
+tags:
+- math/statistics
+aliases:
+- random variable
+- random variables
+---
 >[!abstract] Definition 3.1
 >A random variable is a mapping $X:\Omega\rightarrow\mathbb{R}$ taht assigns a real number $X(\omega)$ to each outcome $\omega$
 

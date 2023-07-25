@@ -5,7 +5,7 @@ Roughly speaking, the statement "$X$ causes $Y$" means that changing the value o
 
 Let $Y$ be a some outcome variable such as presence or absence of disease. To distinguish the statement "$X$ is associated $Y$" form the statement "$X$ causes $Y$" we need to enrich our probabilistic vocabulary. We will decompose the response $Y$ into a more fine grained object.
 
-We introduce two new random variables $(C_0,C_1)$ called potential outcomes, with the following outcomes:
+We introduce two new [[Random Variables|random variables]] $(C_0,C_1)$ called potential outcomes, with the following outcomes:
 - $C_0$ is the outcome if the subject is not treated ($X=0$)
 - $C_1$ is the outcome if the subject is treated $(X=1)$. 
 

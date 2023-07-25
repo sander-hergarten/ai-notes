@@ -1,6 +1,6 @@
 ---
 tags:
-- math/graphs
+- math/graph-theory
 - ruff-note
 ---
 ## Colouring vertices

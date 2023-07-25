@@ -50,3 +50,5 @@ The core idea of metric based approaches is to compare two samples in a latent(m
 Model-based approaches are neural architectures that are deliberately designed for fast adaption to new tasks without an inclination to overfit. 
 
 ## Optimization Based approach
+----
+## Reference

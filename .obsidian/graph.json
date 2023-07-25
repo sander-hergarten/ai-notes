@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "tag:#math/graphs",
+      "query": "tag:#math/graph-theory",
       "color": {
         "a": 1,
         "rgb": 14725458
@@ -34,18 +34,25 @@
         "a": 1,
         "rgb": 5431378
       }
+    },
+    {
+      "query": "tag:#math/set-theory",
+      "color": {
+        "a": 1,
+        "rgb": 5984992
+      }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.03031412760417,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.381429036458333,
-  "repelStrength": 14.8046875,
+  "centerStrength": 0.496716019147278,
+  "repelStrength": 13.2042005269212,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.24245924378877257,
-  "close": true
+  "linkDistance": 266,
+  "scale": 0.5009561548185031,
+  "close": false
 }
