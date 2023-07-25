@@ -188,4 +188,169 @@ $$\forall x (\emptyset \notin x \rightarrow \exists f (f:x\rightarrow \bigcup x 
 d.h. für jede Menge $x$ nichtleerer Mengen gibt es eine Funktion $f$ mit Definitionsbereich $x$, die aus jeder Menge $y \in x$ ein Element $f(y)\in y$ auswählt. Das Auswahlaxiom hat in der Mathematik einen umstrittenen Status, da es außer seinen vielen nützlichen Konsequenzen auch viele nicht-intuitive Konsequenten nach sich zieht. Das Auswahlaxiom ist allerdings oft äquivalent zu seinen nützlichen Konsequenzen, z.B. dass jeder Vektorraum eine Basis hat. Somit muss man die nicht-intuitiven Konsequenzen hinnehmen, sofern man sich seiner nützlichen äquivalenten Konsequenzen bedienen will. 
 
 
+Nichtfundierte Mengenlehre 
+1.1 Jeder fundierter, azyklisch gerichteter Graph (apg) ist ein Bild einer einzigartigen Menge. 
+Welche Mengen haben Bilder? 
 
+1.2. Alle Mengen haben ein Bild. 
+Um dies zu sehen, werden wir jeder Menge a ihr KANONISCHES BILD zuordnen. Bilden Sie den Graphen, der als Knoten die Mengen enthält, die in den Folgen $a_{0},a_{1},a_{2}...$ vorkommen, so dass
+
+$$...\in a_{2} \in a_{1}\in a_{0}=a$$
+
+und als Kanten die Knotenpaare (x, y), für die gilt, dass y Ex ist. Wenn a als Punkt gewählt wird, erhalten wir eine apg. Diese apg ist eindeutig ein Bild von a, dessen Dekoration aus der Zuordnung der Menge x zu jedem Knoten x besteht. Man beachte, dass diese Konstruktion nicht voraussetzt, dass die Menge a wohlbegründet ist.
+
+Jedes Bild einer Menge kann in ein Baumbild derselben Menge entfaltet werden. Bei einer apg können wir den Baum bilden, dessen Knoten die endlichen Pfade der apg sind, die vom Punkt der apg ausgehen, und dessen Kanten Paare von Pfaden der Form
+
+$$(a_{0}\rightarrow ... \rightarrow a, a_{0}\rightarrow... a\rightarrow a')$$
+
+Die Wurzel (Basis) dieses Baums ist der Pfad $a_0$ mit der Länge 1. Der Baum ist das "Entwirren" des apg. Jegliche Dekoration des apg induziert eine decoration seines Entfaltung mit der Zuschreibung des Knoten $a_{0}\rightarrow ... \rightarrow a$ a des Baumes die Menge, die dem Knoten a der apg durch die Dekoration der apg zugeordnet ist. Die Entfaltung einer apg bildet also jede Menge ab, die von der apg abgebildet wird. Die Entfaltung des kanonischen Bildes einer Menge wird das KANONISCHE BAUMBILD der Menge genannt.
+Unsere bisherige Diskussion diente dazu, das folgende Axiom zu begründen:
+
+Das Anti-Fundierungs Axiom (AFA):
+Jeder Graph hat eine einzigartige Dekoration
+Bemerkung: 
+- Jeder apg ist ein Bild einer einzigartigen Menge
+- Nichtfundierte Mengen existieren 
+Tatsächlich wird jedweder nichtfundierter apg ein bild sein einer nichtfundierten Menge
+
+Beispiele für nichtfundierte Mengen 
+In dem Rest dieses Abschnittes untersuchen wir Bilder von nichtfundierten Mengen unter Annahme des neuen Axioms. Selbstverständlich müssen das Fundierungsaxiom aufgeben, aber es stellt sich heraus, keines der Anderen. 
+
+Beispiel: Erwägen Sie diesen apg
+![[Pasted image 20230725133609.png]]
+Dies ist ein Bild einer einzigartigen Menge $\Omega$ so dass
+$\Omega =$ {$\Omega$} 
+
+Das ist unser erstes Beispiel einer nichtfundierten Menge. Wenn dieser apg entfalten wird, erhalten wir den unendlichen Baum.
+![[Pasted image 20230725134032.png]] 
+
+Eine Analogie zum Entfalten der Gleichung würde so aussehen:
+Omega = {{{...}}}, wenn der rechte Ausdruck doch nur eine Bedeutung hätte! 
+Der obige unendliche Baum und der damit unendlich assoziiert Ausdruck suggerieren das auf eine Art $\Omega$ ein unendliches Objekt ist. Aber ein kurzer Gedanke sollte den Leser davon überzeugen, dass es ein so endliches Objekt ist, wie man es sich nur wünschen kann. Schließlich hat es ein endliches Bild.  Wir können Mengen, die endliche Bilder haben, als HEREDITÄR ENDLICHE Mengen bezeichnen. $\Omega$  hat viele Bilder. 
+In der Tat haben wir die folgende Charakterisierung.
+
+1.4. Proposition: Ein apg ist ein Bild von $\Omega$ wenn und nur wenn jeder Knoten der apg ein Kind hat.
+
+Beweis: Angenommen gegeben ist ein Bild $\Omega$ mit einer Wurzel $a$. Lassen Sie $d$ eine Dekoration sein, so dass $da=\Omega$ ist. Jetzt, wenn $b$ ist ein Knoten des Bilds ist, dann muss es einen Pfad von $a=a_0\rightarrow...a_n=b$ , sodass $db= da_{n}\in ... \in da_{0} =da =\Omega$ . Seit $\Omega$ das einzige Element von $\Omega$ ist folgt daraus $db=\Omega$. Seit $\Omega$ ein Element hat folgt, dass $b$ ein Kind haben muss. Daher muss jeder Knoten den Bilds auch ein Kind haben. 
+Umgekehrt, angenommen, ein apg mit der Eigenschaft, das jeder Knoten ein Kind hat. Dann ist die Zuordnung von $\Omega$  zu jedem Knoten der apg leicht als eine Dekoration der apg zu erkennen, so dass die apg ein Bild von $\Omega$ ist.
+
+1.5. Beispiel: der apg 
+![[Pasted image 20230725140758.png]]
+das ist ein Bild der einzigartigen Menge $0^*$ sodass
+$$0^{*}= {0,0^*}$$
+Wenn entfaltet: 
+$$0^*={0,{0,{0,...}}}$$
+1.6 Beispiel: Wir haben gesehen, dass jede Menge ein Bild hat. Lassen Sie dies ein Bild der Menge $a$ sein
+![[Pasted image 20230725141050.png]] 
+Dann ist dies das Bild der einzigartigen Menge $a^*$ , sodass
+$$a^*={a,a^*}$$
+Wenn $a=0$ ist, bekommen wir den besonderen Fall in Beispiel 1.5.. Nochmal, die obige Gleichung kann entfaltet werden über de offensichtlichen Weg. 
+
+Nehmen wir jetzt diesen besonderen Fall an, dass $a=\Omega$ ist. $\Omega^*$ ist die einzigartige Menge sodass $\Omega^*={\Omega, \Omega^*}$ . Aber $\Omega$ = {$\Omega$} = {$\Omega$,$\Omega$}. Daraus müssen wir schließen, dass $\Omega^*=\Omega$ ist. Selbstverständlich wird das auch klar von den Charakterisierungen der Bilder $\Omega$ vorher. 
+
+1.7. Beispiel: Die geordneten Paare von zwei Mengen sind üblicherweise so repräsentiert: 
+$$(a,b)={{a},{a,b}$$ Also die Gleichung 
+$$x= (0,x)$$
+wird zu:
+$$x ={{0},{0,x}$$
+Diese Gleichung in einer Variablen $x$ ist in einem offensichtlichen Sinn äquivalent zu dem folgenden System von vier Gleichungen in den vier Variablen $x, y, z, w$.
+$x={y,z}$
+$y={w}$
+$z={w,x}$
+$w=0$
+
+Diese Gleichung besteht hält genau dann, wenn folgendes Diagramm der korrekt dekorierte apg ist. 
+![[Pasted image 20230725142259.png]]
+Daraus folgt, unter AFA des obigen System von vier Gleichungen hat eine einzigartige Lösung und daher hat folgende Gleichung 
+$$x={0,x}$$
+das folgende eindeutige Bild 
+![[Pasted image 20230725142437.png]]
+Durch entfalten der Gleichung bekommen wir
+$$x=(0,(0,(0,...)))$$
+
+
+1.8. Beispiel: Wie in Beispiel 1.6. kann das vorherige Beispiel vereinfacht werden,  um zu zeigen, dass die Gleichung $x = (a, x)$ für jede beliebige Menge a
+eine eindeutige Lösung $x$
+Noch allgemeiner: Für eine beliebige unendliche Folge von Mengen $a_0,a_1,a_2,...$  können wir das folgende unendliche Gleichungssystem betrachten
+![[Pasted image 20230725143316.png]]
+Es sollte für den Leser eine einfache Übung sein, zu zeigen, dass dieses Gleichungssystem eine eindeutige Lösung hat. Unendliche Ausdrücke für diese eindeutige Lösung können durch "Entfaltung" des Gleichungssystems erhalten werden, um Folgendes zu erhalten
+![[Pasted image 20230725143358.png]]
+Dieses und andere Beispiele können mit der folgenden Verstärkung der AFA noch einfacher behandelt werden. Ein GELABELTER GRAPH ist ein Graph mit einer Zuordnung einer Menge $a_1$ von LABELN zu jedem Knoten $a\downarrow$.
+Eine LABELLED DEKORATION eines gelabelten Graphen ist eine Zuordnung $d$ einer Menge da zu jedem Knoten $a$, so dass 
+$$da=(db\mid a\rightarrow b)\cup a \downarrow$$
+
+
+Das gelabelte AFA 
+Jeder gelabelte Graph hat seinen einzigartige Beschriftung. 
+Das gewöhnliche Antifundierungsaxiom kann als Sonderfall betrachtet werden, indem man gewöhnliche Graphen als beschriftete Graphen mit einer leeren Menge von Beschriftungen für jeden Knoten betrachtet. Umgekehrt werden wir sehen, dass das gelabelte AFA eine Folge des gewöhnlichen Axioms ist.
+
+Angenommen die gegebene Menge $a_0,a_1,a_2,...$  können wir die Mengen $x_n$ so erhalten, dass $x_n= (a_n,x_n+1)$ for $n= 0,1,...$ auf folgende Weise. 
+Betrachten wir den beschrifteten Graphen mit natürlichen Zahlen als Knoten, einer Kante $n\rightarrow n + 1$  für jedes $n$ und Mengen von Beschriftungen, die gegeben sind durch:
+$(2n)\downarrow = {{a_n}}, (2n+1)\downarrow= {a_n}.$
+
+Benutzt man jetzt die gelabelten AFA und lässt $d$ die einzigartige gelabelte Dekoration des gelabelten Graphen sein. 
+
+Dann ist für $n=0,1,...$ 
+$d(2n)=(d(2n+1))\cup((a_n))$
+$d(2n+1=(d(2n+2))\cup(a_n)$
+
+Daraus ergibt sich, wenn $x_n=d(2n)$, dann 
+![[Pasted image 20230725152005.png]]
+Für jedes $n$. 
+Wir haben also die gewünschten Mengen $x_n$ erhalten. Ihre Eindeutigkeit folgt leicht aus der Eindeutigkeit von $d$.
+Es gibt eine noch leistungsfähigere Technik, mit der man dieses und andere Beispiele behandeln kann. Diese Technik beinhaltet die Formulierung eines Ergebnisses, das besagt, dass jedes Gleichungssystem eines bestimmten Typs eine eindeutige Lösung hat. Wir können dieses Ergebnis dann einfach direkt auf jedes Beispiel anwenden, ohne dass eine Kodierung erforderlich ist. 
+
+In Anlehnung an die Terminologie von Barwise und Etchemendy wird das Ergebnis im Folgenden als Lösungslemma bezeichnet. Um das Lemma intuitiv ansprechend zu formulieren, müssen wir eine Erweiterung des Universums der reinen Mengen betrachten, die wir bisher betrachtet haben. 
+Reine Mengen können nur Mengen als Elemente haben, und diese Mengen sind ebenfalls rein. Die Erweiterung des Universums beinhaltet die Hinzufügung von Atomen und Mengen, die aus ihnen bestehen. 
+
+Atome sind Objekte, die keine Mengen sind und in keiner Weise aus Mengen bestehen, so dass sie keine mengentheoretische Struktur haben. Sie können jedoch bei der Bildung von Mengen verwendet werden. Siehe (Barwise 1975) für eine Diskussion über die Formalisierung der Mengenlehre mit Atomen. In diesem Buch werden Atome als Urelemente bezeichnet. Die Konstruktion eines erweiterten Universums durch Anfügen von Atomen an ein Universum von Mengen und Hinzufügen aller Mengen, die diese Atome in ihren Aufbau einbeziehen können ist analog zur Konstruktion eines Polynomrings aus einem Ring durch Anfügen von Unbestimmtheiten und Hinzufügen aller Polynome in diesen Unbestimmtheiten mit Koeffizienten aus dem Ring. 
+
+Es ist zweckmäßig, davon auszugehen, dass wir über einen reichlichen Vorrat an Atomen verfügen. 
+Wir nehmen also an, dass es für jede reine Menge $i$ ein Atom $x_i$ gibt, wobei $x_i≠x_j$ für verschiedene reine Mengen $i, j$. 
+
+Wenn $X$ eine Klasse von Atomen ist, dann nennen wir Mengen, die Atome aus der Klasse $X$ in ihren Aufbau einbeziehen können, $X-SETS$. Das Lösungslemma gilt für ein System von Gleichungen der Form
+$x =a_{x}$ ($x \in X$)
+
+wobei $a_x$ eine X-Menge ist für jedes $x \in X$. zum Beispiel ergibt sich bei reiner Menge $a_0,a_1,...$ das Gleichungssystem 
+
+$$x_n(a_n,x_{n+1}) (n=0,1,...)$$
+hat die obige Form, wenn wir $X=(x_0,x_1,...)$ und für jedes $n$ nehmen wir an $a_xn$ , dass es $(a_n,x_{n+1})$;  d.h. die X-Menge$((a_n),(a_n,x_n+1))$. In diesem Beispiel ist die Lösung der Gleichung klar. Es muss ein Familie von reinen Mengen $b_0,b_1,...$, eins für jedes Atom in $X$ sein, sodass 
+$$b_n=(a_n,b_{n+1})for n=0,1,...$$
+
+Man beachte, dass die rechten Seiten dieser Gleichungen aus den rechten Seiten des ursprünglichen Gleichungssystems gewonnen werden, indem man $b_n$ für jedes Atom $x_n$ einsetzt. Dies legt nahe, wie eine Lösung des allgemeinen Gleichungssystems aussehen sollte. Es sollte eine Familie $\pi=(b_X)_{x\in X}$ von reinen Mengen $b_x$ sein, eine für jedes $x \in X$, so dass für jedes $x \in X$
+$$b_x = \hat\pi a_x$$
+
+Hier ist für jede X-Menge $a$, die Menge $\hat\pi a$ diejenige reine Menge, die man aus $a$ erhält, indem man $b_x$ für jedes Vorkommen eines Atoms X in der Zusammensetzung von $a$ ersetzt. $\hat\pi a$ ist also die Substitutionsoperation, die durch das folgende Ergebnis gekennzeichnet ist. 
+
+Substitutionslemma 
+Für jede Familie von reinen Mengen $\pi =(b_x)_{x\in X}$ gibt es eine einzigartige $\hat\pi$ Menge a zu jeder X-Menge a so dass 
+$$\hat\pi a= (\hat\pi b\mid b-is-an-X-Set, sodass b\in a)\cup(\pi x\mid x \in a \cap X)$$
+Wir können nun das angestrebte Ergebnis erreichen. 
+
+
+Lösungslemma: 
+Wenn $a_x$ eine X-Menge für jedes Atom $x$ in der Klasse X der Atome ist, dann ist das Gleichungssystem
+$$x=ax (x\in X)$$
+eine eindeutige Lösung, d.h. eine eindeutige Familie von reinen Mengen $\pi=(b_x)_{x\in X}$ , so dass für jedes $x \in X$
+$$b_x=\hat\pi a_{x}$$
+Die obige informelle Diskussion über das Lösungslemma scheint alles zu sein, was man braucht. Eine Ausformulierung wird an das Ende des Kapitels gestellt. 
+
+Systeme
+Wir müssen den Begriff des Graphen so erweitern, dass es eine eigene Klasse von Knoten geben kann. Ein SYSTEM ist eine Klasse M von Knoten zusammen mit einer Klasse von KANTEN, die aus geordneten Knotenpaaren besteht. Wir sollten einfach M verwenden, um auf das System zu verweisen, und schreiben, dass $a\rightarrow b$ in M oder einfach $a\rightarrow b$ if $(a,b)$ eine Kante von M ist. 
+Ein System M muss die Bedingung erfüllen, dass für jeden Knoten $a$ die Klasse $a_M(b\in M \mid a\rightarrow b)$ der Kindern von a eine Menge ist.
+
+Beachten Sie, dass ein Graph einfach ein kleines System ist. Ein Beispiel für
+ein großes System ist das Universum V mit$a\rightarrow b$, wenn $b \in a$. 
+Der Begriff der Dekoration eines Graphen erweitert sich auf Systeme in die offensichtliche Weise. Wir erhalten die folgende Verstärkung von AFA.
+
+
+1.9. Theorem (unter Annahme von AFA)
+Jedes System hat eine einzigartige Dekoration. 
+
+Beweis: Lasse M ein System sein. Für jedes $a \in M$ können wir zu $M a$ ein apg zuordnen, das wie folgt aufgebaut ist: 
+
+- Die Knoten und Kanten von $Ma$ sind jene Knoten und Ecken von $M$, die auf den Pfaden von M liegen startend von den Knoten $a$,  und die Punkte von $Ma$ sind die Knoten selbst. 
+
+Dass die Knoten von $Ma$ eine Menge formen, zeigt Folgendes. Lasse $X_0=(a)$ und für jede natürliche Zahl $n$ lass 
+$$X_{n+1}=\bigcup(x_{M}\mid x \in X_n)$$
+Da $x_M$ eine Menge für alle $x\in M$ ist, ist jedes $X_n$ eine Menge derjenigen Knoten von M, die in M Pfade der Länge n beenden, die vom Knoten a ausgehen. Daher formen die Knoten von $Ma$ die Menge $\bigcup_{n}X_n$ . Durch AFA hat jedes apg $Ma$ eine einzigartige Dekoration $d_a$ so dass $Ma$ ein Bild der Menge $d_{a}a$ ist. Für jedes $x\in M$ sei $da=d_{a}a$. Wir werden zeigen, dass d die einzigartige Dekoration von M ist. Als erstes beobachtet man, dass $a \rightarrow x$ in M dann wird jeder Knoten von Mx auch ein Knoten von Ma sein und die $Ma$ und die Restriktion von $d_a$ auf Mx ist eine Dekoration von Mx und damit gleich dx, die einzige Dekoration von Mx. Wenn also $a \rightarrow x$ in M, dann $d_{a}x=d_{x}x=dx$ 
