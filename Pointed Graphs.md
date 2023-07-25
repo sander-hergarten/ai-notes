@@ -5,16 +5,15 @@ aliases:
 - rooted graphs
 - rooted graph
 - pointed graph
-- picture
+- accessible pointed graphs
+- apg
+- APG
+- 
 ---
 A Pointed Graph is a type of [[Directed Graphs|directed graph]] together with a distinguished node called its point. 
 
 A pointed graph is Accessible if for every node $n$ there is a path from the point $n_0$ to the node $n$. If this path is always unique then the pointed graph is a [[Trees|tree]] and the point is the Root of the tree. 
 
-## APGs as a Picture
-Accessible pointed graphs can be used as the picture of a [[Set]]. In the diagram the point will always be located at the top. A decoration of a graph is an assignment of a set to each node of the graph in such a way that the elements of the set assigned to a node are the sets assigned to the children of that node. 
-
-A Picture of a set is an apg which has decoration in which the set is assigned to the point.
 
 For example the picture of 3
 ![[Pasted image 20230724195700.png]]

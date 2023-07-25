@@ -15,5 +15,14 @@
       ],
       "key": "'"
     }
+  ],
+  "templater-obsidian:insert-templater": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
   ]
 }

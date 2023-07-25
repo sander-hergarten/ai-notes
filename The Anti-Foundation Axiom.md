@@ -2,12 +2,11 @@
 tags:
 - math/set-theory
 ---
-When creating the [[Pointed Graphs|picture]] of a set we call the resulting graph Well-founded if it has no infinite path.
-
+When creating the [[Pictures]] of a set we call the resulting graph Well-founded if it has no infinite path.
 > [!quote] Mostowski's Collapsing Lemma
 > Every well-founded graph has a unique decoration.
 
-This Result is proved by a simple application of definition by recursion on a well-founded relation to btain the unique function $d$ defined so that 
+This Result is proved by a simple application of definition by recursion on a well-founded relation to obtain the unique function $d$ defined so that 
 $$dn=\set{dn'|n\rightarrow n'}$$
 for each node $n$ of the graph. The decoration $d$ assigns the set $dn$ to the node $n$. Note the obvious consequence.
 > [!quote] Corollary
@@ -22,7 +21,7 @@ and having as edges those pairs of nodes $(x,y)$ such that $y\in x$. If $a$ is c
 Every picture of a set can be unfolded into a tree picture of the same set Given an apg we mau form the tree whose nodes are the finite paths of the apg that start from the point of the apg and whose edges are pairs of paths.
 
 The root of this tree is the path $a_0$ of length one. This tree is the Unfolding of the apg. Any decorations of the apg induces a decoration of its unfolding by assigning to the node $a_0\rightarrow ...\rightarrow a$ of the tree the set that is assigned to the node $a$ of the apg by the decoration of the apg.
-The unfolding of the canonical picture of a set will be called the canoncal tree pricture of the set.
+The unfolding of the canonical picture of a set will be called the canoncal tree picture of the set.
 
 > [!abstract] The Anti-Foundation Axiom (AFA):
 > Every graph has a unique decoration
@@ -32,12 +31,8 @@ Note the following consequences:
 - non-well-founded sets exist.
 In fact any non-well-founded apg will have to picture a non-well-founded set.
 
-> [!Abstract] The Labelled Anti-Foundation Axiom
-> Every labelled graph has a unique labelled decoration.
+The AFA can further be strengthened by introducing the [[The Labelled Anti-Foundation Axiom]]
 
-The ordinary anti-foundation axiom may be viewed as a special case by treating ordinary graphs as labelled graphs with an empty set of labels attached
-
-We need to consider the expansion of the universe of pure sets that we have been considering so far. Pure sets can only have sets as elements and those sets are also pure. The expansion of the universe involves the addition of atoms and set built out of them.
 
 ## Atoms
 Atoms are objects that are not sets and are not made up of sets in any way, so that they habe no set theoretical structure. But they can be used in the formation of sets.
