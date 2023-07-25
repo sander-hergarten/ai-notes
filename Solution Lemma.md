@@ -1,9 +1,10 @@
 ---
 tags:
-- 
+- math/set-theory
 aliases:
-- 
+- solution lemma
 ---
+
 
 ----
 ## References
