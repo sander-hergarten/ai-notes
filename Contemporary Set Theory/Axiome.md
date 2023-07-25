@@ -354,3 +354,26 @@ Beweis: Lasse M ein System sein. Für jedes $a \in M$ können wir zu $M a$ ein a
 Dass die Knoten von $Ma$ eine Menge formen, zeigt Folgendes. Lasse $X_0=(a)$ und für jede natürliche Zahl $n$ lass 
 $$X_{n+1}=\bigcup(x_{M}\mid x \in X_n)$$
 Da $x_M$ eine Menge für alle $x\in M$ ist, ist jedes $X_n$ eine Menge derjenigen Knoten von M, die in M Pfade der Länge n beenden, die vom Knoten a ausgehen. Daher formen die Knoten von $Ma$ die Menge $\bigcup_{n}X_n$ . Durch AFA hat jedes apg $Ma$ eine einzigartige Dekoration $d_a$ so dass $Ma$ ein Bild der Menge $d_{a}a$ ist. Für jedes $x\in M$ sei $da=d_{a}a$. Wir werden zeigen, dass d die einzigartige Dekoration von M ist. Als erstes beobachtet man, dass $a \rightarrow x$ in M dann wird jeder Knoten von Mx auch ein Knoten von Ma sein und die $Ma$ und die Restriktion von $d_a$ auf Mx ist eine Dekoration von Mx und damit gleich dx, die einzige Dekoration von Mx. Wenn also $a \rightarrow x$ in M, dann $d_{a}x=d_{x}x=dx$ 
+So ist für jedes $a\in M$, 
+$da = d_{a}a$
+$=(d_{a}x\mid a \rightarrow in Ma)$
+$= (dx \mid a \rightarrow x in M)$
+Daher ist d eine Dekoration von M. Um die Einzigartigkeit dieser Dekoration zu sehen, genügt die Feststellung, dass jede Dekoration von M eine Dekoration von jedem Ma sein muss, wenn sie eingeschränkt wird, und daher jedes $d_a$ erweitern muss, so dass es $d$ selbst sein muss. 
+
+GELABELTE SYSTEME und ihre gelabelten Dekorationen werden auf die offensichtliche Weise definiert. Wenn $a \in M$ ist, dann bezeichnet $a \downarrow M$ die Menge der Etiketten bei a im etikettierten System M. Als nächstes verallgemeinern wir das vorige Ergebnis auf etikettierte Systeme. 
+
+
+1.10. Theorem (angenommen AFA)
+Sei M ein gelabeltes System. Sei M' das System das als Knoten alle geordneten Paare (i,a) hat, sodass entweder $i=1$ und $a\in M$ or $i=2$ and $a \in V$ und als Kanten: 
+- $(1,a)\rightarrow (1,b) whenever$ $a$ $\rightarrow b$$in M,$
+- $(1,a)\rightarrow(2,b)whenever$ $a$ $\in M$ and $b \in a\downarrow M$, 
+- $(2,a)\rightarrow(2,b)$ $whenever$ $b \in a$.
+Bei AFA M' hat eine einzigartige Dekoration $\pi$. Also für jedes $a\in M$ 
+$$\pi(1,a) = (\pi(1,b)\mid a \rightarrow b in M)\cup (\pi(2,b)\mid b \in a \downarrow M)$$
+und für jedes $a\in V$
+$$\pi(2,a) = (\pi(2,b)\mid b \in a)$$
+Beachte dass die Zuschreibung der Menge $\pi(2,a)$ für jedes $a \in V$ ist eine Dekoration in dem System V so dass bei AFA $\pi(2,a)=a$ für alle $a \in V$. Daher lassen wir $\tau a = \pi(1,a) für a \in M$ dann, für $a\in M$, 
+$$\tau a=(\tau b\mid a \rightarrow b in M) \cup a \downarrow M,$$
+so dass $\tau$ eine gelabelte Dekoration des gelabelten Systems M ist. 
+Für die Einzigartigkeit von $\tau$ suppose that $\tau '$ ein gelalbte Dekoration des gelabelten System M ist. Dann ist $\tau '$ eine Dekoration des System M' wobei
+\pi '(1,a) = 
