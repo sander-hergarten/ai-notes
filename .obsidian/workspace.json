@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Graph Construction.md",
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Graph Construction.md",
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Graph Construction.md",
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Graph Construction.md"
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md"
               }
             }
           },
@@ -197,8 +197,9 @@
   },
   "active": "5104e83e1e48c957",
   "lastOpenFiles": [
-    "The Labelled Anti-Foundation Axiom.md",
+    "Reading notes/@vanbenthemSTORIESLOGICINFORMATION2008.md",
     "Research/Graph Construction.md",
+    "The Labelled Anti-Foundation Axiom.md",
     "Reading notes/@aczelNonwellfoundedSets1988.md",
     "Research",
     "Equivalence Relation.md",
@@ -225,7 +226,6 @@
     "Colouring Graphs.md",
     "Ideas.md",
     "Personal/Ideas.md",
-    "Set.md",
     "Archive/Parasitic RL/Untitled 1 1.canvas",
     "Sketches",
     "Archive/Parasitic RL/Default World Model.canvas",
