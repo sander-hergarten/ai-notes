@@ -17,7 +17,7 @@ wobei x in A(y) nicht frei vorkommt. Allerdings würde durch die Hinzunahme dies
 Man beachte, das Russels Argument nichts anderes als der prädikatenlogische Beweis von ![[Pasted image 20230724184115.png]] 
 ist wobei 
 ![[Pasted image 20230724184153.png]]
-gesetzt wurde. Die Widersprüchlichkeit des Komprehensionsschemas ergibt sich nun daraus, dass es zu beweisen gestattet, dass ![[Pasted image 20230724184241.png]] , was im Widerspruch zu ![[Pasted image 20230724184115.png]] steht. Das Problem ist allerdings nicht, dass es für eine Menge x die Menge aller y ∈ x mit A(y) existiert, wie es das Separations- bzw. Aussonderungsschema fordert, sondern die Annahme einer Menge V aller Mengen. Wenn diese nämlich existierte, so gäbe es aufgrund des Seperationsschemas die Menge ![[Pasted image 20230724185641.png]] was, wie Russel gezeigt hat, zu dem Widerspruch ![[Pasted image 20230724185719.png]] führt, da ja R ∈ V. Wir haben also bewiesen, dass ![[Pasted image 20230724185811.png]]. 
+gesetzt wurde. Die Widersprüchlichkeit des Komprehensionsschemas ergibt sich nun daraus, dass es zu beweisen gestattet, dass ![[Pasted image 20230724184241.png]] , was im Widerspruch zu ![[Pasted image 20230724184115.png]] steht. Das Problem ist allerdings nicht, dass es für eine Menge x die Menge aller y ∈ x mit A(y) existiert, wie es das Separations- bzw. Aussonderungsschema fordert, sondern die Annahme einer Menge V aller Mengen. Wenn diese nämlich existierte, so gäbe es aufgrund des Seperationsschemas die Menge ![[Pasted image 20230724185641.png]] was, wie Russel gezeigt hat, zu dem Widerspruch ![[Pasted image 20230724185719.png]] führt, da ja R ∈ V. Wir haben also bewiesen, dass ![[Pasted image 20230724185811.png]].  
 
 Dies erscheint auf den ersten Blick verwirrend, da man sich ja Gesamtheiten (von Mengen) wie V oder R durchaus vorstellen kann und sie per se gar nicht als widersprüchlich erscheinen. Sind sie auch nicht: widersprüchlich ist bloß die Annahme, dass solche Gesamtheiten auch immer Mengen sind. Die Gesamtheiten V und R können auch nicht in einer Menge als Teilmenge enthalten sein, da ja sonst aufgrund des Separationsschemas V bzw. R als Mengen existieren würden. Solche großen Kollektionen von Mengen werden üblicherweise als (eigentliche) Klassen bezeichnet, haben jedoch in der Mengenlehre á la Zermelo-Freankel keinen ontologischen Status, was ja auch ganz unnötig ist, da sie durch Prädikate in der Sprache der Mengenlehre ausgedrückt werden können. Es gibt jedoch eine zur Zermelo-Fraenkelschen Mengenlehre ZF equikonsistene auf Gödel, Bernays und von Neumann zurückgehende Klassentheorien GBN, auf die wir hier nicht näher eingehen, in der Klassen einen ontologischen Status haben (d.g. als existierend angenommen werden) und Mengen als diejenigen Klassen definiert werden, die selbst in einer Klasse als Elemente enthalten sind. Selbstverständlich wäre es widersprüchlich, die Existenz einer Klasse aller Klassen anzunehmen, was aber in GBN nicht geschieht. Man beachte, dass das Separationsschema die Existenz der leeren Mengen gewährleistet. Man kann ja beweisen, dass ![[Pasted image 20230724190528.png]]
 als auch ![[Pasted image 20230724190616.png]]
@@ -197,7 +197,7 @@ Um dies zu sehen, werden wir jeder Menge a ihr KANONISCHES BILD zuordnen. Bilden
 
 $$...\in a_{2} \in a_{1}\in a_{0}=a$$
 
-und als Kanten die Knotenpaare (x, y), für die gilt, dass y Ex ist. Wenn a als Punkt gewählt wird, erhalten wir eine apg. Diese apg ist eindeutig ein Bild von a, dessen Dekoration aus der Zuordnung der Menge x zu jedem Knoten x besteht. Man beachte, dass diese Konstruktion nicht voraussetzt, dass die Menge a wohlbegründet ist.
+und als Kanten die Knotenpaare (x, y), für die gilt, dass $y \in x$ ist. Wenn a als Punkt gewählt wird, erhalten wir eine apg. Diese apg ist eindeutig ein Bild von a, dessen Dekoration aus der Zuordnung der Menge x zu jedem Knoten x besteht. Man beachte, dass diese Konstruktion nicht voraussetzt, dass die Menge a well founded ist.
 
 Jedes Bild einer Menge kann in ein Baumbild derselben Menge entfaltet werden. Bei einer apg können wir den Baum bilden, dessen Knoten die endlichen Pfade der apg sind, die vom Punkt der apg ausgehen, und dessen Kanten Paare von Pfaden der Form
 
@@ -270,7 +270,7 @@ $$x=(0,(0,(0,...)))$$
 
 
 1.8. Beispiel: Wie in Beispiel 1.6. kann das vorherige Beispiel vereinfacht werden,  um zu zeigen, dass die Gleichung $x = (a, x)$ für jede beliebige Menge a
-eine eindeutige Lösung $x$
+eine eindeutige Lösung $x$ hat
 Noch allgemeiner: Für eine beliebige unendliche Folge von Mengen $a_0,a_1,a_2,...$  können wir das folgende unendliche Gleichungssystem betrachten
 ![[Pasted image 20230725143316.png]]
 Es sollte für den Leser eine einfache Übung sein, zu zeigen, dass dieses Gleichungssystem eine eindeutige Lösung hat. Unendliche Ausdrücke für diese eindeutige Lösung können durch "Entfaltung" des Gleichungssystems erhalten werden, um Folgendes zu erhalten
@@ -313,7 +313,7 @@ $x =a_{x}$ ($x \in X$)
 
 wobei $a_x$ eine X-Menge ist für jedes $x \in X$. zum Beispiel ergibt sich bei reiner Menge $a_0,a_1,...$ das Gleichungssystem 
 
-$$x_n(a_n,x_{n+1}) (n=0,1,...)$$
+$$x_n(a_n,x_{n+1})  (n=0,1,...)$$
 hat die obige Form, wenn wir $X=(x_0,x_1,...)$ und für jedes $n$ nehmen wir an $a_xn$ , dass es $(a_n,x_{n+1})$;  d.h. die X-Menge$((a_n),(a_n,x_n+1))$. In diesem Beispiel ist die Lösung der Gleichung klar. Es muss ein Familie von reinen Mengen $b_0,b_1,...$, eins für jedes Atom in $X$ sein, sodass 
 $$b_n=(a_n,b_{n+1})for n=0,1,...$$
 
@@ -340,7 +340,7 @@ Wir müssen den Begriff des Graphen so erweitern, dass es eine eigene Klasse von
 Ein System M muss die Bedingung erfüllen, dass für jeden Knoten $a$ die Klasse $a_M(b\in M \mid a\rightarrow b)$ der Kindern von a eine Menge ist.
 
 Beachten Sie, dass ein Graph einfach ein kleines System ist. Ein Beispiel für
-ein großes System ist das Universum V mit$a\rightarrow b$, wenn $b \in a$. 
+ein großes System ist das Universum V mit $a\rightarrow b$, wenn $b \in a$. 
 Der Begriff der Dekoration eines Graphen erweitert sich auf Systeme in die offensichtliche Weise. Wir erhalten die folgende Verstärkung von AFA.
 
 
