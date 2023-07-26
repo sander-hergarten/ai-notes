@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
+                "file": "Research/Graph Construction.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
+                "file": "Research/Graph Construction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
+                "file": "Research/Graph Construction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading notes/@aczelNonwellfoundedSets1988.md"
+                "file": "Research/Graph Construction.md"
               }
             }
           },
@@ -197,10 +197,14 @@
   },
   "active": "5104e83e1e48c957",
   "lastOpenFiles": [
+    "The Labelled Anti-Foundation Axiom.md",
+    "Research/Graph Construction.md",
+    "Reading notes/@aczelNonwellfoundedSets1988.md",
+    "Research",
+    "Equivalence Relation.md",
+    "Daily Notes/2023-07-23.md",
     "The Anti-Foundation Axiom.md",
     "Pictures.md",
-    "The Labelled Anti-Foundation Axiom.md",
-    "Reading notes/@aczelNonwellfoundedSets1988.md",
     "Untitled.md",
     "Dual Graphs.md",
     "Graphs.md",
@@ -210,7 +214,6 @@
     "Solution Lemma.md",
     "Impure Atom Sets.md",
     "Atoms.md",
-    "Equivalence Relation.md",
     "Hereditary Finite Sets.md",
     "Reading notes/@barwiseAdmissibleSetsStructures1975.md",
     "Pure Sets.md",
@@ -223,8 +226,6 @@
     "Ideas.md",
     "Personal/Ideas.md",
     "Set.md",
-    "Delta Method.md",
-    "Markov Properties.md",
     "Archive/Parasitic RL/Untitled 1 1.canvas",
     "Sketches",
     "Archive/Parasitic RL/Default World Model.canvas",
@@ -238,7 +239,6 @@
     "cheat sheet/Hyper Markov Laws/Untitled.canvas",
     "cheat sheet/Hyper Markov Laws/thesis.pdf",
     "cheat sheet/Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
-    "cheat sheet/Hyper Markov Laws",
     "Images/Pasted image 20230724195700.png",
     "Archive/The_Econometrics_of_Financial_Markets/Background/Finance Background/Untitled.canvas",
     "Images/Pasted image 20230723175230.png",

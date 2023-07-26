@@ -123,5 +123,29 @@ Using these systems we can strengthen the AFA even further
 > Each system has a unique decoration
 
 We can prove this 
+
 ## Chapter 2
+The Anti foundation axiom is obviously equivalent to the conjunction of the following two statements
+- AFA$_1$: Every graph has at least one decoration
+- AFA$_2$: Every graph has at most one decoration 
+
+In this chapter we shall give equivalent formulations.
+
+The extensionality criterion says that two sets are equal if they have the same elements. For well-founded sets no more can be said about equality. The extensionality axiom does not answer the question of set equality for non-well-founded sets. While the AFA implies that there is at most one solution to the equation, it is in fact consistent to suppose that there are many solutions. 
+
+We can however easily show through AFA$_2$ $a\equiv b\Rightarrow a=b$ where  $\equiv$ means that $a$ and $b$ share the same apg. 
+
+## Bisimulation
+We can define a binary relation $R$, such as $\equiv$, on the system $M$ and we call this a bisimulation on $M$ if $R\subseteq R^+$, where for $a,b\in M$:
+$$\begin{align}
+aR^{+}b \Longleftrightarrow\\
+\text{for all $x\in a_M$ there exists $y\in b_M$ so that $xRy$}\\
+\text{and for all $y\in a_M$ there exists $x\in b_M$ so that $xRy$}
+\end{align}$$
+In general a system $M$ will have many bisimulations. We will see that $\equiv$ is the maximum bisimulation on the system $V$. A maximum bisimulation exists on any system.
+
+> [!abstract] Theorem
+> There is a unique maximum bisimulation $\equiv_M$ on each system $M$; i.e.
+> 1. $\equiv_M$ is a bisimulation on $M$
+> 2. If $R$ is a bisimulation on $M$ then for all $a,b\in M$ $$aRb\Longrightarrow  a\equiv_{M}b$$ In fact $$a\equiv_M\Longleftrightarrow aRb\text{ for some small bisimulation $R$ on $M$}$$ The relation $\equiv_M$ is also sometimes called the weakest bisimulation or largest bisimulation on $M$
 
