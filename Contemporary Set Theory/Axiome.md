@@ -203,7 +203,6 @@ Jedes Bild einer Menge kann in ein Baumbild derselben Menge entfaltet werden. Be
 
 $$(a_{0}\rightarrow ... \rightarrow a, a_{0}\rightarrow... a\rightarrow a')$$
 
-Die Wurzel (Basis) dieses Baums ist der Pfad $a_0$ mit der Länge 1. Der Baum ist das "Entwirren" des apg. Jegliche Dekoration des apg induziert eine decoration seines Entfaltung mit der Zuschreibung des Knoten $a_{0}\rightarrow ... \rightarrow a$ a des Baumes die Menge, die dem Knoten a der apg durch die Dekoration der apg zugeordnet ist. Die Entfaltung einer apg bildet also jede Menge ab, die von der apg abgebildet wird. Die Entfaltung des kanonischen Bildes einer Menge wird das KANONISCHE BAUMBILD der Menge genannt.
 Unsere bisherige Diskussion diente dazu, das folgende Axiom zu begründen:
 
 Das Anti-Fundierungs Axiom (AFA):
@@ -365,7 +364,7 @@ GELABELTE SYSTEME und ihre gelabelten Dekorationen werden auf die offensichtlich
 
 1.10. Theorem (angenommen AFA)
 Sei M ein gelabeltes System. Sei M' das System das als Knoten alle geordneten Paare (i,a) hat, sodass entweder $i=1$ und $a\in M$ or $i=2$ and $a \in V$ und als Kanten: 
-- $(1,a)\rightarrow (1,b) whenever$ $a$ $\rightarrow b$$in M,$
+- $(1,a)\rightarrow (1,b) whenever$ $a$ $\rightarrow b$  $\text{in}{} M,$
 - $(1,a)\rightarrow(2,b)whenever$ $a$ $\in M$ and $b \in a\downarrow M$, 
 - $(2,a)\rightarrow(2,b)$ $whenever$ $b \in a$.
 Bei AFA M' hat eine eindeutige Dekoration $\pi$. Also für jedes $a\in M$ 
@@ -402,7 +401,7 @@ $$a\downarrow M_{\pi}= (\pi\mid x \in a \downarrow M).$$
 Dann ist die erforderte einzigartige Karte $\hat\pi$ , die einzigartig gelabelte Dekoration von $M_\pi$ 
 
 (2) Sei M' das System  mit den gleichen Knoten wie M, und allen Kanten M und den Kanten $a\rightarrow a_x$ immer, wenn $a\in M$ und $x\in a\downarrow M$. Bei Theorem 1.9 hat M' eine einzigartige Dekoration $\varphi$ . Also für jedes $a\in M$
-$$\phi a = (\phi b \mid a \rightarrow b in M)\cup (\phi a_{x}\mid x \in a \downarrow M).$$
+$$\varphi a = (\varphi b \mid a \rightarrow b in M)\cup (\varphi a_{x}\mid x \in a \downarrow M).$$
 Sei $\pi x = \varphi a_x$ für $x\in X$. Dann ist $\varphi$ eine gelabelte Dekoration des gelabelten System $M_\pi$ , sodass $\varphi =\hat\pi$ and hence $\pi x = \varphi a_x$ für $x\in X$. Für die Einzigartigkeit von $\pi$ let $\pi ': X \rightarrow V$ sodass $\pi 'x= \hat\pi 'a_{x}$ für $x \in X$. Then observe that $\hat\pi '$ is a decoration of M' , sodass $\hat\pi '=\varphi$ and hence $\pi'=\varphi$ and hence $\pi'x=\hat\pi'a_{x}=\varphi a_{x}=\pi x$
 for $x \in X.$ Also $\pi'=\pi$.
 
@@ -415,3 +414,112 @@ $a \downarrow M = X \cap a^*$.
 
 We may apply the two parts of theorem 1.11 to this labelled system to obtain proofs of the substitution and solution lemmas, except that in the right hand side of the characterising equation for $\hat\pi a$ in the substitution lemma, the set $a$ must be replaced by the set $a^*$. This slight revision of the substitution lemma is needed as we are not really expanding the universe but only using a model of an expanded universe.
 
+
+
+
+2| The Axiom in more Detail 
+- $AFA_1$ Every graph has at least one decoration
+- $AFA_2$ Every graph has at most one decoration
+
+
+Bisimulations
+What sort of relation is $\equiv$ ? Um diese Frage zu beantworten brauchen wir folgende fundamentale notion. Eine binäre Relation $R$ auf dem System $M$ ist eine BISIMULATION auf $M$, wenn $R \subseteq R^{+} , \text{where for},  a,b \in M$
+$$aR^{+}b \Leftrightarrow \forall x \in a_{M}\exists y\in b_{M}xRy - \text{and}- \forall y \in b_{M}\exists x \in a_{M}xRy.$$
+
+Beachte, dass wenn $R_{0}\subseteq R$ dann ist $R^{+}_{0} \subseteq R^+$  ; i.e. die operation ()^+ ist monoton. 
+
+
+2.4 Theorem: Es gibt eine eindeutige maximale Bisimulation $\equiv _M$ auf jedem System $M$; i.e. 
+(1)$\equiv _M$ is eine Bisimulation auf $M$,
+(2) Wenn $R$ eine Bisimulation auf $M$ dann  für alle $a,b\in M$ 
+$$aRb\Rightarrow a\equiv _Mb.$$
+Tatsächlich: 
+$$ a\equiv _Mb \Leftrightarrow aRb   \text{     for some small bisimulation R on M.}  $$
+
+Die Relation $\equiv _M$ wird auch manchmal schwache bzw. größte Bisimulation genannt auf $M.$
+
+
+Beweis: Sei $\equiv _M$ definiert wie oben. Wir beweisen (1) und (2). Für (1), lassen wir $a\equiv _{M}b$ sein. Dann $aRb$ für eine kleine Bisimulation $R$ auf $M$. 
+Beachte, dass trivial: 
+
+$$xRy \Rightarrow x \equiv _{M}y  \text{ for all } x,y \in M.$$
+
+sodass bei monotonicity of ()$^+$
+
+$$xR^{+}y \Longrightarrow x \equiv_{M}y \text{ für alle } x,y \in M $$
+
+Als $aRb$ und $R \subseteq R^+$ folgt, dass $a \equiv _{M}^{+}b.$ Für (2) sei $R$ eine Bisimulation auf $M$ and $aRb.$ Verweis auf Theorem 1.9., dass für jedes $x \in M$ $Mx$ ein apg mit dem Punkt $x$ ist sodass für $u,v \in Mx$
+$$u \rightarrow v \text{ in }Mx \Leftrightarrow u\rightarrow v \text{ in } M. $$
+Das ist einfach zu überprüfen, wenn
+$$R_{0}= R \cap((Ma)\times(Mb))$$
+dann ist $R_0$ eine Bisimulation auf A sodass $aR_{0}b.$ Weiter, seit $Ma$ und $Mb$ klein sind, ist die Bisimulation $R_0$ klein. Also $\equiv_{M}b.$
+
+2.5 Proposition Für alle Mengen $a,b$
+$$a\equiv b \Leftrightarrow a\equiv _{V}b.$$
+
+Beweis: Weil $\equiv$ eine Bisimulation auf $V$ und $\equiv_V$ ist  maximale Bisimulation auf $V$ is, folgt die Implikation, dass von links nach rechts richtig ist. Für die umgekehrte Implikation reicht es zu zeigen, dass wenn $R$ eine Bisimulation auf $V$ ist dann für alle Mengen $a,b$
+$$aRb \Longrightarrow a \equiv b.$$
+So sei $R$ eine Bisimulation auf $V$. Definiere das System $M_0$ wie folgt. Die Knoten von $M_0$ sind die Elemente von R; i.e. sind die geordneten Paare (a,b) sodass $aRb$. Die Kanten von $M_0$ sind definiert als 
+$$(a,b)\rightarrow (x,y)\text{ in }M_{0}\Longleftrightarrow x \in a \text{ |-and-| } y \in b.$$
+
+Jetzt beobachte, dass $d_1$ und $d_2$ beides Dekorationen von $M_0$ sind, wo für $(a,b) \in M_0$
+$d_1(a,b)=a,$
+$d_2(a,b)=b$.
+
+Also, wenn $aRb$ ist dann ist der apg $M_0(a,b)$ ein Bild von beiden $a$ and $b$, der die Restriktionen von $d_1$ und $d_2$ zu dem apg nutzt. Daher, wenn $aRb$ dann $a\equiv b$. 
+Die Fakten der folgenden Aufgabe werden nützlich sein beim zeigen, das die maximale Bisimulation Relation auf ein System ist eine Äquivalenz Relation. 
+
+Zeige das, wenn $M$ ein System ist, dass
+wenn $R_{1},R_{2}\subseteq M \times M$ dann 
+$R_{1}^{+}\mid R_{1}^{+2}\subseteq (R_{1}\mid R_{2})^+$ 
+
+
+Beweis:
+
+1. Also, $(a, b)$ ist ein Element von $R_1^+ \mid R_2^+$. DAs bedeutet, dass es Paare in $M$ gibt, aus $a$  und  $b$ , und alle aufeinanderfolgenden Paare sind in $R_1$ oder $R_2$.
+    
+2. Da die Union $R_1 \mid R_2$  alle Elemente von $R_1$ und alle Elemente von $R_2$ enthält, ist das dann auch in der transitiven Hülle von $R_1 \mid R_2$.
+    
+3. Daher ist $(a, b)$ auch ein Element von $(R_1 \mid R_2)^+$.
+    
+
+Da dies für jedes Element in $R_1^+ \mid R_2^+$ so ist, kommt raus $R_1^+ \mid R_2^+ \subseteq (R_1 \mid R_2)^+$.
+
+
+2.7 Proposition 
+Für jedes System $M$ ist die Relation $\equiv_{M}$ eine Äquivalenzrelation auf $M$ sodass für alle $a,b\in M$ gilt
+$$a\equiv_{M}^{+}b \Leftrightarrow a \equiv_{M}b.$$
+Beweis:
+Das $\equiv _{M}$ eine Äquivalenzrelation ist, ist eine einfache Anwendung der letzten Aufgabe. Seit $\equiv_{M}$ eine Bisimulation ist, haben wir die Implikation von rechts nach links. Seit dem die Operation $\text{()}^+$ monoton ist, folgt dass $\equiv_{M}^{+}$ auch eine Bisimulation ist. Seit $\equiv_M$ die maximale Bisimulation ist erhalten wir die Implikation von links nach rechts. 
+
+
+2.8 Aufgabe 
+Wenn $M$ ein System ist, zeige, dass für all $a,b \in M$
+
+(i) $a_{M}= b_{M} \Rightarrow a\equiv_{M}b,$ 
+(ii) $M_{a}\cong M_{b}\Rightarrow a\equiv_{M}b.$
+
+In (ii) $M_a$ ist die der apg, der in 1.9. aus $M$ and $b$ bewiesen wurde, $\cong$ ist die Ismorphismusrelation zwischen den apg. 
+
+Ein System $M$ ist EXTENSIONAL, wenn für alle $a,b \in M$
+gilt: $$a_{M}= b_{M}\Longrightarrow a=b.$$
+und es ist STARK EXTENSIONAL, wenn für alle $a,b \in M$
+gilt:$$a \equiv_{M}b \Longrightarrow a=b$$
+2.9 Aufgabe 
+Zeige: 
+$$ AFA_{2} \Longleftrightarrow AFA_{2}^{ext},$$
+wo $AFA_{2}^{ext}$ ist: 
+Jeder exetensional Graph höchstens eine Dekoration hat 
+Beachte, dass bei 2.8(i) jedes stark extensional System extensional ist. Beachte, dass bei dem Extensional Axiom das System $V$ extensional ist. Für das nächste Ergebnis drückt $AFA_{2}^{ext}$ eine Stärkung des Extensional Axiom aus. 
+
+
+2.10 Proposition $AFA_{2}\Leftrightarrow V$ ist stark extensional. 
+
+Beweis: Zunächst nehmen wir an, dass $AFA_2$ und lassen $a\equiv_{V}b$. Wegen der Aufgabe 2.5   $a\equiv b$  sodass der Graph $G_n$ und Dekorationen $d_1$ und $d_2$ von $G$ entsteht, sodass $d_{1}n = a$ und $d_{2}n=b$. Bei $AFA_{2}$ $d_{1}=d_2$ so dass $a=b$. Daher ist $V$ stark extensional. 
+Umgekehrt sei $V$ stark extensional sein und lass $d_1$ und $d_2$ Dekorationen von $G$ sein.
+Wenn $x \in G$ dann ist $d_{1}x \equiv d_2{x}$ , seit $Gx$ ein Bild von $d_{1}x$ und $d_{2}x$ ist. Daher bei Aufgabe 2.5.    $d_{1}x \equiv_{V}d_{2}x$   , sodass $d_{1}x = d_{2}x$ ist, so ist $V$ stark extensional. Daraus $d_{1}=d_2$ ,  somit ist $AFA_2$ bewiesen. 
+
+Sytem Karten 
+A SYSTEM MAP from the system $M$ to the System $M'$ is a map $\pi : M \rightarrow M'$ such that for $a\in M$
+$$(\pi a)_{M'}= {\pi b \mid b\in a_{M} }.$$
+If $\pi$ is a bijection then the it is a SYSTEM ISOMORPHISM. 
