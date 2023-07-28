@@ -79,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,9 +174,14 @@
   },
   "active": "cc679ba60cbbed65",
   "lastOpenFiles": [
-    "Transitive closure.md",
-    "Reading notes/@normanFirstExploreThenExploit2023.md",
     "Reading notes/@aczelNonwellfoundedSets1988.md",
+    "Reading notes/@normanFirstExploreThenExploit2023.md",
+    "Research/Sketch.md",
+    "Convergence of Random Variables.md",
+    "Central Limit Theorem.md",
+    "Reading notes/@burdaExplorationRandomNetwork2018.md",
+    "Reading notes/@aubretSurveyIntrinsicMotivation2019.md",
+    "Transitive closure.md",
     "Equivalence Relation.md",
     "The Anti-Foundation Axiom.md",
     "Pictures.md",
@@ -198,12 +202,7 @@
     "Impure Atom Sets.md",
     "Atoms.md",
     "Hereditary Finite Sets.md",
-    "Reading notes/@barwiseAdmissibleSetsStructures1975.md",
-    "Pure Sets.md",
-    "Templates/Note.md",
-    "Labelled Graphs.md",
     "Images/Pasted image 20230725153025.png",
-    "Non-Well-Founded Sets.md",
     "Archive/Parasitic RL/Untitled 1 1.canvas",
     "Sketches",
     "Archive/Parasitic RL/Default World Model.canvas",
