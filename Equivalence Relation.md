@@ -22,3 +22,4 @@ If $U\subset S\times S$ is an equivalence relation then we say that $x,y\in S$ a
 
 Any [[Partitions|partition]] of a set naturally gives rise to an equivalence relation whose equivalence classes are the members of the partition. The conclusion of all this is that an equivalence relation on a set i the same as a partition. In the example given above, the equivalence classes are the odd integers and the even integers.
 
+\cong$\cong$ 

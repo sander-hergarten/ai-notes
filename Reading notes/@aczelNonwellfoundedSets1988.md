@@ -149,3 +149,4 @@ In general a system $M$ will have many bisimulations. We will see that $\equiv$ 
 > 1. $\equiv_M$ is a bisimulation on $M$
 > 2. If $R$ is a bisimulation on $M$ then for all $a,b\in M$ $$aRb\Longrightarrow  a\equiv_{M}b$$ In fact $$a\equiv_M\Longleftrightarrow aRb\text{ for some small bisimulation $R$ on $M$}$$ The relation $\equiv_M$ is also sometimes called the weakest bisimulation or largest bisimulation on $M$
 
+$R^+_0$ 

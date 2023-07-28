@@ -32,6 +32,7 @@ To show this let look at following example
 1. the central node (1.) has one child $0$ and gets set $\set{0}$ where $0=\emptyset$ 
 2. children are 0 and 1 so the set is $\set{\set{0}, 0}$
 3. gets $\set{\set{\set{\emptyset}, \emptyset}, \set{\emptyset}, \emptyset}=\set{\set{\set{0}, 0}, \set{0}, 0}$ 
+4. $$\set{\set{\set{\set{0}, 0}, \set{0}, 0}, \set{\set{0}, 0},\set{0}, 0}$$
 
 
  

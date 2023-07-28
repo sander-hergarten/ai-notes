@@ -6,6 +6,7 @@
 - [ ] proving showing there is a minimal apg for all $S$
 - [ ] showing time complexity of algorithm
 - [ ] develop algorithm for clean states
+- [ ] Proving that continuous state spaces get minimized into finite state spaces (🙃)
 
 weak states are states that are not fully developed due to training
 

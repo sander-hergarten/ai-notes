@@ -12,7 +12,7 @@ aliases:
 ---
 A Pointed Graph is a type of [[Directed Graphs|directed graph]] together with a distinguished node called its point. 
 
-A pointed graph is Accessible if for every node $n$ there is a path from the point $n_0$ to the node $n$. If this path is always unique then the pointed graph is a [[Trees|tree]] and the point is the Root of the tree. 
+A pointed graph is Accessible if for every node $n$ there is a path from the point $n_0$ to the node $n$. If this path is always unique and non-cyclical then the pointed graph is a [[Trees|tree]] and the point is the Root of the tree. 
 
 
 For example the picture of 3
