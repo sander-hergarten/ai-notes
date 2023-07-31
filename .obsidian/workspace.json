@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading notes/@normanFirstExploreThenExploit2023.md",
+                "file": "Reading notes/@adaptiveagentteamHumanTimescaleAdaptationOpenEnded2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6cc833eb8dc4f4cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/Graph Construction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
+                "file": "Research/Graph Construction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
+                "file": "Research/Graph Construction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading notes/@aczelNonwellfoundedSets1988.md"
+                "file": "Research/Graph Construction.md"
               }
             }
           },
@@ -171,10 +184,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5104e83e1e48c957",
+  "active": "6cc833eb8dc4f4cb",
   "lastOpenFiles": [
+    "Reading notes/@adaptiveagentteamHumanTimescaleAdaptationOpenEnded2023.md",
+    "Multi-Armed Bandit.md",
+    "Reading notes/@duanRLFastReinforcement2016.md",
+    "Research/Graph Construction.md",
     "Reading notes/@normanFirstExploreThenExploit2023.md",
+    "Reading notes/@finnModelAgnosticMetaLearningFast2017.md",
     "Reading notes/@aczelNonwellfoundedSets1988.md",
+    "Images/Pasted image 20230731111148.png",
+    "Images/Pasted image 20230731111134.png",
     "Research/Sketch.md",
     "Convergence of Random Variables.md",
     "Central Limit Theorem.md",
@@ -186,7 +206,6 @@
     "Pictures.md",
     "Pointed Graphs.md",
     "The Labelled Anti-Foundation Axiom.md",
-    "Research/Graph Construction.md",
     "Meta Learning.md",
     "Reading notes/@vanbenthemSTORIESLOGICINFORMATION2008.md",
     "Research",
@@ -197,10 +216,6 @@
     "Systems.md",
     "Classes.md",
     "Images/Pasted image 20230725180853.png",
-    "Solution Lemma.md",
-    "Impure Atom Sets.md",
-    "Atoms.md",
-    "Hereditary Finite Sets.md",
     "Images/Pasted image 20230725153025.png",
     "Archive/Parasitic RL/Untitled 1 1.canvas",
     "Sketches",
@@ -222,8 +237,6 @@
     "Images/Pasted image 20230721191155.png",
     "Images/Pasted image 20230713212357.png",
     "Images/Pasted image 20230713205303.png",
-    "Images/Pasted image 20230713204459.png",
-    "Images/Pasted image 20230713204050.png",
     "Daily Notes/2023-07-12.canvas",
     "Daily Notes/2023-07-09.canvas",
     "Archive/Dreamer/Dreamer Canvas.canvas",

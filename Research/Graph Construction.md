@@ -14,5 +14,19 @@ rough states are states where not all information is present to predict the next
 
 clean sates are the perfect deterministic states we would like to have
 
+two states are equal if there exists a bisimulation between them i.e. that both states have an equivalent decoration. 
+
 ## Extras
 - [ ] Fast equality check of elements calculation
+
+# Model 
+$$\mathcal E =(A,\mathcal T, \mathcal O)$$
+$A = \set{\text{set of all actions}}$
+$s_{n}, r = \mathcal{T}(s_{n-1}, a)$
+$s_{a} = s_{b}\Rightarrow \mathcal T(s_{a-1},a) = \mathcal T(s_{b-1}, a)$ 
+
+# Model Interpreter
+$$\mathcal E  = (A, \mathcal T_{\mathcal{O}^{-1}})$$
+
+
+
