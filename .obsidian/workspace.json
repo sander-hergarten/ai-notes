@@ -32,7 +32,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reading notes/@normanFirstExploreThenExploit2023.md",
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading notes/@normanFirstExploreThenExploit2023.md",
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading notes/@normanFirstExploreThenExploit2023.md"
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md"
               }
             }
           },
@@ -172,10 +171,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc679ba60cbbed65",
+  "active": "5104e83e1e48c957",
   "lastOpenFiles": [
-    "Reading notes/@aczelNonwellfoundedSets1988.md",
     "Reading notes/@normanFirstExploreThenExploit2023.md",
+    "Reading notes/@aczelNonwellfoundedSets1988.md",
     "Research/Sketch.md",
     "Convergence of Random Variables.md",
     "Central Limit Theorem.md",
