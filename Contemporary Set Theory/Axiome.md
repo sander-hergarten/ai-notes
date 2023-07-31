@@ -376,8 +376,8 @@ $$\tau a=(\tau b\mid a \rightarrow b in M) \cup a \downarrow M,$$
 so dass $\tau$ eine gelabelte Dekoration des gelabelten Systems M ist. 
 Für die Einzigartigkeit von $\tau$ suppose that $\tau '$ ein gelalbte Dekoration des gelabelten System M ist. Dann ist $\tau '$ eine Dekoration des System M' wobei
 
-$\pi '(1,a) = \tau ' a$ für $a\in M$,
-$\pi (2,a)= a$ für $a \in V$
+$$\pi '(1,a) = \tau ' a \text{ für }a\in M,$$
+$$$\pi (2,a)= a \text{ für } a \in V$$
 
 Es folgt AFA, dass $\pi '=\pi$ sodass für $a\in M$
 $$\tau 'a= \pi '(1,a) = \pi (1,a) = \tau a,$$
@@ -389,7 +389,7 @@ die Substitutions- und Lösungslemmata zu beweisen.
 
 1.11. Theorem: 
 Sei M ein gelabeltes System, dessen Labelmengen Teilmengen der Klasse X sind. 
-(1) Wenn $\pi:X\rightarrow V$ , dann gibt es eine einzigartige Karte $\hat\pi:M\rightarrow V$ sodass für jedes 
+(1) Wenn $\pi:X\rightarrow V$ , dann gibt es eine eindeutige Karte $\hat\pi:M\rightarrow V$ sodass für jedes 
 $a\in M$
 $$\hat\pi a=(\hat\pi b \mid a \rightarrow b in M )\cup(\pi x\mid x \in a\downarrow M).$$
 (2) Gegeben $a_{x}\in M$ for $x\in M$ existiert eine einzigartige Karte $\pi:X\rightarrow V$ so dass 
@@ -523,3 +523,24 @@ Sytem Karten
 A SYSTEM MAP from the system $M$ to the System $M'$ is a map $\pi : M \rightarrow M'$ such that for $a\in M$
 $$(\pi a)_{M'}= {\pi b \mid b\in a_{M} }.$$
 If $\pi$ is a bijection then the it is a SYSTEM ISOMORPHISM. 
+
+
+2.13 Theorem
+Let $\pi_{1}, \pi_{2}: M\rightarrow M'$ be system maps.
+(1) If $R$ eine Bisimulation auf M ist dann ist 
+$$(π_1\times\pi_2)^{-1}R\stackrel{\text{def}}{=}{(\pi_{1}a_{1},\pi_{2}a_{2})\mid a_1Ra_2}$$
+eine Bisimulation auf M'. 
+
+(2) Wenn $S$ eine Bisimulation auf M ist dann ist 
+$$(\pi_{1}\times \pi_{2})^{-1}S \stackrel{\text{def}}{=}{(a_{1},a_{2})\in M \times M \mid (\pi_{1}a_{1})S(\pi_{2}a_2)}$$
+eine Bisimulation auf M. 
+
+
+Das Theorem bezieht sich auf die Beziehung zwischen Bisimulationen und Systemabbildungen (auch Systemmaps genannt). Eine Bisimulation ist eine Art von Relation, die aufzeigt, wie zwei Systeme in Bezug auf eine bestimmte Eigenschaft "ähnlich" sind, während Systemmaps Funktionen sind, die Elemente von einem System in ein anderes abbilden.
+
+In der Aussage des Theorems haben wir zwei Systemmaps, $\pi_1$ und $\pi_2$, die beide von $M$ nach $M'$ abbilden. Es wird gesagt, dass, wenn $R$ eine Bisimulation auf $M$ ist, dann ist $(\pi_1\times\pi_2)^{-1}R$ (das heißt, die Relation, die wir durch Anwendung der inversen der Produktfunktion $\pi_1\times\pi_2$ auf $R$ erhalten) eine Bisimulation auf $M'$. Die Form $(\pi_{1}a_{1},\pi_{2}a_{2})\mid a_1Ra_2$ beschreibt genauer, was diese Relation ausmacht: Sie besteht aus allen Paaren von Elementen in $M'$, die sich aus Paaren von Elementen in $M$ ergeben, die in Relation $R$ zueinander stehen.
+
+Die zweite Aussage ist ähnlich, nur dass es hier um eine Bisimulation $S$ auf $M'$ geht. Dann ist die Relation, die wir durch Anwendung der inversen der Produktfunktion auf $S$ erhalten, eine Bisimulation auf $M$. In ähnlicher Weise besteht diese Relation aus allen Paaren von Elementen in $M$, die sich aus Paaren von Elementen in $M'$ ergeben, die in Relation $S$ zueinander stehen.
+
+Die Aussagen bedeuten also zusammengefasst, dass wir mit Hilfe von Systemmaps Bisimulationen von einem System in ein anderes "übertragen" können, und dass die so erzeugten Relationen selbst wieder Bisimulationen sind.
+
