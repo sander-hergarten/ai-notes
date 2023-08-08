@@ -2,8 +2,8 @@
   "table-editor-obsidian",
   "obsidian-git",
   "dataview",
-  "quick-latex",
   "tag-wrangler",
   "templater-obsidian",
-  "obsidian-citation-plugin"
+  "obsidian-citation-plugin",
+  "quick-latex"
 ]

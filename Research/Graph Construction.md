@@ -1,12 +1,10 @@
 ## TODO 
 - [ ] proving $a=b\quad \forall a,b\quad a\subset M,b\subset N\Rightarrow M=N$   (easy)
-- [ ] proving $a=b$ for "rough" states
-- [ ] extract information out of weak states
-- [ ] proving convergence to a minimal apg through iteration.
-- [ ] proving showing there is a minimal apg for all $S$
-- [ ] showing time complexity of algorithm
-- [ ] develop algorithm for clean states
-- [ ] Proving that continuous state spaces get minimized into finite state spaces (🙃)
+- [ ] ~~proving convergence to a apg through iteration.~~ Show convergence to apg
+- [ ] calclate the minimal apg for the construced apg
+- [ ] develop loss function
+	- [ ] proving $a=b$ for "rough" states
+	- [ ] extract information out of weak states
 
 weak states are states that are not fully developed due to training
 
@@ -17,7 +15,7 @@ clean sates are the perfect deterministic states we would like to have
 two states are equal if there exists a bisimulation between them i.e. that both states have an equivalent decoration. 
 
 ## Extras
-- [ ] Fast equality check of elements calculation
+- [ ] Fast Decoration calculation
 
 # Model 
 $$\mathcal E =(A,\mathcal T, \mathcal O)$$

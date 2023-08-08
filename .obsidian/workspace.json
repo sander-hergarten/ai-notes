@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Graph Construction.md",
+                "file": "Daily Notes/2023-08-01.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -74,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "canon",
+                "query": "$a=b",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.50390243530273,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a758a8ab22064dc",
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Graph Construction.md",
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Graph Construction.md",
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Graph Construction.md"
+                "file": "Reading notes/@aczelNonwellfoundedSets1988.md"
               }
             }
           },
@@ -184,15 +182,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6cc833eb8dc4f4cb",
+  "active": "5104e83e1e48c957",
   "lastOpenFiles": [
+    "Meta Reinforcement Learning.md",
+    "Meta Learning.md",
+    "Archive/Dreamer/2301.04104v1.pdf",
+    "Archive/Latent Colocation/2106.13229.pdf",
+    "Archive/Dreamer/Dreamer Canvas.canvas",
+    "Archive/Dreamer/2010.02193.pdf",
+    "Cauchy Distribution.md",
     "Reading notes/@adaptiveagentteamHumanTimescaleAdaptationOpenEnded2023.md",
+    "Reading notes/@aczelNonwellfoundedSets1988.md",
+    "Daily Notes/2023-07-21.md",
+    "Daily Notes/2023-07-23.md",
+    "Daily Notes/2023-07-24.md",
+    "Daily Notes/2023-08-01.md",
+    "Research/Graph Construction.md",
+    "Transitive closure.md",
     "Multi-Armed Bandit.md",
     "Reading notes/@duanRLFastReinforcement2016.md",
-    "Research/Graph Construction.md",
     "Reading notes/@normanFirstExploreThenExploit2023.md",
     "Reading notes/@finnModelAgnosticMetaLearningFast2017.md",
-    "Reading notes/@aczelNonwellfoundedSets1988.md",
     "Images/Pasted image 20230731111148.png",
     "Images/Pasted image 20230731111134.png",
     "Research/Sketch.md",
@@ -200,21 +210,12 @@
     "Central Limit Theorem.md",
     "Reading notes/@burdaExplorationRandomNetwork2018.md",
     "Reading notes/@aubretSurveyIntrinsicMotivation2019.md",
-    "Transitive closure.md",
     "Equivalence Relation.md",
     "The Anti-Foundation Axiom.md",
     "Pictures.md",
     "Pointed Graphs.md",
     "The Labelled Anti-Foundation Axiom.md",
-    "Meta Learning.md",
-    "Reading notes/@vanbenthemSTORIESLOGICINFORMATION2008.md",
     "Research",
-    "Daily Notes/2023-07-23.md",
-    "Untitled.md",
-    "Dual Graphs.md",
-    "Graphs.md",
-    "Systems.md",
-    "Classes.md",
     "Images/Pasted image 20230725180853.png",
     "Images/Pasted image 20230725153025.png",
     "Archive/Parasitic RL/Untitled 1 1.canvas",
@@ -226,10 +227,7 @@
     "Archive/Hyper Markov Laws/thesis.pdf",
     "Archive/Hyper Markov Laws/Untitled.canvas",
     "Archive/Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
-    "Archive/Hyper Markov Laws",
     "cheat sheet/Hyper Markov Laws/Untitled.canvas",
-    "cheat sheet/Hyper Markov Laws/thesis.pdf",
-    "cheat sheet/Hyper Markov Laws/Dawid-HyperMarkovLaws-1993.pdf",
     "Images/Pasted image 20230724195700.png",
     "Archive/The_Econometrics_of_Financial_Markets/Background/Finance Background/Untitled.canvas",
     "Images/Pasted image 20230723175230.png",
@@ -239,7 +237,6 @@
     "Images/Pasted image 20230713205303.png",
     "Daily Notes/2023-07-12.canvas",
     "Daily Notes/2023-07-09.canvas",
-    "Archive/Dreamer/Dreamer Canvas.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
